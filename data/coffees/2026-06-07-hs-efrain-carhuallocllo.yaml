@@ -1,0 +1,48 @@
+id: 2026-06-07-hs-efrain-carhuallocllo
+
+coffee:
+  name: Efrain Carhuallocllo
+  roaster: H&S Coffee Roasters
+  roaster_location: Laramie, Wyoming 82070
+  roast_date: 2026-06-07
+
+origin:
+  country: Peru
+  region: Corazón de Chirinos
+  subregion:
+  producer: Efrain Carhuallocllo
+  farm: El Cerro
+
+coffee_details:
+  varieties:
+    - Gesha
+  process: Extended Ferment Washed
+  roast_level: Ultralight
+  tasting_notes:
+    - Orange creamsicle
+    - Honeysuckle
+    - Rooibos
+  elevation_m:
+  elevation_m_range:
+  weight_g: 125
+  form: Whole bean
+
+ratings:
+  florality:
+  fruitiness:
+  brightness:
+  overall:
+
+inventory:
+  status:
+  status_date:
+
+personal_notes:
+
+source_images:
+  - images/coffees/2026-06-07-hs-efrain-carhuallocllo/front.jpeg
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed
+
