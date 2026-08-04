@@ -1,0 +1,52 @@
+id: 2026-05-19-gout-gara-agena
+
+coffee:
+  name: Gara Agena
+  roaster: Goût & Co
+  roaster_location:
+  roast_date: 2026-05-19
+
+origin:
+  country: Ethiopia
+  region: Sidama
+  subregion: Bura
+  producer: Testi Coffee
+  farm: Gara Agena Washing Station
+
+coffee_details:
+  varieties:
+    - "74110"
+    - "74158"
+  process: Washed
+  roast_level:
+  tasting_notes:
+    - Fragrant lemon
+    - Mangosteen
+    - Bergamot
+    - Longjing tea
+  elevation_m:
+  elevation_m_range:
+    min: 2100
+    max: 2300
+  weight_g: 100
+  form:
+
+ratings:
+  florality:
+  fruitiness:
+  brightness:
+  overall:
+
+inventory:
+  status:
+  status_date:
+
+personal_notes:
+
+source_images:
+  - images/coffees/2026-05-19-gout-gara-agena/front.jpeg
+  - images/coffees/2026-05-19-gout-gara-agena/back.jpeg
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed
