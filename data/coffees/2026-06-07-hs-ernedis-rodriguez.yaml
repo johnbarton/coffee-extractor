@@ -1,0 +1,48 @@
+id: 2026-06-07-hs-ernedis-rodriguez
+
+coffee:
+  name: Ernedis Rodriguez
+  roaster: H&S Coffee Roasters
+  roaster_location: Laramie, Wyoming 82070
+  roast_date: 2026-06-07
+
+origin:
+  country: Colombia
+  region: Gigante
+  subregion:
+  producer: Ernedis Rodriguez
+  farm: Finca El Paraiso
+
+coffee_details:
+  varieties:
+    - Caturra Field Blend
+  process: Washed
+  roast_level: Ultralight
+  tasting_notes:
+    - Plum
+    - Starfruit
+    - Jasmine
+  elevation_m:
+  elevation_m_range:
+  weight_g: 125
+  form: Whole bean
+
+ratings:
+  florality:
+  fruitiness:
+  brightness:
+  overall:
+
+inventory:
+  status:
+  status_date:
+
+personal_notes:
+
+source_images:
+  - images/coffees/2026-06-07-hs-ernedis-rodriguez/front.jpeg
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed
+

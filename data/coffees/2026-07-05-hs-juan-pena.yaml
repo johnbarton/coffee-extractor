@@ -1,0 +1,48 @@
+id: 2026-07-05-hs-juan-pena
+
+coffee:
+  name: Juan Peña
+  roaster: H&S Coffee Roasters
+  roaster_location: Laramie, Wyoming 82070
+  roast_date: 2026-07-05
+
+origin:
+  country: Ecuador
+  region: Saraguro
+  subregion:
+  producer: Juan Peña
+  farm: Hacienda La Papaya
+
+coffee_details:
+  varieties:
+    - Typica Mejorado
+  process: Washed
+  roast_level: Ultralight
+  tasting_notes:
+    - Limeade
+    - Honeysuckle
+    - Lilac
+  elevation_m:
+  elevation_m_range:
+  weight_g: 125
+  form: Whole bean
+
+ratings:
+  florality:
+  fruitiness:
+  brightness:
+  overall:
+
+inventory:
+  status:
+  status_date:
+
+personal_notes:
+
+source_images:
+  - images/coffees/2026-07-05-hs-juan-pena/front.jpeg
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed
+
