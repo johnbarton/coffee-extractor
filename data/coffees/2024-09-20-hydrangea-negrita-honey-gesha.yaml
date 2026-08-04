@@ -1,0 +1,46 @@
+id: 2024-09-20-hydrangea-negrita-honey-gesha
+
+coffee:
+  name: "Negrita Honey Gesha"
+  roaster: "Hydrangea Coffee Roasters"
+  roaster_location: null
+  roast_date: 2024-09-20
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Pomegranate"
+    - "yellow peach"
+    - "french 75"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  17 days. 4.5 grind at 206 degrees on UFO. Notes come through clearly. TBT around 2:30.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

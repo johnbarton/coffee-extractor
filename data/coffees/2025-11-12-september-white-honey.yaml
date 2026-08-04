@@ -1,0 +1,46 @@
+id: 2025-11-12-september-white-honey
+
+coffee:
+  name: "White Honey"
+  roaster: "September"
+  roaster_location: null
+  roast_date: 2025-11-12
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Froot Loops"
+    - "lavender"
+    - "powdered sugar"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 200
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  201, 4.2 maybe a bit too fine using new UFO filter. Very fragrant but mild in flavor. Best after 40 days, around 5.0 grind size with SWORKS brewer.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

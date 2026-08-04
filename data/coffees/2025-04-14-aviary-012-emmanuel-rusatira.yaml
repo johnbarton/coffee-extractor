@@ -1,0 +1,47 @@
+id: 2025-04-14-aviary-012-emmanuel-rusatira
+
+coffee:
+  name: "012 - Emmanuel Rusatira"
+  roaster: "Aviary"
+  roaster_location: null
+  roast_date: 2025-04-14
+
+origin:
+  country: "Rwanda"
+  region: "Gakenke District"
+  subregion: null
+  producer: null
+  farm: "Muzo station"
+
+coffee_details:
+  varieties:
+    - "Red Bourbon"
+  process: "White Honey"
+  roast_level: null
+  tasting_notes:
+    - "cherry cola"
+    - "caramel and blood orange"
+  elevation_m: 2000
+  elevation_m_range: null
+  weight_g: 200
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Rest 30 days.
+  29 days. 205 degrees, 3.6 grind size, MD recipe works well. Better without a swirl on bloom.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

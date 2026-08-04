@@ -1,0 +1,47 @@
+id: 2024-12-04-apollon-s-gold-pepe-jijon-tyoxidator
+
+coffee:
+  name: "Pepe Jijon Tyoxidator"
+  roaster: "Apollon's Gold"
+  roaster_location: null
+  roast_date: 2024-12-04
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Tamarind"
+    - "yellow apple"
+    - "lychee"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 200
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  45 days. 206 degrees, 15:250 with MD recipe on UFO. 4.1 grind. Long brew time, maybe overextracted.
+  52 days. 205 degrees, 4.1 grind with aussz recipe is good.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

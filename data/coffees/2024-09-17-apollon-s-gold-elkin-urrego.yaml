@@ -1,0 +1,48 @@
+id: 2024-09-17-apollon-s-gold-elkin-urrego
+
+coffee:
+  name: "Elkin Urrego"
+  roaster: "Apollon's Gold"
+  roaster_location: null
+  roast_date: 2024-09-17
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Peach"
+    - "lychee"
+    - "elderflower"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  53 days. 4.0 grind, 206 degrees, 15:250 aussz UFO with TBT around 3:20. Lychee note is a bit dominant. More subdued cup at 4.2.
+  60 days. 4.0 grind, 206 degrees as above. Lychee note is so clear.
+  68 days. Starting to fade a bit with same parameters. Stalls at 3.9 — flavor is okay but 4.0 better.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

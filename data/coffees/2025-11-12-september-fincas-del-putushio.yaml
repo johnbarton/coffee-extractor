@@ -1,0 +1,47 @@
+id: 2025-11-12-september-fincas-del-putushio
+
+coffee:
+  name: "Fincas Del Putushio"
+  roaster: "September"
+  roaster_location: null
+  roast_date: 2025-11-12
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Juicy pear"
+    - "white florals"
+    - "marshmallow"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 200
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Extra light, rest ~45 days.
+  50 days. Light but pleasant at 5.0, 201, MD UFO. Could try slightly finer grind. At 64 days, good with higher extraction 4.0, 205 MD UFO.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

@@ -1,0 +1,49 @@
+id: 2025-12-15-aviary-021-renato-martinez
+
+coffee:
+  name: "021 - Renato Martinez"
+  roaster: "Aviary"
+  roaster_location: null
+  roast_date: 2025-12-15
+
+origin:
+  country: "Mexico"
+  region: "Oaxaca"
+  subregion: null
+  producer: "Renato Martinez"
+  farm: null
+
+coffee_details:
+  varieties:
+    - "Typica"
+  process: "Washed"
+  roast_level: null
+  tasting_notes:
+    - "pomegranate"
+    - "hibiscus"
+    - "lime and melon"
+  elevation_m: null
+  elevation_m_range:
+    min: 1700
+    max: 1840
+  weight_g: 200
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  41 days. Right now tasting best around 5.4, 201 MD UFO.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

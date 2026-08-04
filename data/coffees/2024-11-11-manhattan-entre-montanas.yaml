@@ -1,0 +1,46 @@
+id: 2024-11-11-manhattan-entre-montanas
+
+coffee:
+  name: "Entre Montanas"
+  roaster: "Manhattan"
+  roaster_location: null
+  roast_date: 2024-11-11
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Pink lemonade"
+    - "dragonfruit"
+    - "jasmine"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 125
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  53 days. 206 degrees, 4.0 grind 15:250 with aussz recipe. Good but subdued. 3.9 with MD recipe is good! Really focus on high extraction.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

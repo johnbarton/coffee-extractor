@@ -1,0 +1,48 @@
+id: 2024-08-04-hydrangea-pepe-jijon-gesha
+
+coffee:
+  name: "Pepe Jijon Gesha"
+  roaster: "Hydrangea Coffee Roasters"
+  roaster_location: null
+  roast_date: 2024-08-04
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Finger lime"
+    - "gardenia"
+    - "mulberry"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  17 days. BQ V60, 5.3 grind on ZP6. Pleasant but very subtle, maybe needs more time.
+  19 days. 17g espresso, 1.0 grind almost perfect for turbo shot, 54g out in 21s. Lots of acidity and body, feels maybe a bit too heavy?
+  25 days. Getting lots of acidity but still some earthiness. 0.8 grind too fast, maybe go coarser instead? Start of shot is slow then pulling very fast, channeling? I was right! 1.0 grind from the freezer pulls a standard shot at 1:3. Coarser for turbo.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

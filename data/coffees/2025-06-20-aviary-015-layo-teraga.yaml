@@ -1,0 +1,49 @@
+id: 2025-06-20-aviary-015-layo-teraga
+
+coffee:
+  name: "015 - Layo Teraga"
+  roaster: "Aviary"
+  roaster_location: null
+  roast_date: 2025-06-20
+
+origin:
+  country: "Ethiopia"
+  region: "Uraga"
+  subregion: null
+  producer: "1814 smallholder farmers"
+  farm: "Layo Teraga Farmers Cooperative"
+
+coffee_details:
+  varieties:
+    - "74158"
+  process: "Washed"
+  roast_level: null
+  tasting_notes:
+    - "Vibrant tropical and stonefruit notes of apricot"
+    - "peach and pineapple highlighted with jasmine and pink lemonade"
+  elevation_m: null
+  elevation_m_range:
+    min: 2200
+    max: 2400
+  weight_g: 200
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Rest 25-30 days.
+  4.1 too fine for Northclick recipe. 3.7 with MD pretty good, maybe try MD sweet.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

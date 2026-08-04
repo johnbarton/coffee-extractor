@@ -1,0 +1,48 @@
+id: 2025-11-10-sey-tamiru-tadesse-tesema
+
+coffee:
+  name: "Tamiru Tadesse Tesema"
+  roaster: "SEY"
+  roaster_location: null
+  roast_date: 2025-11-10
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Dragon fruit"
+    - "lychee"
+    - "berries"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 200
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: frozen
+  status_date: 2025-12-30
+
+personal_notes: |-
+  26 days. 4.0 with 666 recipe and melodrip for pour is a bit too fine. 5.5 sweeter but too coarse with 666.
+  Espresso frozen at 37 days. 2.3 grind size good.
+  Another set frozen at 50 days.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

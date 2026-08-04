@@ -1,0 +1,45 @@
+id: 2025-10-20-flower-child-martha-cartagena
+
+coffee:
+  name: "Martha Cartagena"
+  roaster: "Flower Child Coffee"
+  roaster_location: null
+  roast_date: 2025-10-20
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Agave Syrup"
+    - "Floral & Mirabelle Plum"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 250
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Rest 3-4 weeks. Best very coarse around 5.8, 205 degrees, Reddit recipe 20:340, two 60g blooms and one 220g pour to finish.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

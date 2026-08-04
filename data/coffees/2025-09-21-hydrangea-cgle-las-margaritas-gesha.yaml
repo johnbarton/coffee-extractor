@@ -1,0 +1,46 @@
+id: 2025-09-21-hydrangea-cgle-las-margaritas-gesha
+
+coffee:
+  name: "CGLE Las Margaritas Gesha"
+  roaster: "Hydrangea Coffee Roasters"
+  roaster_location: null
+  roast_date: 2025-09-21
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Jasmine"
+    - "blackberry"
+    - "mandarin"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 227
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  28 days, pretty good at 4.0. Higher temp emphasizes berry note.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

@@ -1,0 +1,46 @@
+id: 2025-11-11-september-buttercream
+
+coffee:
+  name: "Buttercream"
+  roaster: "September"
+  roaster_location: null
+  roast_date: 2025-11-11
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Cardamom"
+    - "pistachio"
+    - "cinnamon"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 200
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  26 days. Pretty good at 20:320, 666 recipe at 5.0 grind and 200 degrees.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

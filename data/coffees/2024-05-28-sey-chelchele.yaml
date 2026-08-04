@@ -1,0 +1,48 @@
+id: 2024-05-28-sey-chelchele
+
+coffee:
+  name: "Chelchele"
+  roaster: "SEY"
+  roaster_location: null
+  roast_date: 2024-05-28
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Stone fruit"
+    - "green florals"
+    - "melon"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  7 bar, 200 temperature, Weber basket with Good Brothers paper filter. Bag frozen at 19 days.
+  19 days. 1.0 grind, 17g in to 40g out in around 27s. Very pleasant standard shot. 1.6 grind too fine for standard shot from the freezer?? From the freezer standard shot goes at like 2.3. Could be great if emphasizing melon notes in the extraction. Makes a great cortado. 2.6 not coarse enough for turbo. Just under 3.3 is good for turbo.
+  21 days, removed from freezer. When warm, around 1.6 probably good for turbo. Melon note almost totally gone. When frozen, turbo around 3.3?
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

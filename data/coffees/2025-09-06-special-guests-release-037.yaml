@@ -1,0 +1,47 @@
+id: 2025-09-06-special-guests-release-037
+
+coffee:
+  name: "Release 037"
+  roaster: "Special Guests"
+  roaster_location: null
+  roast_date: 2025-09-06
+
+origin:
+  country: "Ethiopia"
+  region: "Sookoo"
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties:
+    - "Gibirinna 74110 and Serto 74112"
+  process: "Anaerobic"
+  roast_level: null
+  tasting_notes:
+    - "Peach"
+    - "forest fruits"
+    - "rosehip"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 100
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  4.0, 205, MD sweet is a bit overextracted. Maybe even coarser than 5.0, 200.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

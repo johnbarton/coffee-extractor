@@ -1,0 +1,50 @@
+id: 2025-11-19-aviary-020-yusuf-al-aamal
+
+coffee:
+  name: "020 - Yusuf Al Aamal"
+  roaster: "Aviary"
+  roaster_location: null
+  roast_date: 2025-11-19
+
+origin:
+  country: "Yemen"
+  region: "Sharqi Haraz"
+  subregion: null
+  producer: "Yusuf Galib Al Aamal"
+  farm: null
+
+coffee_details:
+  varieties:
+    - "Jaadi"
+  process: "Honey"
+  roast_level: null
+  tasting_notes:
+    - "raisin"
+    - "fig"
+    - "date"
+    - "white raspberry"
+    - "violet"
+    - "mulberry and red apple."
+  elevation_m: 2300
+  elevation_m_range: null
+  weight_g: 200
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Rest ~30 days. 4.5 grind size is good. Due to intensity, lower heat and coarser grind improved.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

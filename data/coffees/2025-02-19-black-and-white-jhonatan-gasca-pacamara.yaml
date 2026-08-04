@@ -1,0 +1,47 @@
+id: 2025-02-19-black-and-white-jhonatan-gasca-pacamara
+
+coffee:
+  name: "Jhonatan Gasca Pacamara"
+  roaster: "Black and White"
+  roaster_location: null
+  roast_date: 2025-02-19
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Lily"
+    - "sweet lemon"
+    - "rainier cherry"
+    - "tangerine"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  21 days. 200 degrees, 15:250 with MD recipe, 4.0 grind. Intense lily aroma and floral cherry fruit.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

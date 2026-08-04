@@ -1,0 +1,47 @@
+id: 2025-08-24-hydrangea-hachi-haiku
+
+coffee:
+  name: "Hachi Haiku"
+  roaster: "Hydrangea Coffee Roasters"
+  roaster_location: null
+  roast_date: 2025-08-24
+
+origin:
+  country: "Panama"
+  region: "Chiriqui"
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties:
+    - "Landrace"
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Lime"
+    - "coffee cherry"
+    - "sakura"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 227
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  3.9 with MD okay at 31 days. Runs fast, maybe finer? Day 38 best so far at 3.7 MD recipe.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

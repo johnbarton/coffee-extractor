@@ -1,0 +1,46 @@
+id: 2024-12-13-manhattan-shoondhisa
+
+coffee:
+  name: "Shoondhisa"
+  roaster: "Manhattan"
+  roaster_location: null
+  roast_date: 2024-12-13
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Blueberry"
+    - "strawberry"
+    - "gummy bears"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 200
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  22 days. 206 degrees, 4.2 grind on UFO with MD recipe, 15:250. Very sweet finish, maybe try MD sweet recipe. Grind size is close.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

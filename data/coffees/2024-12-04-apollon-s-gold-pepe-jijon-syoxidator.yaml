@@ -1,0 +1,46 @@
+id: 2024-12-04-apollon-s-gold-pepe-jijon-syoxidator
+
+coffee:
+  name: "Pepe Jijon Syoxidator"
+  roaster: "Apollon's Gold"
+  roaster_location: null
+  roast_date: 2024-12-04
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Clementine"
+    - "honeysuckle"
+    - "melon"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 200
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  45 days. 206 degrees, 4.0 grind size, 15:250 with MD recipe. Long brew time, a little overextracted. 4.2 is better, but probably not coarser than that.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

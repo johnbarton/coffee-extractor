@@ -1,0 +1,46 @@
+id: 2025-05-25-hydrangea-jardines-del-eden
+
+coffee:
+  name: "Jardines del Eden"
+  roaster: "Hydrangea Coffee Roasters"
+  roaster_location: null
+  roast_date: 2025-05-25
+
+origin:
+  country: "Colombia"
+  region: "Quindio"
+  subregion: null
+  producer: "Felipe Arcila"
+  farm: "Jardines del Eden"
+
+coffee_details:
+  varieties:
+    - "Yellow Sudan Rume"
+  process: "Washed"
+  roast_level: null
+  tasting_notes:
+    - "Verbena"
+    - "grapefruit"
+    - "uchuva"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 200
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: null
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

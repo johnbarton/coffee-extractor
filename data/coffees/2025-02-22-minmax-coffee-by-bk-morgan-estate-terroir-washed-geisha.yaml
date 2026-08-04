@@ -1,0 +1,47 @@
+id: 2025-02-22-minmax-coffee-by-bk-morgan-estate-terroir-washed-geisha
+
+coffee:
+  name: "Morgan Estate Terroir Washed Geisha"
+  roaster: "minmax coffee by bk"
+  roaster_location: null
+  roast_date: 2025-02-22
+
+origin:
+  country: "Panama"
+  region: "Volcan, Chiriqui, Panama"
+  subregion: null
+  producer: null
+  farm: "Morgan Estate, Savage Coffees"
+
+coffee_details:
+  varieties:
+    - "Gesha"
+  process: "Washed"
+  roast_level: null
+  tasting_notes:
+    - "Stone fruit"
+    - "citrus"
+    - "super floral"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  43 days. 205 degrees, 15:255 with MD recipe, 3.2 grind. It is super floral! Could be pushed even harder?
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

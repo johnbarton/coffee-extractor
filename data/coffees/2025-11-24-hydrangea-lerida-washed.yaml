@@ -1,0 +1,46 @@
+id: 2025-11-24-hydrangea-lerida-washed
+
+coffee:
+  name: "Lerida Washed"
+  roaster: "Hydrangea Coffee Roasters"
+  roaster_location: null
+  roast_date: 2025-11-24
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Grapefruit"
+    - "acai"
+    - "floral"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 227
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: frozen
+  status_date: 2026-01-20
+
+personal_notes: |-
+  39 days. Good but mild at 5.0, 201, MD UFO. A bit better at 4.0, 205 MD SWORKS. Smooth at 49 days, 4.0, 201, MD sweet SWORKS.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

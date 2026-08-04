@@ -1,0 +1,51 @@
+id: 2024-04-22-sey-servio-botina-el-cedro-copa-de-oro
+
+coffee:
+  name: "Servio Botina El Cedro - Copa de Oro"
+  roaster: "SEY"
+  roaster_location: null
+  roast_date: 2024-04-22
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Dark berries"
+    - "bright acidity"
+    - "complex"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  203 temperature. Moved to Atmos at 22 days.
+  20 days. 1.0 grind, 19g in 50g out in 20s (!). Almost a turbo shot. Nice red berry flavors and acidity.
+  22 days. 0.66 grind for standard shot, 1.2 for turbo. Standard shot emphasizes acidity.
+  26 days. 0.66 grind, maybe best shot so far? 19g in 50g out in 24s. Next time try going even finer than 0.5.
+  28 days. 0.33 grind.
+  For turbo shot with new filters at 7 bar, need 2.3 grind for 17g dose.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

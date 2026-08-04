@@ -1,0 +1,48 @@
+id: 2024-05-16-blendin-los-nogales-decaf-caturra
+
+coffee:
+  name: "Los Nogales Decaf Caturra"
+  roaster: "BlendIn"
+  roaster_location: null
+  roast_date: 2024-05-16
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Raspberry"
+    - "fruit punch"
+    - "creme brulee"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  196 degrees. Weber Unibasket with Good Brothers paper filter.
+  13 days. 1.3 grind, 18g in 50g out in 16s. What the fuck. Incredible crème brûlée fragrance, very sweet, berries, sugary. Tastes like a dessert in a cortado. With wet paper filter it runs faster, need either dry filter or finer grind. 1.0 grind also very fast, try 0.5.
+  From freezer, turbo shot grind should be between 0 and 9.6. Maybe a little overextracted, weaker shot tastes a bit better.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

@@ -1,0 +1,46 @@
+id: 2025-01-25-hydrangea-lpet-java-lactic
+
+coffee:
+  name: "LPET Java Lactic"
+  roaster: "Hydrangea Coffee Roasters"
+  roaster_location: null
+  roast_date: 2025-01-25
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Mango"
+    - "sangria"
+    - "strawberries"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  17 days. 4.1 grind, 205 degrees, 15:250 with aussz recipe. Good but very subdued. 3.9 grind with MD recipe is better but still mild.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

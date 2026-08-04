@@ -1,0 +1,42 @@
+id: 2024-02-12-redhawk-peru-cajamarca-lima
+
+coffee:
+  name: "Peru Cajamarca Lima"
+  roaster: "Redhawk"
+  roaster_location: null
+  roast_date: 2024-02-12
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes: []
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: null
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

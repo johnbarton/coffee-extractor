@@ -1,0 +1,49 @@
+id: 2024-08-04-hydrangea-letty-bermudez
+
+coffee:
+  name: "Letty Bermudez"
+  roaster: "Hydrangea Coffee Roasters"
+  roaster_location: null
+  roast_date: 2024-08-04
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "White peach"
+    - "jasmine milk tea"
+    - "dried rose"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  15 days. BQ V60 recipe is crazy. 5.4 grind on ZP6. 200 degrees espresso 2.0 grind. WAY TOO COARSE. Try 1.0 next time. Not great in aeropress with 3.0 grind (tastes slightly herbal, burned) — try coarser grind or more rest. 1.0 grind exactly pulls a standard shot, but too bitter. Somewhere in between.
+  4.4 grind Melodrip brew at 210 was amazingly fragrant. Lower temp (200) is milder, not as good.
+  4.5 grind 206 UFO brew is okay, very fragrant and no bitterness but not as sweet.
+  4.3 grind 206 degrees, 15:250 with MD sweet recipe is intense but sweet.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

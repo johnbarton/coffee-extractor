@@ -1,0 +1,46 @@
+id: 2025-12-08-hs-deborah-aril
+
+coffee:
+  name: "Deborah Aril"
+  roaster: "H&S Coffee Roasters"
+  roaster_location: null
+  roast_date: 2025-12-08
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Violet"
+    - "white strawberry"
+    - "hibiscus"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 125
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Great At 60 days, 5.0, 201, MD UFO. Exceptionally clean. Could try to go a little finer. Works very well with Paragon.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

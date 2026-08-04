@@ -1,0 +1,46 @@
+id: 2026-02-08-hs-paola-trujillo
+
+coffee:
+  name: "Paola Trujillo"
+  roaster: "H&S Coffee Roasters"
+  roaster_location: null
+  roast_date: 2026-02-08
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Honeydew"
+    - "red currant"
+    - "strawberry"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 250
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Rest 30 days.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

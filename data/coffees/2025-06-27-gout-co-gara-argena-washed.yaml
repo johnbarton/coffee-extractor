@@ -1,0 +1,46 @@
+id: 2025-06-27-gout-co-gara-argena-washed
+
+coffee:
+  name: "Gara Argena Washed"
+  roaster: "Goût & Co"
+  roaster_location: null
+  roast_date: 2025-06-27
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Mangosteen"
+    - "papogan orange"
+    - "longjing tea"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 60
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Rest 30-40 days. Often push hard with this roaster (Coffee Reviews YT).
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

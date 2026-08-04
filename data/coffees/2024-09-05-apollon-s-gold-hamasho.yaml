@@ -1,0 +1,49 @@
+id: 2024-09-05-apollon-s-gold-hamasho
+
+coffee:
+  name: "Hamasho"
+  roaster: "Apollon's Gold"
+  roaster_location: null
+  roast_date: 2024-09-05
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Peach"
+    - "jasmine"
+    - "lemon candy"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Rest ~45 days. High solubility, long ratio (1:18) recommended.
+  44 days. 208 degrees, 4.0 grind with UFO, 15:250. Strong body, longer ratio might really be good. Keep same grind size for next attempt.
+  49 days. Tried 4.3 grind, slightly lower temperature at 206 and longer ratio. Less bitterness but a bit muted. Maybe just slightly finer.
+  58 days. 4.2 grind, 206 degrees, 16.7:275. Its amazing! Sad that this is the last dose.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

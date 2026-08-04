@@ -1,0 +1,49 @@
+id: 2025-07-14-aviary-016-kerehaklu
+
+coffee:
+  name: "016 - Kerehaklu"
+  roaster: "Aviary"
+  roaster_location: null
+  roast_date: 2025-07-14
+
+origin:
+  country: "India"
+  region: "Chikmagalur"
+  subregion: null
+  producer: "Ajoy Thipaiah"
+  farm: "Kerehaklu"
+
+coffee_details:
+  varieties:
+    - "Selection 9"
+  process: "Cultured Washed"
+  roast_level: null
+  tasting_notes:
+    - "Tangy"
+    - "tamarind"
+    - "apricot"
+    - "red apple"
+    - "orange"
+  elevation_m: 1165
+  elevation_m_range: null
+  weight_g: 200
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Try 3.5, 205.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

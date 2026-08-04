@@ -1,0 +1,46 @@
+id: 2025-10-05-hydrangea-el-paraiso-lychee
+
+coffee:
+  name: "El Paraiso Lychee"
+  roaster: "Hydrangea Coffee Roasters"
+  roaster_location: null
+  roast_date: 2025-10-05
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Osmanthus"
+    - "lychee"
+    - "kasugai gummies"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 227
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: frozen
+  status_date: 2025-10-30
+
+personal_notes: |-
+  22 days. It’s lychee. A little astringent at 200, 4.0, MD sweet. Starting to fade at 26 days.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

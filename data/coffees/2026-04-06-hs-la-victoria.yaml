@@ -1,0 +1,45 @@
+id: 2026-04-06-hs-la-victoria
+
+coffee:
+  name: "La Victoria"
+  roaster: "H&S Coffee Roasters"
+  roaster_location: null
+  roast_date: 2026-04-06
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Plum"
+    - "Ranier cherry"
+    - "sugarcane"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 125
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: null
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

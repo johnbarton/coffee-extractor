@@ -1,0 +1,46 @@
+id: 2025-03-23-hydrangea-la-papaya-mejorado
+
+coffee:
+  name: "La Papaya Mejorado"
+  roaster: "Hydrangea Coffee Roasters"
+  roaster_location: null
+  roast_date: 2025-03-23
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Guava"
+    - "honey"
+    - "orange"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 110
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  25 days. 205 degrees, 15:250 with MD recipe, 3.5 grind size. Guava note is especially strong when hot.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

@@ -1,0 +1,47 @@
+id: 2026-01-18-hs-chelchele
+
+coffee:
+  name: "Chelchele"
+  roaster: "H&S Coffee Roasters"
+  roaster_location: null
+  roast_date: 2026-01-18
+
+origin:
+  country: "Ethiopia"
+  region: "Gedeo"
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties:
+    - "Kurume"
+  process: "White Honey"
+  roast_level: null
+  tasting_notes:
+    - "Pomegranate"
+    - "peach rings"
+    - "lavender"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 125
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  First try at 5.4, 201, UFO with MD recipe. Good but mild, maybe lower ratio.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

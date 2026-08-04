@@ -1,0 +1,46 @@
+id: 2024-08-18-hydrangea-carmen-natural-gesha
+
+coffee:
+  name: "Carmen Natural Gesha"
+  roaster: "Hydrangea Coffee Roasters"
+  roaster_location: null
+  roast_date: 2024-08-18
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Melon sorbet"
+    - "mango"
+    - "berries"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  24 days. 5.0 grind maybe a bit too fine for BQ V60. Very nice tropical fruit flavors when cooled but low intensity.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

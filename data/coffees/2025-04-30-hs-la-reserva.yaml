@@ -1,0 +1,47 @@
+id: 2025-04-30-hs-la-reserva
+
+coffee:
+  name: "La Reserva"
+  roaster: "H&S Coffee Roasters"
+  roaster_location: null
+  roast_date: 2025-04-30
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Plum"
+    - "pomegranate"
+    - "cherry"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 200
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Rest 40 days.
+  3.5 with swirl best so far. Starting to fall off at 58 days.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

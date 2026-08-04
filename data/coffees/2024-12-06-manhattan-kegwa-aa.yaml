@@ -1,0 +1,46 @@
+id: 2024-12-06-manhattan-kegwa-aa
+
+coffee:
+  name: "Kegwa AA"
+  roaster: "Manhattan"
+  roaster_location: null
+  roast_date: 2024-12-06
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Lemon"
+    - "cherry"
+    - "blackberry"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  29 days. 206 degrees, 4.0 grind, 15:250 with MD recipe. Good! Citrus dominant, maybe try MD sweet.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

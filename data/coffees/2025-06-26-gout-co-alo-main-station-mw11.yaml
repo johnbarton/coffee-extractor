@@ -1,0 +1,48 @@
+id: 2025-06-26-gout-co-alo-main-station-mw11
+
+coffee:
+  name: "Alo Main Station #MW11"
+  roaster: "Goût & Co"
+  roaster_location: null
+  roast_date: 2025-06-26
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Coffee flower"
+    - "orange"
+    - "perfume lemon"
+    - "nectar"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 100
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Rest 30-40 days. Often push hard with this roaster (Coffee Reviews YT).
+  3.7 MD works better than 3.5.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

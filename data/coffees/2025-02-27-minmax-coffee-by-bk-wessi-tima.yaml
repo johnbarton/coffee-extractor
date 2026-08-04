@@ -1,0 +1,48 @@
+id: 2025-02-27-minmax-coffee-by-bk-wessi-tima
+
+coffee:
+  name: "Wessi Tima"
+  roaster: "minmax coffee by bk"
+  roaster_location: null
+  roast_date: 2025-02-27
+
+origin:
+  country: "Ethiopia"
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties:
+    - "74110"
+    - "74112"
+  process: "Washed"
+  roast_level: null
+  tasting_notes:
+    - "Stone fruit"
+    - "mango"
+    - "floral"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  42 days. 205 degrees, 15:250 with MD recipe, 3.2 grind. Very clean but not outstanding, maybe go slightly coarser.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed
