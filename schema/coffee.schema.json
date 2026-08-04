@@ -1,0 +1,176 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/johnbarton/coffee-extractor/blob/main/schema/coffee.schema.json",
+  "title": "Coffee record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "coffee",
+    "origin",
+    "coffee_details",
+    "ratings",
+    "inventory",
+    "personal_notes",
+    "source_images",
+    "record"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "coffee": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "roaster", "roast_date"],
+      "properties": {
+        "name": { "$ref": "#/$defs/nullableString" },
+        "roaster": { "$ref": "#/$defs/nullableString" },
+        "roaster_location": { "$ref": "#/$defs/nullableString" },
+        "roast_date": { "$ref": "#/$defs/nullableDate" }
+      }
+    },
+    "origin": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["country", "region", "subregion", "producer", "farm"],
+      "properties": {
+        "country": { "$ref": "#/$defs/nullableString" },
+        "region": { "$ref": "#/$defs/nullableString" },
+        "subregion": { "$ref": "#/$defs/nullableString" },
+        "producer": { "$ref": "#/$defs/nullableString" },
+        "farm": { "$ref": "#/$defs/nullableString" }
+      }
+    },
+    "coffee_details": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "varieties",
+        "process",
+        "roast_level",
+        "tasting_notes",
+        "elevation_m",
+        "elevation_m_range",
+        "weight_g",
+        "form"
+      ],
+      "properties": {
+        "varieties": { "$ref": "#/$defs/stringList" },
+        "process": { "$ref": "#/$defs/nullableString" },
+        "roast_level": { "$ref": "#/$defs/nullableString" },
+        "tasting_notes": { "$ref": "#/$defs/stringList" },
+        "elevation_m": { "type": ["number", "null"], "minimum": 0 },
+        "elevation_m_range": {
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["min", "max"],
+              "properties": {
+                "min": { "type": "number", "minimum": 0 },
+                "max": { "type": "number", "minimum": 0 }
+              }
+            }
+          ]
+        },
+        "weight_g": { "type": ["number", "null"], "exclusiveMinimum": 0 },
+        "form": { "$ref": "#/$defs/nullableString" }
+      }
+    },
+    "ratings": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["florality", "fruitiness", "brightness", "overall"],
+      "properties": {
+        "florality": { "$ref": "#/$defs/rating" },
+        "fruitiness": { "$ref": "#/$defs/rating" },
+        "brightness": { "$ref": "#/$defs/rating" },
+        "overall": { "$ref": "#/$defs/rating" }
+      }
+    },
+    "inventory": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "status_date"],
+      "properties": {
+        "status": {
+          "type": ["string", "null"],
+          "enum": ["resting", "active", "frozen", "finished", null]
+        },
+        "status_date": { "$ref": "#/$defs/nullableDate" }
+      }
+    },
+    "personal_notes": { "$ref": "#/$defs/nullableString" },
+    "source_images": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "record": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["added_date", "review_status"],
+      "properties": {
+        "added_date": { "$ref": "#/$defs/date" },
+        "review_status": {
+          "type": "string",
+          "enum": ["needs_review", "reviewed"]
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "record": {
+            "type": "object",
+            "properties": { "review_status": { "const": "reviewed" } },
+            "required": ["review_status"]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "coffee": {
+            "type": "object",
+            "properties": {
+              "name": { "$ref": "#/$defs/nonemptyString" },
+              "roaster": { "$ref": "#/$defs/nonemptyString" },
+              "roast_date": { "$ref": "#/$defs/date" }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "nonemptyString": { "type": "string", "minLength": 1 },
+    "nullableString": {
+      "oneOf": [
+        { "$ref": "#/$defs/nonemptyString" },
+        { "type": "null" }
+      ]
+    },
+    "date": { "type": "string", "format": "date" },
+    "nullableDate": {
+      "oneOf": [
+        { "$ref": "#/$defs/date" },
+        { "type": "null" }
+      ]
+    },
+    "stringList": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/nonemptyString" },
+      "uniqueItems": true
+    },
+    "rating": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "maximum": 5
+    }
+  }
+}

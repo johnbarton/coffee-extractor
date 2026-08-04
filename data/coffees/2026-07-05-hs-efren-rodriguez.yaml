@@ -1,0 +1,48 @@
+id: 2026-07-05-hs-efren-rodriguez
+
+coffee:
+  name: Efren Rodriguez
+  roaster: H&S Coffee Roasters
+  roaster_location: Laramie, Wyoming 82070
+  roast_date: 2026-07-05
+
+origin:
+  country: Colombia
+  region: Huila
+  subregion:
+  producer: Efren Rodriguez
+  farm:
+
+coffee_details:
+  varieties:
+    - Pink Bourbon
+  process: Washed
+  roast_level: Ultralight
+  tasting_notes:
+    - Red apple
+    - Rhubarb
+    - Orange blossom
+  elevation_m:
+  elevation_m_range:
+  weight_g: 125
+  form: Whole bean
+
+ratings:
+  florality:
+  fruitiness:
+  brightness:
+  overall:
+
+inventory:
+  status:
+  status_date:
+
+personal_notes:
+
+source_images:
+  - images/coffees/2026-07-05-hs-efren-rodriguez/front.jpeg
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed
+
