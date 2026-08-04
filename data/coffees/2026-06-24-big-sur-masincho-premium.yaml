@@ -1,0 +1,48 @@
+id: 2026-06-24-big-sur-masincho-premium
+
+coffee:
+  name: Masincho Premium
+  roaster: Big Sur Coffee
+  roaster_location:
+  roast_date: "2026-06-24"
+
+origin:
+  country: Ethiopia
+  region: Sidama
+  subregion: Arbegona
+  producer:
+  farm: Yaye-Testi Processing Station
+
+coffee_details:
+  varieties:
+    - "74158"
+  process: Washed
+  roast_level:
+  tasting_notes:
+    - White flowers
+    - Citrus
+    - Jasmine green tea
+    - Apricot
+  elevation_m: 2300
+  elevation_m_range:
+  weight_g: 150
+  form:
+
+ratings:
+  florality:
+  fruitiness:
+  brightness:
+  overall:
+
+inventory:
+  status:
+  status_date:
+
+personal_notes:
+
+source_images:
+  - images/coffees/2026-06-24-big-sur-masincho-premium/front.jpeg
+
+record:
+  added_date: "2026-08-04"
+  review_status: reviewed
