@@ -80,6 +80,10 @@
         "form": { "$ref": "#/$defs/nullableString" }
       }
     },
+    "blend_components": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/blendComponent" }
+    },
     "ratings": {
       "type": "object",
       "additionalProperties": false,
@@ -171,6 +175,30 @@
       "type": ["integer", "null"],
       "minimum": 1,
       "maximum": 5
+    },
+    "blendComponent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "percentage",
+        "country",
+        "region",
+        "subregion",
+        "producer",
+        "farm",
+        "varieties",
+        "process"
+      ],
+      "properties": {
+        "percentage": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+        "country": { "$ref": "#/$defs/nullableString" },
+        "region": { "$ref": "#/$defs/nullableString" },
+        "subregion": { "$ref": "#/$defs/nullableString" },
+        "producer": { "$ref": "#/$defs/nullableString" },
+        "farm": { "$ref": "#/$defs/nullableString" },
+        "varieties": { "$ref": "#/$defs/stringList" },
+        "process": { "$ref": "#/$defs/nullableString" }
+      }
     }
   }
 }

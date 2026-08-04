@@ -61,6 +61,7 @@ Do not request another photograph solely to obtain an optional field.
 - Record elevation as `elevation_m` or `elevation_m_range`; do not collapse a printed range to its midpoint.
 - Store process and roast level using the roaster's terminology.
 - Do not add inferred tasting-note categories to the source record. Future analyses may derive categories from the preserved raw notes.
+- For blends, leave the top-level origin, varieties, and process fields empty and record each constituent coffee under `blend_components`, including its percentage when supplied. Keep blend-wide tasting notes and roast information at the top level.
 
 ## Ratings and notes
 
@@ -89,4 +90,3 @@ Do not request another photograph solely to obtain an optional field.
 - Keep derived tables, normalized tasting-note categories, and visualizations separate from the source YAML records.
 - Do not rewrite stable coffee IDs merely because display text changes.
 - Do not add individual brew logs unless the repository owner explicitly changes the project scope.
-

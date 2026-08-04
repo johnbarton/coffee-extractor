@@ -1,0 +1,70 @@
+id: 2026-07-06-scenery-colourful
+
+coffee:
+  name: Colourful
+  roaster: Scenery
+  roaster_location: London, United Kingdom
+  roast_date: "2026-07-06"
+
+origin:
+  country:
+  region:
+  subregion:
+  producer:
+  farm:
+
+coffee_details:
+  varieties: []
+  process:
+  roast_level: Light
+  tasting_notes:
+    - Melon
+    - Dried strawberry
+    - Lime curd
+  elevation_m:
+  elevation_m_range:
+  weight_g: 200
+  form:
+
+blend_components:
+  - percentage: 50
+    country: Colombia
+    region: Huila
+    subregion: Palestina
+    producer: Arely Vargas
+    farm: Finca La Piragua
+    varieties:
+      - Striped Bourbon
+    process: Anoxic Natural
+  - percentage: 50
+    country: Kenya
+    region: Rift Valley
+    subregion: Naruku
+    producer: Mutungati FCS
+    farm: Mutungati Factory
+    varieties:
+      - SL28
+      - SL34
+      - Batian
+      - Ruiru 11
+    process: Traditional Washed
+
+ratings:
+  florality:
+  fruitiness:
+  brightness:
+  overall:
+
+inventory:
+  status:
+  status_date:
+
+personal_notes:
+
+source_images:
+  - images/coffees/2026-07-06-scenery-colourful/front.jpeg
+  - images/coffees/2026-07-06-scenery-colourful/back.jpeg
+
+record:
+  added_date: "2026-08-04"
+  review_status: reviewed
