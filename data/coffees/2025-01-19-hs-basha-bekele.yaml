@@ -1,0 +1,47 @@
+id: 2025-01-19-hs-basha-bekele
+
+coffee:
+  name: "Basha Bekele"
+  roaster: "H&S Coffee Roasters"
+  roaster_location: null
+  roast_date: 2025-01-19
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Passionfruit"
+    - "raspberry"
+    - "cotton candy"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Rest >20 days.
+  27 days. 205 degrees, 15:250 with MD recipe. 4.1 grind size. Very sweet but otherwise muted. 3.9 is better — a little less sweet but more intense.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

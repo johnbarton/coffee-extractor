@@ -1,0 +1,46 @@
+id: 2026-02-13-hs-chelbessa
+
+coffee:
+  name: "Chelbessa"
+  roaster: "H&S Coffee Roasters"
+  roaster_location: null
+  roast_date: 2026-02-13
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Cotton candy grape"
+    - "elderberry"
+    - "hibiscus"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Rest 30 days.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

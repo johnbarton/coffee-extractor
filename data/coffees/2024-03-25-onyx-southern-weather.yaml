@@ -1,0 +1,44 @@
+id: 2024-03-25-onyx-southern-weather
+
+coffee:
+  name: "Southern Weather"
+  roaster: "Onyx"
+  roaster_location: null
+  roast_date: 2024-03-25
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes: []
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  14 days. Best grind size around 1.66 (before aligning burrs, now maybe coarser), 18g in 40g out in ~35s. Deep jammy flavor in some cups. At 2.0 grind, higher acidity and less fruit.
+  20 days. Fruit flavor mostly gone, less acidity but remains a pleasant cup. Currently grinding around 2.33. Consider going coarser for more even extraction throughout.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

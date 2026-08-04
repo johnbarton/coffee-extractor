@@ -1,0 +1,46 @@
+id: 2024-08-05-sey-worka
+
+coffee:
+  name: "Worka"
+  roaster: "SEY"
+  roaster_location: null
+  roast_date: 2024-08-05
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Ripe stone fruit"
+    - "oxidized oolong tea"
+    - "watermelon"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  22 days. 202 degrees Weber 17g basket, good brothers paper filter and screen. 2.0 grind just about right for turbo shot (17 > 50 in 21s). Shot is much nicer as it cools, slightly bitter when hot.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

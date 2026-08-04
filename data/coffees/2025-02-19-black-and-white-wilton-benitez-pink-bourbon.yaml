@@ -1,0 +1,47 @@
+id: 2025-02-19-black-and-white-wilton-benitez-pink-bourbon
+
+coffee:
+  name: "Wilton Benitez Pink Bourbon"
+  roaster: "Black and White"
+  roaster_location: null
+  roast_date: 2025-02-19
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Passion fruit"
+    - "lychee"
+    - "galaxy hops"
+    - "lemon candy"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  27 days. 195 degrees, 17:250, MD recipe with 4.0 grind. 190 degrees is less funky but less intense.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

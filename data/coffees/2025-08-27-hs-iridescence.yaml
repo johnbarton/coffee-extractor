@@ -1,0 +1,47 @@
+id: 2025-08-27-hs-iridescence
+
+coffee:
+  name: "Iridescence"
+  roaster: "H&S Coffee Roasters"
+  roaster_location: null
+  roast_date: 2025-08-27
+
+origin:
+  country: "Panama"
+  region: "Boquete"
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties:
+    - "Gesha"
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Jasmine"
+    - "white peach"
+    - "lychee"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 250
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: frozen
+  status_date: 2025-10-15
+
+personal_notes: |-
+  Rest 35-40 days. Great at 43 days, 3.8. Brilliant at 45 days, 210 degrees for bloom and first pour then off heat. Can maybe go finer than 3.8?
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

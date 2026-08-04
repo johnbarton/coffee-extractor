@@ -1,0 +1,48 @@
+id: 2025-02-19-black-and-white-julio-madrid-nitro-caturra
+
+coffee:
+  name: "Julio Madrid Nitro Caturra"
+  roaster: "Black and White"
+  roaster_location: null
+  roast_date: 2025-02-19
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Watermelon candy"
+    - "rose"
+    - "peach"
+    - "pineapple"
+    - "mango"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  22 days. 200 degrees, 15:250 with MD recipe, 4.0 grind. It’s green watermelon juice. 3.9 is also okay. 196 degrees maybe better. 17:250 has more body.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

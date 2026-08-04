@@ -1,0 +1,48 @@
+id: 2025-09-05-aviary-018-san-jeronimo-miramar
+
+coffee:
+  name: "018 - San Jerónimo Miramar"
+  roaster: "Aviary"
+  roaster_location: null
+  roast_date: 2025-09-05
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Bright"
+    - "jasmine"
+    - "tangerine"
+    - "apricot"
+    - "raspberry and pineapple"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 200
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Rest 30 days. Best a little coarse, around 4.0.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

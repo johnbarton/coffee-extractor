@@ -1,0 +1,47 @@
+id: 2025-06-24-botz-bochessa
+
+coffee:
+  name: "Bochessa"
+  roaster: "Botz Coffee"
+  roaster_location: null
+  roast_date: 2025-06-24
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Orange blossom"
+    - "pear juice"
+    - "limeade"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Rest 30 days.
+  Good with 4.2 Northclick but could also extract more? 3.5 UFO not as good.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

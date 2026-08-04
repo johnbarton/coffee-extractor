@@ -1,0 +1,52 @@
+id: 2024-04-29-black-and-white-luis-anibal-ombligon-natural
+
+coffee:
+  name: "Luis Anibal Ombligon Natural"
+  roaster: "Black and White"
+  roaster_location: null
+  roast_date: 2024-04-29
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Strawberry"
+    - "rose"
+    - "hibiscus"
+    - "winey"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Frozen for 6 days.
+  16 days. 195 degrees, Unibasket with paper filter. 1.2 grind, 18g in 48g out in 24s. Needs to be finer!
+  18 days. 1.3 grind turbo shot, 17g in 50g out in 16s. Really pleasant shot, tempers the winey aftertaste.
+  21 days. 0.5 grind turbo shot at 7 bar. 17g in 50g out in about 20s. Another very good cup.
+  22 days. Same sweet spot for grind. Tried low temperature extraction at 189 degrees. Not bad but just more bland flavor.
+  With new dry paper filter 1.0 not coarse enough for turbo. Around 1.5 works well.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

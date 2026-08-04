@@ -1,0 +1,46 @@
+id: 2025-04-13-hydrangea-zhiqiu-dehong-catimor
+
+coffee:
+  name: "Zhiqiu Dehong Catimor"
+  roaster: "Hydrangea Coffee Roasters"
+  roaster_location: null
+  roast_date: 2025-04-13
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Osmanthus"
+    - "passionfruit"
+    - "earl grey tea"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 200
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: frozen
+  status_date: 2025-05-06
+
+personal_notes: |-
+  23 days. 200 degrees, 4.0 grind size, MD recipe. Chinese Letty. I’m getting rose-like florals. Maybe try slightly lower ratio than 15:250.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

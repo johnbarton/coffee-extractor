@@ -1,0 +1,49 @@
+id: 2025-05-01-aviary-013-demetrio-sanchez
+
+coffee:
+  name: "013 Demetrio Sanchez"
+  roaster: "Aviary"
+  roaster_location: null
+  roast_date: 2025-05-01
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Nectarine"
+    - "jasmine"
+    - "pineapple"
+    - "orange blossom"
+    - "candy sweetness"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 200
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Rest 28 days.
+  Around 3.6 with MD recipe and light swirl seems best.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

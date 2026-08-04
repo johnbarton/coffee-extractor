@@ -1,0 +1,47 @@
+id: 2026-02-09-sey-albino-ibias
+
+coffee:
+  name: "Albino Ibias"
+  roaster: "SEY"
+  roaster_location: null
+  roast_date: 2026-02-09
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Tropical melon"
+    - "jasmine"
+    - "honey"
+    - "peach"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Very good between 4.4 and 5.0 at day 21.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

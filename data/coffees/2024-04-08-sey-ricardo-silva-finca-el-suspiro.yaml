@@ -1,0 +1,53 @@
+id: 2024-04-08-sey-ricardo-silva-finca-el-suspiro
+
+coffee:
+  name: "Ricardo Silva Finca el Suspiro"
+  roaster: "SEY"
+  roaster_location: null
+  roast_date: 2024-04-08
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "White jasmine"
+    - "confectioner's sugar"
+    - "tangerine"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  14 days. Jasmine notes come through clearly in fragrance but not as much in taste. Consider chilling portafilter to capture volatiles. 2.33 grind. 203 temp.
+  23 days. 1.33 grind, great cup with more tangerine notes, more balanced acidity. Unibasket with bottom paper filter.
+  26 days. 1.1 grind, just over 19g in, >40g out, similar tasting notes as at 23 days.
+  With new filters and 7 bar, go REALLY coarse, even 2.0 far away. Maybe 2.6?
+  2.6 grind, 19g in to 50g out in 27s, for turbo shot try 3.0 or coarser. Even 3.0 not coarse enough, maybe stalling? Try Cafec paper.
+  Around 2.6 grind is perfect for a traditional shot, 19g in to 40g out in 30s.
+  3.3 grind with 20g basket is very nice. Could go even a little coarser. Last doses are all 20g! Try 4.0 for turbo.
+  Brian Quan V60, ZP6 grind at 5.0. Some herbal notes, a bit too acidity-forward, jasmine note is soft. Maybe try V60 with melodrip or espresso only.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

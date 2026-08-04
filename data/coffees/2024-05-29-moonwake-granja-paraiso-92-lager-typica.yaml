@@ -1,0 +1,47 @@
+id: 2024-05-29-moonwake-granja-paraiso-92-lager-typica
+
+coffee:
+  name: "Granja Paraiso 92 Lager Typica"
+  roaster: "Moonwake Coffee Roasters"
+  roaster_location: null
+  roast_date: 2024-05-29
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Peach rings"
+    - "custard"
+    - "peach gose"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  7 bar, 200 temperature, Weber with Good Brothers filters.
+  18 days. 0 too fine. 0.5 not bad. Peach gose note is right on. Not getting a ton of sweetness, maybe try a shorter ratio. 17g to 50g in about 16s. 0.3 works pretty well. With new basket 0.3 seems quite slow, basically a standard shot.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

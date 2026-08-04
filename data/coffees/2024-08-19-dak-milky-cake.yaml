@@ -1,0 +1,49 @@
+id: 2024-08-19-dak-milky-cake
+
+coffee:
+  name: "Milky Cake"
+  roaster: "DAK Coffee Roasters"
+  roaster_location: null
+  roast_date: 2024-08-19
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Cardamom"
+    - "pistachio"
+    - "vanilla cake"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  24 days. 0.3 grind too coarse even for turbo. Even in bad shots the nutty, spiced flavor notes are unmistakeable.  9.6 grind finally too fine for turbo, pulls a standard shot. Very good between 0 and 9.6.
+  200 degrees, 4.7 grind very good with Melodrip, could even go a little finer (4.3?).
+  4.4 grind, 208 degrees on UFO is good, sweet and nutty.
+  4.4 grind, 206 degrees, 17:280 MD sweet recipe also works very well.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

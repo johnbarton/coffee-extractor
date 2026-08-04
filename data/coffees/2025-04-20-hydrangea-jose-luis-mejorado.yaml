@@ -1,0 +1,46 @@
+id: 2025-04-20-hydrangea-jose-luis-mejorado
+
+coffee:
+  name: "Jose Luis Mejorado"
+  roaster: "Hydrangea Coffee Roasters"
+  roaster_location: null
+  roast_date: 2025-04-20
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Plum"
+    - "blood orange"
+    - "tonic water"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 200
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  27 days. 205 degrees, 3.7 grind size, 15:250 with MD recipe. Swirl during bloom seems to bring out more fruit. 4.5 grind size with B75 also okay.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

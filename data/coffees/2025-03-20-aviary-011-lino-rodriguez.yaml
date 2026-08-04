@@ -1,0 +1,50 @@
+id: 2025-03-20-aviary-011-lino-rodriguez
+
+coffee:
+  name: "011 - Lino Rodriguez"
+  roaster: "Aviary"
+  roaster_location: null
+  roast_date: 2025-03-20
+
+origin:
+  country: "Colombia"
+  region: "Palestina"
+  subregion: null
+  producer: "Lino Rodriguez"
+  farm: "Betania"
+
+coffee_details:
+  varieties:
+    - "Gesha"
+  process: "Honey"
+  roast_level: null
+  tasting_notes:
+    - "Jasmine"
+    - "orange blossom"
+    - "blood orange"
+    - "pomegranate"
+  elevation_m: 1800
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Rest >40 days.
+  32 days. 205 degrees, 15:250 with MD recipe, 4.0 grind size. Pleasant but mild with a little punch of citrus and jasmine up front. Try finer and rest. AG recipe also good.
+  Tasting good at 40 days, 3.5 grind size, MD recipe.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

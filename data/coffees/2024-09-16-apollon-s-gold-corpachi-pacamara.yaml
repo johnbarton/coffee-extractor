@@ -1,0 +1,49 @@
+id: 2024-09-16-apollon-s-gold-corpachi-pacamara
+
+coffee:
+  name: "Corpachi Pacamara"
+  roaster: "Apollon's Gold"
+  roaster_location: null
+  roast_date: 2024-09-16
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Rambutan"
+    - "honeydew"
+    - "violet"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Rest ~45 days.
+  47 days. 4.5 grind, 204 degrees on UFO, 15:250 with ~2:30 TBT. Clear flavor notes. A little winey. May try a slightly finer grind.
+  60 days. 204 degrees, 4.3 grind. Not winey, more floral. Maybe try 4.1 grind from the freezer.
+  68 days. 4.2 grind with aussz recipe. Still great but less floral.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

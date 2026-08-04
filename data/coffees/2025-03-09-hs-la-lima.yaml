@@ -1,0 +1,49 @@
+id: 2025-03-09-hs-la-lima
+
+coffee:
+  name: "La Lima"
+  roaster: "H&S Coffee Roasters"
+  roaster_location: null
+  roast_date: 2025-03-09
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Honeysuckle"
+    - "apricot"
+    - "lily"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  >50 days rest. On Coffee Reviews YT.
+  42 days. 205 degrees, 15:250 with MD recipe, 3.5 grind size. Very good. Can try finer but it’s already very nice. Maybe MD sweet.
+  From frozen, 3.5 is not bad but maybe a bit too fine? Better results when focusing on fast draining and not accumulating much water above the bed.
+  3.7 from frozen too fine for V60.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

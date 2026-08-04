@@ -1,0 +1,48 @@
+id: 2025-07-04-wes-ngopi-finca-el-paraiso-geisha-letty
+
+coffee:
+  name: "Finca El Paraiso - Geisha Letty!"
+  roaster: "Wes Ngopi"
+  roaster_location: null
+  roast_date: 2025-07-04
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Peach"
+    - "lychee"
+    - "strawberry"
+    - "rose"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 400
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: frozen
+  status_date: 2025-07-30
+
+personal_notes: |-
+  Reviewed by Coffee Reviews YT. Rest ~30 days and go slightly coarse.
+  30 days. 4.2 with UFO is okay. 5.0 with Northclick is lighter. 5.3 Northclick is okay but it’s not quite dialed. MD 3.8 at 190 degrees is much better! Maybe move to 4.0 and adjust ratio. 5.0 190 MD sweet is the way? A bit weak though.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

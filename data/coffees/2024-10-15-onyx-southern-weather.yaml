@@ -1,0 +1,48 @@
+id: 2024-10-15-onyx-southern-weather
+
+coffee:
+  name: "Southern Weather"
+  roaster: "Onyx"
+  roaster_location: null
+  roast_date: 2024-10-15
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Milk chocolate"
+    - "plum"
+    - "candied walnuts"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Frozen at 8 days.
+  Not enough texture with Weber basket and Good Brothers filter.
+  200 degrees, 9 bar, 2.0 grind with Pullman basket, no paper filter. Not bad but shot pulls a bit too fast. Still fast around 1.3. Maybe try other tamper or just go a little coarser? Could also use thicker shower screen.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

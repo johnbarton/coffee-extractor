@@ -1,0 +1,47 @@
+id: 2025-06-05-hs-la-papaya
+
+coffee:
+  name: "La Papaya"
+  roaster: "H&S Coffee Roasters"
+  roaster_location: null
+  roast_date: 2025-06-05
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Apricot"
+    - "marshmallow"
+    - "lily"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 200
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Rest 40 days.
+  37 days. 3.5 with swirl pleasant but mild. More time/finer? 3.2 w/o swirl better.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

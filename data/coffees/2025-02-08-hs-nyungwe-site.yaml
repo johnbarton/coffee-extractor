@@ -1,0 +1,48 @@
+id: 2025-02-08-hs-nyungwe-site
+
+coffee:
+  name: "Nyungwe Site"
+  roaster: "H&S Coffee Roasters"
+  roaster_location: null
+  roast_date: 2025-02-08
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Strawberry"
+    - "raspberry"
+    - "vanilla"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Rest >15 days.
+  22 days. 205 degrees, 15:255 on UFO with MD recipe, 3.8 grind. Good but a bit tame. 3.7 is ideal.
+  36 days. Tried 17g, 3.5 grind. Getting a little better?
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

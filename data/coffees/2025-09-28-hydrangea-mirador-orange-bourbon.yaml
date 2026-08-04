@@ -1,0 +1,46 @@
+id: 2025-09-28-hydrangea-mirador-orange-bourbon
+
+coffee:
+  name: "Mirador Orange Bourbon"
+  roaster: "Hydrangea Coffee Roasters"
+  roaster_location: null
+  roast_date: 2025-09-28
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Key lime pie"
+    - "guava"
+    - "basil blossom"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 227
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  27 days, a bit muted at 4.0.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

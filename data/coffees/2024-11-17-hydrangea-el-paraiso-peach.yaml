@@ -1,0 +1,47 @@
+id: 2024-11-17-hydrangea-el-paraiso-peach
+
+coffee:
+  name: "El Paraiso Peach"
+  roaster: "Hydrangea Coffee Roasters"
+  roaster_location: null
+  roast_date: 2024-11-17
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Peach gokuri"
+    - "rhubarb"
+    - "sakura"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  22 days. 206 degrees, UFO 15:250 with aussz recipe. 4.0 grind is about right. Tastes like a milder, more peach and cherry forward version of Letty Bermudez.
+  31 days. Very mild with the same recipe. AG recipe is better.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

@@ -1,0 +1,46 @@
+id: 2024-11-24-hydrangea-yunlan-estate-natural
+
+coffee:
+  name: "Yunlan Estate Natural"
+  roaster: "Hydrangea Coffee Roasters"
+  roaster_location: null
+  roast_date: 2024-11-24
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Violet"
+    - "cranberry"
+    - "amaro"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  18 days. 206 degrees, 15:250 on UFO with aussz recipe. 4.2 grind maybe a little coarse. Very floral, slightly winey, mild outside of florals. 4.1 grind with MD sweet recipe is quite good since florals are already strong.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

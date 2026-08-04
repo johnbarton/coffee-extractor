@@ -1,0 +1,48 @@
+id: 2025-10-21-september-abel-salinas
+
+coffee:
+  name: "Abel Salinas"
+  roaster: "September"
+  roaster_location: null
+  roast_date: 2025-10-21
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Lemonade"
+    - "soft florals"
+    - "juicy pear"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 200
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Extra light, rest ~45 days.
+  50 days, mild at 210 degrees, 4.0, MD recipe. Needs rest and higher extraction. 3.8 better at 58 days but still needs time.
+  62 days, better with aussz recipe at 4.0, 210, standard UFO filter.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

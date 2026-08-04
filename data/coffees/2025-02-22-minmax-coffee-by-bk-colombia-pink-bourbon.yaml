@@ -1,0 +1,46 @@
+id: 2025-02-22-minmax-coffee-by-bk-colombia-pink-bourbon
+
+coffee:
+  name: "Colombia Pink Bourbon"
+  roaster: "minmax coffee by bk"
+  roaster_location: null
+  roast_date: 2025-02-22
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Juicy"
+    - "berries"
+    - "citrus"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  33 days. 205 degrees, 15:250 with 3.3 grind size, MD recipe with swirl on bloom. Responds well to being pushed!
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

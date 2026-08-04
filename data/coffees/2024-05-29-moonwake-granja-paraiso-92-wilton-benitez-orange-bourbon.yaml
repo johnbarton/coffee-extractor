@@ -1,0 +1,48 @@
+id: 2024-05-29-moonwake-granja-paraiso-92-wilton-benitez-orange-bourbon
+
+coffee:
+  name: "Granja Paraiso 92 Wilton Benitez Orange Bourbon"
+  roaster: "Moonwake Coffee Roasters"
+  roaster_location: null
+  roast_date: 2024-05-29
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Rose"
+    - "orange creme saver"
+    - "white tea"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  7 bar, 203 temperature, Weber with Good Brothers dry paper filter.
+  14 days. Try 0 grind, even 0.6 way too coarse for turbo. 9.6 finally too fine for turbo, a bit too coarse for standard shot.
+  16 days. 0.2 makes a pretty good turbo shot. Maybe even slightly coarser? Need to reduce bitterness a little bit.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

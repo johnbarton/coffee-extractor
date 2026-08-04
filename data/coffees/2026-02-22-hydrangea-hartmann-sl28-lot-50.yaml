@@ -1,0 +1,46 @@
+id: 2026-02-22-hydrangea-hartmann-sl28-lot-50
+
+coffee:
+  name: "Hartmann SL28 Lot 50"
+  roaster: "Hydrangea Coffee Roasters"
+  roaster_location: null
+  roast_date: 2026-02-22
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Juniper"
+    - "citrus peel"
+    - "heirloom tomato"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  35 days. Surprisingly good at 4.8 given tasting notes. Maybe go a little finer.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

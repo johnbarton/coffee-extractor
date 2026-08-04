@@ -1,0 +1,52 @@
+id: 2025-02-25-aviary-010-nancy-mendoza
+
+coffee:
+  name: "010 - Nancy Mendoza"
+  roaster: "Aviary"
+  roaster_location: null
+  roast_date: 2025-02-25
+
+origin:
+  country: "Peru"
+  region: "Cajamarca"
+  subregion: null
+  producer: "Nancy Mendoza"
+  farm: "El Pedregal"
+
+coffee_details:
+  varieties:
+    - "Gesha"
+  process: "Washed"
+  roast_level: null
+  tasting_notes:
+    - "Floral"
+    - "lavender"
+    - "blackberry"
+    - "mandarin"
+    - "pineapple"
+  elevation_m: null
+  elevation_m_range:
+    min: 1800
+    max: 1900
+  weight_g: 200
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Rest >35 days.
+  42 days. 205 degrees, 15:250 with MD recipe, 3.5 grind. Complex floral notes. Maybe finer?
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

@@ -1,0 +1,53 @@
+id: 2025-10-15-aviary-019-angel-arturo-paz
+
+coffee:
+  name: "019 - Ángel Arturo Paz"
+  roaster: "Aviary"
+  roaster_location: null
+  roast_date: 2025-10-15
+
+origin:
+  country: "Honduras"
+  region: "Santa Barbara"
+  subregion: null
+  producer: "Ángel Arturo Paz"
+  farm: "El Itacayo"
+
+coffee_details:
+  varieties:
+    - "Gesha"
+  process: "Washed, Dark room dried"
+  roast_level: null
+  tasting_notes:
+    - "Orange blossom"
+    - "citron"
+    - "yuzu"
+    - "Calamansi orange"
+    - "mango"
+    - "green melon"
+    - "apricot and lemongrass"
+  elevation_m: null
+  elevation_m_range:
+    min: 1630
+    max: 1720
+  weight_g: 200
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Rest 35 days. Best between 4.0 and 4.5. 5.4 with Reddit recipe is too coarse.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

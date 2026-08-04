@@ -1,0 +1,49 @@
+id: 2025-08-07-aviary-017-tagel-alemayehu
+
+coffee:
+  name: "017 - Tagel Alemayehu"
+  roaster: "Aviary"
+  roaster_location: null
+  roast_date: 2025-08-07
+
+origin:
+  country: "Ethiopia"
+  region: "Goro, Hambela, Guji"
+  subregion: null
+  producer: "Tagel Alemayehu (wet mill)"
+  farm: null
+
+coffee_details:
+  varieties:
+    - "Kurume"
+  process: "Washed"
+  roast_level: null
+  tasting_notes:
+    - "Alphonso mango"
+    - "tangerine"
+    - "peach and pink lemonade"
+  elevation_m: null
+  elevation_m_range:
+    min: 2300
+    max: 2400
+  weight_g: 200
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Best at 3.8 with aussz recipe. Not bad but not amazing.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

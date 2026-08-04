@@ -1,0 +1,46 @@
+id: 2025-07-20-hydrangea-pepe-jijon-anaerobic-sidra
+
+coffee:
+  name: "Pepe Jijon Anaerobic Sidra"
+  roaster: "Hydrangea Coffee Roasters"
+  roaster_location: null
+  roast_date: 2025-07-20
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Lime peel"
+    - "shine muscat"
+    - "chamomile"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 227
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Best going very coarse (~5)
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

@@ -1,0 +1,46 @@
+id: 2025-04-13-hydrangea-yunlan-natural-sl34
+
+coffee:
+  name: "Yunlan Natural SL34"
+  roaster: "Hydrangea Coffee Roasters"
+  roaster_location: null
+  roast_date: 2025-04-13
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Violets"
+    - "berries"
+    - "tropical"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  21 days. 202 degrees, 4.1 grind size with MD recipe. Best with MD sweet. Clear violet florals.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

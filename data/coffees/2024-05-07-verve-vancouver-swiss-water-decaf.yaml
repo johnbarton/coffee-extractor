@@ -1,0 +1,44 @@
+id: 2024-05-07-verve-vancouver-swiss-water-decaf
+
+coffee:
+  name: "Vancouver Swiss Water Decaf"
+  roaster: "Verve"
+  roaster_location: null
+  roast_date: 2024-05-07
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes: []
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  196 temperature. Pullman basket, SWORKS billet screen.
+  6 days. 2.0 grind, 18g in, 40g out. Perfect in milk drinks! Smooth and rich with very low acidity.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

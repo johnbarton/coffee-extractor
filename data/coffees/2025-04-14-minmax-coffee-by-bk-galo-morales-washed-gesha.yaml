@@ -1,0 +1,45 @@
+id: 2025-04-14-minmax-coffee-by-bk-galo-morales-washed-gesha
+
+coffee:
+  name: "Galo Morales Washed Gesha"
+  roaster: "minmax coffee by bk"
+  roaster_location: null
+  roast_date: 2025-04-14
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Coffee cherry"
+    - "coffee blossom"
+    - "juicy dried berries"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 100
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: null
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed

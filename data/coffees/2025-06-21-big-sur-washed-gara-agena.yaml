@@ -1,0 +1,48 @@
+id: 2025-06-21-big-sur-washed-gara-agena
+
+coffee:
+  name: "Washed Gara Agena"
+  roaster: "Big Sur Coffee"
+  roaster_location: null
+  roast_date: 2025-06-21
+
+origin:
+  country: null
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+
+coffee_details:
+  varieties: []
+  process: null
+  roast_level: null
+  tasting_notes:
+    - "Lime"
+    - "Sweet Orange"
+    - "Apricot"
+    - "Mangosteen"
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+
+inventory:
+  status: finished
+  status_date: null
+
+personal_notes: |-
+  Rest 30-40 days. Often push hard with this roaster (Coffee Reviews YT).
+  3.5 with MD not bad but maybe more to give.
+
+source_images: []
+
+record:
+  added_date: 2026-08-04
+  review_status: reviewed
