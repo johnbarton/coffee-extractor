@@ -1,0 +1,48 @@
+id: 2026-07-26-hydrangea-luis-anibal-yirgacheffe
+
+coffee:
+  name: Luis Anibal Yirgacheffe
+  roaster: Hydrangea Coffee Roasters
+  roaster_location:
+  roast_date: "2026-07-26"
+
+origin:
+  country: Colombia
+  region: Huila
+  subregion: Acevedo
+  producer: Luis Anibal
+  farm: Villa Betulia
+
+coffee_details:
+  varieties:
+    - Yirgacheffe
+  process: Natural
+  roast_level:
+  tasting_notes:
+    - Grape
+    - Hibiscus
+    - Blood orange
+  elevation_m:
+  elevation_m_range:
+  weight_g:
+  form:
+
+ratings:
+  florality:
+  fruitiness:
+  brightness:
+  overall:
+
+inventory:
+  status:
+  status_date:
+
+personal_notes:
+
+source_images:
+  - images/coffees/2026-07-26-hydrangea-luis-anibal-yirgacheffe/front.jpeg
+
+record:
+  added_date: "2026-08-04"
+  review_status: reviewed
+

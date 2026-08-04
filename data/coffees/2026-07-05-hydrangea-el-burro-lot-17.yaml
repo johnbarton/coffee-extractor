@@ -1,0 +1,48 @@
+id: 2026-07-05-hydrangea-el-burro-lot-17
+
+coffee:
+  name: "El Burro Lot #17"
+  roaster: Hydrangea Coffee Roasters
+  roaster_location:
+  roast_date: "2026-07-05"
+
+origin:
+  country: Panama
+  region: Chiriqui
+  subregion:
+  producer: Lamastus Family
+  farm: El Burro Estate
+
+coffee_details:
+  varieties:
+    - Gesha
+  process: Washed
+  roast_level:
+  tasting_notes:
+    - White peach
+    - Meyer lemon
+    - Jasmine
+  elevation_m:
+  elevation_m_range:
+  weight_g:
+  form:
+
+ratings:
+  florality:
+  fruitiness:
+  brightness:
+  overall:
+
+inventory:
+  status:
+  status_date:
+
+personal_notes:
+
+source_images:
+  - images/coffees/2026-07-05-hydrangea-el-burro-lot-17/front.jpeg
+
+record:
+  added_date: "2026-08-04"
+  review_status: reviewed
+
