@@ -1,0 +1,50 @@
+id: 2026-07-13-xliii-finca-la-palestina-gesha-inca-5485
+
+coffee:
+  name: Finca La Palestina "Gesha Inca" #5485
+  roaster: XLIII Coffee
+  roaster_location:
+  roast_date: "2026-07-13"
+
+origin:
+  country: Peru
+  region: Cajamarca
+  subregion: San José del Alto, Jaén
+  producer: José Praxedes Alarcón Coronel
+  farm: Finca La Palestina
+
+coffee_details:
+  varieties:
+    - Gesha Inca (possibly SL09)
+  process: Washed
+  roast_level: Extremely Light
+  tasting_notes:
+    - Blackcurrant
+    - Jasmine
+    - Orange
+  elevation_m:
+  elevation_m_range:
+    min: 1700
+    max: 1900
+  weight_g: 250
+  form:
+
+ratings:
+  florality:
+  fruitiness:
+  brightness:
+  overall:
+
+inventory:
+  status:
+  status_date:
+
+personal_notes:
+
+source_images:
+  - images/coffees/2026-07-13-xliii-finca-la-palestina-gesha-inca-5485/front.jpeg
+  - images/coffees/2026-07-13-xliii-finca-la-palestina-gesha-inca-5485/info-card.jpeg
+
+record:
+  added_date: "2026-08-05"
+  review_status: reviewed
