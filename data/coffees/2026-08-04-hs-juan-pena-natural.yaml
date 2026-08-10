@@ -1,0 +1,47 @@
+id: 2026-08-04-hs-juan-pena-natural
+
+coffee:
+  name: Juan Peña
+  roaster: H&S Coffee Roasters
+  roaster_location: Laramie, Wyoming 82070
+  roast_date: "2026-08-04"
+
+origin:
+  country: Ecuador
+  region: Saraguro
+  subregion:
+  producer: Juan Peña
+  farm: Hacienda La Papaya
+
+coffee_details:
+  varieties:
+    - Mejorado
+  process: Natural
+  roast_level: Ultralight
+  tasting_notes:
+    - Fruit Loops
+    - Rose
+    - Orchid
+  elevation_m:
+  elevation_m_range:
+  weight_g: 1000
+  form: Whole bean
+
+ratings:
+  florality:
+  fruitiness:
+  brightness:
+  overall:
+
+inventory:
+  status:
+  status_date:
+
+personal_notes:
+
+source_images:
+  - images/coffees/2026-08-04-hs-juan-pena-natural/front.jpeg
+
+record:
+  added_date: "2026-08-10"
+  review_status: reviewed
