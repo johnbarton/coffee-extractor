@@ -1,0 +1,47 @@
+id: 2026-08-06-hs-la-fortuna-bourbon-aji
+
+coffee:
+  name: La Fortuna Bourbon Aji
+  roaster: H&S Coffee Roasters
+  roaster_location: Laramie, Wyoming
+  roast_date: "2026-08-06"
+
+origin:
+  country: Colombia
+  region: Huila
+  subregion:
+  producer:
+  farm: La Fortuna
+
+coffee_details:
+  varieties:
+    - Bourbon Aji
+  process: Washed
+  roast_level: Ultralight
+  tasting_notes:
+    - Pink lemonade
+    - Pomegranate
+    - Pineapple
+  elevation_m:
+  elevation_m_range:
+  weight_g: 125
+  form: Whole bean
+
+ratings:
+  florality:
+  fruitiness:
+  brightness:
+  overall:
+
+inventory:
+  status:
+  status_date:
+
+personal_notes:
+
+source_images:
+  - images/coffees/2026-08-06-hs-la-fortuna-bourbon-aji/front.jpeg
+
+record:
+  added_date: "2026-08-17"
+  review_status: reviewed

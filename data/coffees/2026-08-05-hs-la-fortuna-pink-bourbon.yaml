@@ -1,0 +1,47 @@
+id: 2026-08-05-hs-la-fortuna-pink-bourbon
+
+coffee:
+  name: La Fortuna Pink Bourbon
+  roaster: H&S Coffee Roasters
+  roaster_location: Laramie, Wyoming
+  roast_date: "2026-08-05"
+
+origin:
+  country: Colombia
+  region: Huila
+  subregion:
+  producer:
+  farm: La Fortuna
+
+coffee_details:
+  varieties:
+    - Pink Bourbon
+  process: Washed
+  roast_level: Ultralight
+  tasting_notes:
+    - White peach
+    - Starfruit
+    - Orange blossom
+  elevation_m:
+  elevation_m_range:
+  weight_g: 125
+  form: Whole bean
+
+ratings:
+  florality:
+  fruitiness:
+  brightness:
+  overall:
+
+inventory:
+  status:
+  status_date:
+
+personal_notes:
+
+source_images:
+  - images/coffees/2026-08-05-hs-la-fortuna-pink-bourbon/front.jpeg
+
+record:
+  added_date: "2026-08-17"
+  review_status: reviewed
