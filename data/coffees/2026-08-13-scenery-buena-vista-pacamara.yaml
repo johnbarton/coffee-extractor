@@ -1,0 +1,48 @@
+id: 2026-08-13-scenery-buena-vista-pacamara
+
+coffee:
+  name: Buena Vista Pacamara
+  roaster: Scenery
+  roaster_location: London, United Kingdom
+  roast_date: "2026-08-13"
+
+origin:
+  country: Guatemala
+  region: Santa Rosa
+  subregion: Fraijanes
+  producer: Fredy Orantes
+  farm: Buena Vista
+
+coffee_details:
+  varieties:
+    - Pacamara
+  process: Traditional Natural
+  roast_level: Lightest
+  tasting_notes:
+    - Raspberry jam
+    - White chocolate
+    - Rose
+  elevation_m:
+  elevation_m_range:
+  weight_g: 100
+  form:
+
+ratings:
+  florality:
+  fruitiness:
+  brightness:
+  overall:
+
+inventory:
+  status:
+  status_date:
+
+personal_notes:
+
+source_images:
+  - images/coffees/2026-08-13-scenery-buena-vista-pacamara/front.jpeg
+  - images/coffees/2026-08-13-scenery-buena-vista-pacamara/back.jpeg
+
+record:
+  added_date: "2026-09-12"
+  review_status: reviewed

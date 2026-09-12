@@ -1,0 +1,50 @@
+id: 2026-08-03-scenery-megadu-yeast-inoc-blanc
+
+coffee:
+  name: Megadu Yeast Inoc. “Blanc”
+  roaster: Scenery
+  roaster_location: London, United Kingdom
+  roast_date: "2026-08-03"
+
+origin:
+  country: Ethiopia
+  region: Guji
+  subregion: Megadu, Shakisso Woreda
+  producer: Dawit & Hester Syoum-Westerveld
+  farm: Bette Buna Megadu
+
+coffee_details:
+  varieties:
+    - Wild Guji Megadu (local landrace)
+    - JARC 74112
+    - JARC 74158
+  process: Yeast Inoculated Anoxic Natural
+  roast_level: Lightest
+  tasting_notes:
+    - Macerated fruit
+    - Custard
+    - Pét Nat
+  elevation_m:
+  elevation_m_range:
+  weight_g: 100
+  form:
+
+ratings:
+  florality:
+  fruitiness:
+  brightness:
+  overall:
+
+inventory:
+  status:
+  status_date:
+
+personal_notes:
+
+source_images:
+  - images/coffees/2026-08-03-scenery-megadu-yeast-inoc-blanc/front.jpeg
+  - images/coffees/2026-08-03-scenery-megadu-yeast-inoc-blanc/back.jpeg
+
+record:
+  added_date: "2026-09-12"
+  review_status: reviewed
