@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#151718"><meta name="description" content="A personal coffee collection: open bags, freezer favorites, and past brews.">
+<meta name="robots" content="noindex, nofollow"><title>Coffee collection</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="manifest" href="/manifest.webmanifest">
+<link rel="stylesheet" href="/styles.css"><script type="module" src="/app.js"></script>
+</head><body><div id="coffee-collection" aria-label="Coffee collection">
+  <div class="cc-app">
+    <header class="cc-head">
+      <div class="cc-topline cc-eyebrow"><span>A personal archive</span><span id="cc-today"></span></div>
+      <h1>Coffee<br>collection.</h1>
+      <canvas class="cc-art" aria-hidden="true"></canvas>
+    </header>
+    <nav class="cc-nav" aria-label="Coffee views">
+      <button type="button" data-view="now" aria-pressed="true">Now <small id="cc-now-count"></small></button>
+      <button type="button" data-view="frozen" aria-pressed="false">Freezer <small id="cc-frozen-count"></small></button>
+      <button type="button" data-view="all" aria-pressed="false">Collection <small id="cc-all-count"></small></button>
+    </nav>
+    <main class="cc-content">
+      <div class="cc-section-head"><h2 id="cc-heading">On the counter</h2></div>
+      <p class="cc-sub" id="cc-description"></p>
+      <div class="cc-filters" id="cc-filters" hidden>
+        <label>Group by<select id="cc-group"><option value="roaster">Roaster</option><option value="variety">Variety</option><option value="country">Origin</option><option value="process">Process</option><option value="year">Roast year</option></select></label>
+        <label>Status<select id="cc-status"><option value="all">All coffees</option><option value="active">Open</option><option value="resting">Resting</option><option value="frozen">Frozen</option><option value="finished">Finished</option><option value="unknown">Not set</option></select></label>
+      </div>
+      <p class="cc-notice" id="cc-notice" role="status" hidden></p>
+      <div id="cc-list"></div>
+      <button class="cc-more" id="cc-more" type="button" hidden>Show more coffees</button>
+      <div class="cc-divider" id="cc-unset-wrap"><button type="button" class="cc-muted-link" id="cc-unset"><span id="cc-unset-label"></span><span aria-hidden="true">→</span></button></div>
+    </main>
+    <footer class="cc-foot"><span id="cc-view-label">Coffee collection</span><a id="cc-owner-link" href="/owner">Owner sign in</a></footer>
+  </div>
+
+</div><noscript>This collection needs JavaScript to show and filter your coffees.</noscript></body></html>

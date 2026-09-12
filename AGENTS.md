@@ -86,6 +86,7 @@ Do not request another photograph solely to obtain an optional field.
 
 ## Repository hygiene
 
+- Phone edits create GitHub commits. Before changing local records, check for unfinished local work and pull the latest branch without discarding any changes. Resolve divergence before publishing; Dropbox sync is not a substitute for fetching GitHub commits.
 - Validate new and changed YAML records against `schema/coffee.schema.json` before publishing when tooling is available.
 - Keep derived tables, normalized tasting-note categories, and visualizations separate from the source YAML records.
 - Do not rewrite stable coffee IDs merely because display text changes.

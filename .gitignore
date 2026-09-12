@@ -1,4 +1,13 @@
+node_modules/
+dist/
+generated/
+.wrangler/
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+!.env.example
+*.log
 .DS_Store
 __pycache__/
 .venv/
-

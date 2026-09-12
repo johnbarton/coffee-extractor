@@ -1,0 +1,9 @@
+{
+  "name": "Coffee collection",
+  "short_name": "Coffee",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#151718",
+  "theme_color": "#151718",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

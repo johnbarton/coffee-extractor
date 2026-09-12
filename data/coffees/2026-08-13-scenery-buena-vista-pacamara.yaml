@@ -34,8 +34,8 @@ ratings:
   overall:
 
 inventory:
-  status:
-  status_date:
+  status: active
+  status_date: "2026-09-12"
 
 personal_notes:
 

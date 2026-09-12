@@ -1,0 +1,29 @@
+{
+  "name": "coffee-collection",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "generate": "node scripts/generate-validator.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/generate-validator.mjs && node --test tests/*.test.mjs",
+    "dev": "node scripts/build.mjs && wrangler dev",
+    "deploy": "node scripts/build.mjs && wrangler deploy",
+    "check:deploy": "node scripts/build.mjs && wrangler deploy --dry-run"
+  },
+  "dependencies": {
+    "jose": "^6.0.0",
+    "yaml": "^2.8.0"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "esbuild": "^0.25.0",
+    "wrangler": "^4.0.0",
+    "jsdom": "^26.1.0"
+  },
+  "packageManager": "pnpm@11.19.0"
+}
