@@ -50,15 +50,17 @@ blend_components:
     process: Traditional Washed
 
 ratings:
-  florality:
-  fruitiness:
-  brightness:
+  florality: 2
+  fruitiness: 4
+  brightness: 3
   overall:
 
+    4
 inventory:
-  status:
+  status: finished
   status_date:
 
+    2026-09-12
 personal_notes:
 
 source_images:
