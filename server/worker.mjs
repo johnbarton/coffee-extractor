@@ -244,7 +244,8 @@ async function loadRecord(config, id, fetcher) {
   try {
     response = await fetcher(contentsUrl(config, id, true), {
       headers: githubHeaders(config),
-      redirect: 'error',
+      // Workers supports manual, not error. Reject 3xx below without forwarding credentials.
+      redirect: 'manual',
       cache: 'no-store',
       signal: AbortSignal.timeout(15000),
     });
@@ -316,7 +317,8 @@ async function saveRecord(config, id, current, edit, fetcher, now) {
     response = await fetcher(contentsUrl(config, id), {
       method: 'PUT',
       headers: { ...githubHeaders(config), 'Content-Type': 'application/json' },
-      redirect: 'error',
+      // Keep credentials and record contents on the fixed GitHub endpoint.
+      redirect: 'manual',
       signal: AbortSignal.timeout(20000),
       body: JSON.stringify({
         message: `Update ratings, status, or notes for ${id}`,

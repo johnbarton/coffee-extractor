@@ -151,7 +151,7 @@ test('GET reads the fixed repository path and returns a normalized coffee and it
   assert.equal(body.coffee.status, 'active');
   assert.equal(body.coffee.personalNotes, fixture.personal_notes);
   assert.equal(calls[0].url, `https://api.github.com/repos/johnbarton/coffee-extractor/contents/data/coffees/${id}.yaml?ref=main`);
-  assert.equal(calls[0].redirect, 'error');
+  assert.equal(calls[0].redirect, 'manual');
   assert.equal(calls[0].headers.Authorization, `Bearer ${env.GITHUB_TOKEN}`);
   assert.ok(!JSON.stringify(body).includes(env.GITHUB_TOKEN));
 });
@@ -257,6 +257,7 @@ test('successful PUT commits only allowed changes against the original SHA and b
   assert.equal(body.coffee.status, 'finished');
   assert.equal(calls.length, 2);
   assert.equal(calls[1].method, 'PUT');
+  assert.equal(calls[1].redirect, 'manual');
   const sent = JSON.parse(calls[1].body);
   assert.equal(sent.sha, sha);
   assert.equal(sent.branch, 'main');
@@ -298,6 +299,26 @@ test('ambiguous save errors never retry and tell the client to check the current
     assert.equal(body.saveMayHaveSucceeded, true);
     assert.ok(!JSON.stringify(body).includes(env.GITHUB_TOKEN));
     assert.equal(calls.length, 2);
+  }
+});
+
+test('GitHub redirects fail without following the location or retrying a write', async () => {
+  for (const status of [301, 302, 303, 307, 308]) {
+    const redirect = () => new Response(null, { status, headers: { Location: 'https://other.example/record' } });
+    const read = mockApp([redirect()]);
+    const loaded = await read.app.fetch(new Request(endpoint), env);
+    assert.equal(loaded.status, 502);
+    assert.equal((await loaded.json()).code, 'record_unavailable');
+    assert.equal(read.calls.length, 1);
+    assert.equal(read.calls[0].redirect, 'manual');
+
+    const write = mockApp([contentsResponse(), redirect()]);
+    const saved = await write.app.fetch(request(edit({ notes: 'One intended note.' })), env);
+    assert.equal(saved.status, 502);
+    assert.equal((await saved.json()).code, 'save_uncertain');
+    assert.equal(write.calls.length, 2);
+    assert.ok(write.calls.every((call) => call.redirect === 'manual'));
+    assert.ok(write.calls.every((call) => new URL(call.url).hostname === 'api.github.com'));
   }
 });
 
