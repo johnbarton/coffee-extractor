@@ -7,22 +7,25 @@ coffee:
   roast_date: 2025-09-28
 
 origin:
-  country: null
-  region: null
+  country: Colombia
+  region: Huila
   subregion: null
-  producer: null
-  farm: null
+  producer: Elkin Ferney Guzman Vargas
+  farm: Finca El Mirador
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Orange Bourbon
+  process: Carbonic Maceration Washed
   roast_level: null
   tasting_notes:
     - "Key lime pie"
     - "guava"
     - "basil blossom"
   elevation_m: null
-  elevation_m_range: null
+  elevation_m_range:
+    min: 1550
+    max: 1750
   weight_g: 227
   form: null
 

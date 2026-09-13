@@ -10,13 +10,13 @@ origin:
   country: "Panama"
   region: "Boquete"
   subregion: null
-  producer: null
-  farm: null
+  producer: Jamison Savage
+  farm: Finca Deborah
 
 coffee_details:
   varieties:
     - "Gesha"
-  process: null
+  process: Carbonic macerated washed
   roast_level: null
   tasting_notes:
     - "Jasmine"

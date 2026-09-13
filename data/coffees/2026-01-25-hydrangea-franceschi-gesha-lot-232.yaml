@@ -7,22 +7,25 @@ coffee:
   roast_date: 2026-01-25
 
 origin:
-  country: null
-  region: null
+  country: Panama
+  region: Volcan, Chiriqui
   subregion: null
-  producer: null
+  producer: Carlos Franceschi and Jean Paul Langenstein
   farm: null
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Geisha
+  process: Washed
   roast_level: null
   tasting_notes:
     - "Navel orange"
     - "honeysuckle"
     - "white tea"
   elevation_m: null
-  elevation_m_range: null
+  elevation_m_range:
+    min: 1600
+    max: 1800
   weight_g: 227
   form: null
 

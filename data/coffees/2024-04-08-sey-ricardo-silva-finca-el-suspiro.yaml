@@ -7,21 +7,22 @@ coffee:
   roast_date: 2024-04-08
 
 origin:
-  country: null
-  region: null
+  country: Colombia
+  region: Algeciras, Huila
   subregion: null
-  producer: null
-  farm: null
+  producer: Ricardo Silva
+  farm: Finca El Suspiro
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Gesha
+  process: Washed
   roast_level: null
   tasting_notes:
     - "White jasmine"
     - "confectioner's sugar"
     - "tangerine"
-  elevation_m: null
+  elevation_m: 1950
   elevation_m_range: null
   weight_g: null
   form: null

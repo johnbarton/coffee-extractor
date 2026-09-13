@@ -7,21 +7,22 @@ coffee:
   roast_date: 2025-01-19
 
 origin:
-  country: null
-  region: null
+  country: Ethiopia
+  region: Sidamo
   subregion: null
-  producer: null
+  producer: Basha Bekele
   farm: null
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Landraces
+  process: Natural
   roast_level: null
   tasting_notes:
     - "Passionfruit"
     - "raspberry"
     - "cotton candy"
-  elevation_m: null
+  elevation_m: 2000
   elevation_m_range: null
   weight_g: null
   form: null

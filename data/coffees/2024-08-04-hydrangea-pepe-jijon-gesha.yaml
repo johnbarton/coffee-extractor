@@ -7,21 +7,22 @@ coffee:
   roast_date: 2024-08-04
 
 origin:
-  country: null
-  region: null
+  country: Ecuador
+  region: Imbabura
   subregion: null
-  producer: null
-  farm: null
+  producer: Pepe Jijon
+  farm: Finca Soledad
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Gesha
+  process: Wave Washed
   roast_level: null
   tasting_notes:
     - "Finger lime"
     - "gardenia"
     - "mulberry"
-  elevation_m: null
+  elevation_m: 1515
   elevation_m_range: null
   weight_g: null
   form: null

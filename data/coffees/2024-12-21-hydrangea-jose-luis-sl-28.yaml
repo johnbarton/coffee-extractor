@@ -7,22 +7,25 @@ coffee:
   roast_date: 2024-12-21
 
 origin:
-  country: null
-  region: null
+  country: Ecuador
+  region: Loja
   subregion: null
-  producer: null
-  farm: null
+  producer: José Luis Eguiguren
+  farm: Hacienda Santa Gertrudis
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - SL28
+  process: Natural
   roast_level: null
   tasting_notes:
     - "Raspberry"
     - "grapefruit"
     - "pineapple"
   elevation_m: null
-  elevation_m_range: null
+  elevation_m_range:
+    min: 1620
+    max: 1720
   weight_g: null
   form: null
 

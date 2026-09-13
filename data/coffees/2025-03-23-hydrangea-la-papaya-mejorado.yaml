@@ -7,22 +7,25 @@ coffee:
   roast_date: 2025-03-23
 
 origin:
-  country: null
-  region: null
+  country: Ecuador
+  region: Saraguro, Loja
   subregion: null
-  producer: null
-  farm: null
+  producer: Juan Peña
+  farm: Hacienda La Papaya
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Typica Mejorado
+  process: Yeast Washed
   roast_level: null
   tasting_notes:
     - "Guava"
     - "honey"
     - "orange"
   elevation_m: null
-  elevation_m_range: null
+  elevation_m_range:
+    min: 1900
+    max: 2100
   weight_g: 110
   form: null
 

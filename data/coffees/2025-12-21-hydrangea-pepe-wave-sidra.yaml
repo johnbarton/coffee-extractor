@@ -7,21 +7,22 @@ coffee:
   roast_date: 2025-12-21
 
 origin:
-  country: null
-  region: null
+  country: Ecuador
+  region: Imbabura
   subregion: null
-  producer: null
-  farm: null
+  producer: Pepe Jijon
+  farm: Finca Soledad
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Sidra
+  process: Dry Fermented Wave Honey
   roast_level: null
   tasting_notes:
     - "Orange"
     - "pluot"
     - "apple blossom"
-  elevation_m: null
+  elevation_m: 1515
   elevation_m_range: null
   weight_g: 200
   form: null

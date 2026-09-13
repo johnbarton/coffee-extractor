@@ -7,15 +7,16 @@ coffee:
   roast_date: 2025-06-05
 
 origin:
-  country: null
-  region: null
+  country: Colombia
+  region: Huila
   subregion: null
-  producer: null
-  farm: null
+  producer: Brayan Joven
+  farm: La Esperanza
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Pink Bourbon
+  process: Washed
   roast_level: null
   tasting_notes:
     - "White peach"

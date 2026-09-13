@@ -9,7 +9,7 @@ coffee:
 origin:
   country: "Mexico"
   region: "Oaxaca"
-  subregion: null
+  subregion: Mazateca
   producer: "Renato Martinez"
   farm: null
 
@@ -17,7 +17,7 @@ coffee_details:
   varieties:
     - "Typica"
   process: "Washed"
-  roast_level: null
+  roast_level: Light
   tasting_notes:
     - "pomegranate"
     - "hibiscus"

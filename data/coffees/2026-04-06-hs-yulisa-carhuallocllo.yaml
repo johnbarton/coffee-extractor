@@ -7,15 +7,16 @@ coffee:
   roast_date: 2026-04-06
 
 origin:
-  country: null
-  region: null
+  country: Peru
+  region: Corazon de Chirinos
   subregion: null
-  producer: null
-  farm: null
+  producer: Yulisa Carhuallocllo
+  farm: La Miel
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Gesha
+  process: Extended ferment washed
   roast_level: null
   tasting_notes:
     - "Pink grapefruit"

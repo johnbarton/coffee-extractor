@@ -24,6 +24,8 @@ coffee_details:
     - Jasmine
   elevation_m:
   elevation_m_range:
+    min: 1700
+    max: 1800
   weight_g:
   form:
 

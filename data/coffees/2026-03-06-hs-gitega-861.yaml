@@ -7,15 +7,16 @@ coffee:
   roast_date: 2026-03-06
 
 origin:
-  country: null
-  region: null
+  country: Rwanda
+  region: Nyamagabe
   subregion: null
-  producer: null
+  producer: Gitega Washing Station
   farm: null
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Red Bourbon
+  process: Washed
   roast_level: null
   tasting_notes:
     - "Red apple"

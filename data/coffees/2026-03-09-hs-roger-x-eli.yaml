@@ -7,15 +7,16 @@ coffee:
   roast_date: 2026-03-09
 
 origin:
-  country: null
-  region: null
+  country: Peru
+  region: Cajamarca
   subregion: null
-  producer: null
+  producer: Roger Chilcon and Eli Espinoza
   farm: null
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Gesha
+  process: Anaerobic washed
   roast_level: null
   tasting_notes:
     - "Dragon fruit"

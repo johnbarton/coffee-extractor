@@ -7,21 +7,22 @@ coffee:
   roast_date: 2024-09-09
 
 origin:
-  country: null
-  region: null
-  subregion: null
-  producer: null
+  country: Ethiopia
+  region: Gedeb, Gedeo
+  subregion: Kubi
+  producer: Kubi-area producers
   farm: null
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Ethiopian Landrace
+  process: Honey
   roast_level: null
   tasting_notes:
     - "Tropical fruit"
     - "jasmine pearls"
     - "stone fruit"
-  elevation_m: null
+  elevation_m: 2200
   elevation_m_range: null
   weight_g: null
   form: null

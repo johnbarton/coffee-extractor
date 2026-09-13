@@ -7,15 +7,16 @@ coffee:
   roast_date: 2025-03-09
 
 origin:
-  country: null
-  region: null
+  country: Peru
+  region: Ihuamaca
   subregion: null
-  producer: null
-  farm: null
+  producer: Felipe Carhuachinchay
+  farm: La Lima
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Gesha
+  process: Washed
   roast_level: null
   tasting_notes:
     - "Honeysuckle"

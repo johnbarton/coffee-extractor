@@ -7,23 +7,24 @@ coffee:
   roast_date: 2025-09-05
 
 origin:
-  country: null
-  region: null
+  country: Guatemala
+  region: Panimaquib
   subregion: null
-  producer: null
-  farm: null
+  producer: Bressani family
+  farm: Finca San Jerónimo Miramar
 
 coffee_details:
-  varieties: []
-  process: null
-  roast_level: null
+  varieties:
+    - Gesha
+  process: Washed and honey
+  roast_level: Light
   tasting_notes:
     - "Bright"
     - "jasmine"
     - "tangerine"
     - "apricot"
     - "raspberry and pineapple"
-  elevation_m: null
+  elevation_m: 1524
   elevation_m_range: null
   weight_g: 200
   form: null

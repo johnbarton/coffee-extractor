@@ -7,21 +7,22 @@ coffee:
   roast_date: 2025-10-05
 
 origin:
-  country: null
-  region: null
+  country: Colombia
+  region: Cauca
   subregion: null
-  producer: null
-  farm: null
+  producer: Samuel Diego Bermudez
+  farm: Finca El Paraiso
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Castillo
+  process: Double Anaerobic Thermal Shock
   roast_level: null
   tasting_notes:
     - "Osmanthus"
     - "lychee"
     - "kasugai gummies"
-  elevation_m: null
+  elevation_m: 1960
   elevation_m_range: null
   weight_g: 227
   form: null

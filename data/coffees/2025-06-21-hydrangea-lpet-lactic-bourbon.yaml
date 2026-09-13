@@ -7,21 +7,22 @@ coffee:
   roast_date: 2025-06-21
 
 origin:
-  country: null
-  region: null
+  country: Colombia
+  region: Zipacon, Cundinamarca
   subregion: null
-  producer: null
+  producer: Faustino Reyes
   farm: null
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Yellow Bourbon
+  process: Lactic
   roast_level: null
   tasting_notes:
     - "Pineapple"
     - "jakot"
     - "silver needle"
-  elevation_m: null
+  elevation_m: 1800
   elevation_m_range: null
   weight_g: 200
   form: null

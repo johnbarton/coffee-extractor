@@ -7,22 +7,25 @@ coffee:
   roast_date: 2025-04-20
 
 origin:
-  country: null
-  region: null
+  country: Ecuador
+  region: Loja
   subregion: null
-  producer: null
-  farm: null
+  producer: José Luis Eguiguren
+  farm: Hacienda Santa Gertrudis
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Typica Mejorado
+  process: Washed
   roast_level: null
   tasting_notes:
     - "Plum"
     - "blood orange"
     - "tonic water"
   elevation_m: null
-  elevation_m_range: null
+  elevation_m_range:
+    min: 1600
+    max: 1700
   weight_g: 200
   form: null
 

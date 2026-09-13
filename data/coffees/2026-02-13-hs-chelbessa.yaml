@@ -7,15 +7,16 @@ coffee:
   roast_date: 2026-02-13
 
 origin:
-  country: null
-  region: null
+  country: Ethiopia
+  region: Gedeb
   subregion: null
-  producer: null
+  producer: SNAP Specialty Coffee
   farm: null
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Kurume field blend
+  process: Washed
   roast_level: null
   tasting_notes:
     - "Cotton candy grape"

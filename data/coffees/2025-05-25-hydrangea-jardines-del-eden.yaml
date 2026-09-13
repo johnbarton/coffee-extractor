@@ -22,7 +22,7 @@ coffee_details:
     - "Verbena"
     - "grapefruit"
     - "uchuva"
-  elevation_m: null
+  elevation_m: 1800
   elevation_m_range: null
   weight_g: 200
   form: null

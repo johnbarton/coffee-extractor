@@ -7,16 +7,17 @@ coffee:
   roast_date: 2024-10-09
 
 origin:
-  country: null
-  region: null
-  subregion: null
-  producer: null
+  country: Ethiopia
+  region: Sidama
+  subregion: Bombe, Bensa
+  producer: Basha Bekele
   farm: null
 
 coffee_details:
-  varieties: []
-  process: null
-  roast_level: null
+  varieties:
+    - "74158"
+  process: Washed, yeast-controlled fermentation
+  roast_level: Quite light
   tasting_notes:
     - "Apricot"
     - "lime"
@@ -24,7 +25,7 @@ coffee_details:
     - "kumquat"
     - "blueberry"
     - "cherry"
-  elevation_m: null
+  elevation_m: 2250
   elevation_m_range: null
   weight_g: 200
   form: null

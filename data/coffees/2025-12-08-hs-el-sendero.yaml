@@ -7,15 +7,16 @@ coffee:
   roast_date: 2025-12-08
 
 origin:
-  country: null
-  region: null
+  country: Colombia
+  region: Cauca
   subregion: null
-  producer: null
-  farm: null
+  producer: Andrés Martinez
+  farm: El Sendero
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Gesha
+  process: Double ferment washed
   roast_level: null
   tasting_notes:
     - "Rose"

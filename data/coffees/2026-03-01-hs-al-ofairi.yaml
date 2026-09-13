@@ -7,15 +7,16 @@ coffee:
   roast_date: 2026-03-01
 
 origin:
-  country: null
-  region: null
+  country: Yemen
+  region: Bani Ofair, Maghrib Ans
   subregion: null
-  producer: null
+  producer: Amal Al-Ofairi
   farm: null
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Kent
+  process: natural
   roast_level: null
   tasting_notes:
     - "Blueberry jam"

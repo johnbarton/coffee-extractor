@@ -7,21 +7,22 @@ coffee:
   roast_date: 2025-10-26
 
 origin:
-  country: null
-  region: null
+  country: Ecuador
+  region: Loja
   subregion: null
-  producer: null
-  farm: null
+  producer: Fabricio and Ramiro Coronel Pilco
+  farm: Hacienda La Florida
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Sidra
+  process: White Honey
   roast_level: null
   tasting_notes:
     - "Raspberry"
     - "mangosteen"
     - "acacia honey"
-  elevation_m: null
+  elevation_m: 1550
   elevation_m_range: null
   weight_g: 227
   form: null

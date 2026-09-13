@@ -7,20 +7,21 @@ coffee:
   roast_date: 2025-05-02
 
 origin:
-  country: null
-  region: null
-  subregion: null
-  producer: null
-  farm: null
+  country: Peru
+  region: Cajamarca
+  subregion: Barro Negro
+  producer: Maria Nieves Tantalean Fernandez
+  farm: El Chinchin
 
 coffee_details:
-  varieties: []
-  process: null
-  roast_level: null
+  varieties:
+    - Gesha
+  process: Washed
+  roast_level: Light
   tasting_notes:
     - "Bright raspberry"
     - "tangerine and jasmine"
-  elevation_m: null
+  elevation_m: 1850
   elevation_m_range: null
   weight_g: 200
   form: null

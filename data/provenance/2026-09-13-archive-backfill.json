@@ -1,0 +1,4831 @@
+{
+  "schema_version": 1,
+  "kind": "archive_backfill",
+  "applied_date": "2026-09-13",
+  "base_commit": "077f46e",
+  "review_exported_at": "2026-09-13T18:42:47.656Z",
+  "review_export_sha256": "2f31ce59ed2aadbba4ea7315842c532f22cc4f20b96e1657cda662b514e456f7",
+  "method": "Fill missing fields from matched roaster pages; preserve existing values except the user-approved Aviary 015 variety correction. Source lists include release-matching metadata where relevant.",
+  "records": [
+    {
+      "id": "2025-04-14-aviary-012-emmanuel-rusatira",
+      "match_assessment": "needs_review",
+      "approval": {
+        "decision": "accept",
+        "note": null
+      },
+      "sources": [
+        {
+          "url": "https://aviary.coffee/products/012-emmanuel-rusatira",
+          "title": "012 - Emmanuel Rusatira",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Release 012, cherry-cola/caramel/blood-orange notes and the April 14, 2025 roasting week all agree. Review concerns field interpretation and differing roast variants, not the release identity.",
+      "research_cautions_at_review": [
+        "The original archive page offers Correct Roast, Too Light and 2025 Subscriber variants. Roast level is therefore left blank; a single current Light label does not establish the variant purchased.",
+        "Existing elevation is 2000 m; the page actually describes cultivation above 2000 m. No replacement or artificial upper bound is proposed.",
+        "The producer proposal distinguishes the smallholders growing the coffee from the named people overseeing processing."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.subregion",
+          "before": null,
+          "after": "Muzo Hill",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "650 smallholders around Muzo Hill; processing overseen by Emmanuel Rusatira and Theoneste Niyomugabo",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "d7aa966747efce8e6432b9cb69fa26e66fdacd6b5451d2ae8f53113c789b9485",
+      "after_sha256": "07ba7336185a1e6575525756ee5241629558993227b9e74af48c345a664a182b"
+    },
+    {
+      "id": "2025-05-01-aviary-013-demetrio-sanchez",
+      "match_assessment": "needs_review",
+      "approval": {
+        "decision": "accept",
+        "note": null
+      },
+      "sources": [
+        {
+          "url": "https://aviary.coffee/products/013-demetrio-sanchez-pino",
+          "title": "013 - Demetrio Sanchez Pino",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Unique release 013, producer surname, 2025 season and all recorded tasting notes match. Process terminology and original date need review.",
+      "research_cautions_at_review": [
+        "The page calls this a washed Gesha, but its processing account says it was washed once and then dried as a honey. Washed is proposed as the roaster's marketing label; retain this qualification or choose a more descriptive process after review.",
+        "The archive gives May 5, 2025 as the original roast; the record gives May 1. It also covers a December 18 rerelease with changed roasting.",
+        "The producer letter names El Arrayán and places it in Alto Cañadas, La Plata, Huila. Other cultivars grown on the farm are not attributed to this lot."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Colombia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Huila",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.subregion",
+          "before": null,
+          "after": "La Plata",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Demetrio Sánchez Pino",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Gesha"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m_range",
+          "before": null,
+          "after": {
+            "min": 2100,
+            "max": 2200
+          },
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.roast_level",
+          "before": null,
+          "after": "Light",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "El Arrayán",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "351fd64b2486e049a041985e5488d06ba078bffd7746437ce0bba101630b2e1d",
+      "after_sha256": "b2de537ae73052fed7ef32cb46e4ad83db784214ae2d3402bd0273f5bf8b4994"
+    },
+    {
+      "id": "2025-06-20-aviary-015-layo-teraga",
+      "match_assessment": "needs_review",
+      "approval": {
+        "decision": "accept",
+        "note": "This would be the original release rather than a re-release, if that's helpful. If the origin is still ambiguous, I would go with the archive variety."
+      },
+      "sources": [
+        {
+          "url": "https://aviary.coffee/products/015-layo-teraga",
+          "title": "015 - Layo Teraga",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Release 015, cooperative, elevation and the distinctive recorded tasting description agree. Existing variety and date conflict with the archive.",
+      "research_cautions_at_review": [
+        "The record lists variety 74158, while the archive explicitly gives JARC selection 74110. This is a conflict to check, not an empty field; no replacement is proposed.",
+        "The record date is June 20, 2025; the archive lists the week of June 23. The December freezer update says that rerelease was roasted slightly lighter."
+      ],
+      "user_confirmed": "This would be the original release rather than a re-release, if that's helpful. If the origin is still ambiguous, I would go with the archive variety.",
+      "fields": [
+        {
+          "path": "coffee_details.roast_level",
+          "before": null,
+          "after": "Light",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [
+            "74158"
+          ],
+          "after": [
+            "74110"
+          ],
+          "operation": "user_approved_correction",
+          "reason": "User identified this as the original release and chose the archive variety."
+        }
+      ],
+      "before_sha256": "7c860119c6eca80b2f9af7d57005d36a5191ef96c54fc89cb47841daeb2ba609",
+      "after_sha256": "3b3eda4d35835bfa723ec6a48ddfe09041cd5df50bd1c6f28c29db1db1f0f494"
+    },
+    {
+      "id": "2025-08-07-aviary-017-tagel-alemayehu",
+      "match_assessment": "needs_review",
+      "approval": {
+        "decision": "accept",
+        "note": null
+      },
+      "sources": [
+        {
+          "url": "https://aviary.coffee/products/017-tagel-alemayehu",
+          "title": "017 - Tagel Alemayehu",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Unique release 017, producer, Goro/Hambela origin, elevation and the mango/tangerine/peach/pink-lemonade description in the narrative agree. Other parts of the page are inconsistent.",
+      "research_cautions_at_review": [
+        "The recorded August 7, 2025 date differs substantially from the page's June 23 week. That schedule and a passage about 1814 cooperative members also appear on release 015, suggesting reused text.",
+        "The page variously describes approximately 130 outgrowers and 412 registered smallholders. No grower count or farm is added.",
+        "The December rerelease was described as slightly lighter; the proposed Light label needs review in light of the page inconsistencies."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "coffee_details.roast_level",
+          "before": null,
+          "after": "Light",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "c65355f7557cf602772198048a14c92ba18c1dcaeaed40b7927b7392b6002b76",
+      "after_sha256": "5cd1de59825197e215d44c2a95c9b3aecc16a04330ac5742524c3ce15ec7d1b3"
+    },
+    {
+      "id": "2025-09-05-aviary-018-san-jeronimo-miramar",
+      "match_assessment": "needs_review",
+      "approval": {
+        "decision": "accept",
+        "note": "Here I think the provenance of the lots is so similar that there is no need to refer to this one as a blend"
+      },
+      "sources": [
+        {
+          "url": "https://aviary.coffee/products/018-san-jeronimo-miramar",
+          "title": "018 - San Jerónimo Miramar",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Release 018, farm, 2025 season and every recorded tasting note agree. The numbered release establishes identity, while inconsistent harvest and processing descriptions require field review.",
+      "research_cautions_at_review": [
+        "The archive gives the week of September 8, 2025; the record gives September 5. The three-day discrepancy is retained.",
+        "The introduction explicitly identifies a washed-and-honey blend; its later processing paragraph describes only washed processing. The blend description is preserved in the proposal.",
+        "The page refers once to a 2024 harvest and later to February 2025. No harvest or roast-date changes are proposed. The December rerelease changed roast development.",
+        "This is a blend of same-farm day lots. Before applying, review whether the collection’s blend_components convention should represent those lots instead of keeping all metadata at the top level."
+      ],
+      "user_confirmed": "Here I think the provenance of the lots is so similar that there is no need to refer to this one as a blend",
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Guatemala",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Panimaquib",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Bressani family",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Finca San Jerónimo Miramar",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Gesha"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed and honey",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 1524,
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.roast_level",
+          "before": null,
+          "after": "Light",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "3bb9646e71872241dfe4f625d66239d0fd759e141e900571d8860c8797998681",
+      "after_sha256": "2540e82b507b6e52a8518ad769cf38f06fdc6ac7e2fcd3104e6359c63425219a"
+    },
+    {
+      "id": "2025-10-15-aviary-019-angel-arturo-paz",
+      "match_assessment": "needs_review",
+      "approval": {
+        "decision": "accept",
+        "note": null
+      },
+      "sources": [
+        {
+          "url": "https://aviary.coffee/products/019-angel-arturo-paz",
+          "title": "019 - Ángel Arturo Paz",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Release 019, producer, farm, variety, dark-room drying and all recorded tasting notes agree. Existing elevation differs from the archive.",
+      "research_cautions_at_review": [
+        "The record gives 1630–1720 m; the archive gives 1630–1730 m. The existing range is preserved and flagged for manual checking.",
+        "The record date is October 15, 2025; the archive lists October 16. It also includes a December 18 roast."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "coffee_details.roast_level",
+          "before": null,
+          "after": "Light",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "94e5815a0292532ba38433b886ed06e27964bfc238ba20ec34d2e6c134cd44ac",
+      "after_sha256": "baad30f1a7609928ba1cd64d6342871018fe768eae758456c3db16bad32b3583"
+    },
+    {
+      "id": "2025-12-15-aviary-021-renato-martinez",
+      "match_assessment": "needs_review",
+      "approval": {
+        "decision": "accept",
+        "note": null
+      },
+      "sources": [
+        {
+          "url": "https://aviary.coffee/products/021-renato-martinez",
+          "title": "021 - Renato Martinez",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Release 021, assumed producer name, Mexico/Oaxaca, Typica, washed process and the introduction's recorded pomegranate/hibiscus/lime/melon notes agree.",
+      "research_cautions_at_review": [
+        "The record gives 1700–1840 m; the archive says 1700–1850 m. No elevation replacement is proposed.",
+        "The main origin description and growing-details paragraph identify Mazateca, but an economics paragraph says Sierra Mixteca. Mazateca is proposed for review because it is the lot-specific locality repeated on the page.",
+        "The record date is December 15, 2025; the page lists December 16. Renato Martinez is explicitly an assumed name; no attempt was made to identify the person or a farm."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.subregion",
+          "before": null,
+          "after": "Mazateca",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.roast_level",
+          "before": null,
+          "after": "Light",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "19790db0d318223a057a23a0b50215924d607de0afc4910d05637229bdf157c9",
+      "after_sha256": "a42da78accdca630de33362b8150cc6127479476f355285066ac8f0009cbaa69"
+    },
+    {
+      "id": "2025-03-09-hs-la-lima",
+      "match_assessment": "needs_review",
+      "approval": {
+        "decision": "accept",
+        "note": null
+      },
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive/peru-la-lima-2024",
+          "title": "Peru La Lima 2024",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Exact name and all three notes match, but this archive entry is labeled 2024 and the record is March 2025.",
+      "research_cautions_at_review": [
+        "Please confirm this is the 2024-season lot sold into 2025. No explicit March 2025 roast timing was located. “Borders on hyperlight” is not treated as a definite roast level."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Peru",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Ihuamaca",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Felipe Carhuachinchay",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "La Lima",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Gesha"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "7f099d75cfcb79670922b9b2189511ab8bd45c97fbb3cf77cdae558deda3fb64",
+      "after_sha256": "63399a79e76936dbce1cf99e6a9dec35c621c97b42faff0212ccad495e793e62"
+    },
+    {
+      "id": "2026-01-09-hs-keramo",
+      "match_assessment": "needs_review",
+      "approval": {
+        "decision": "accept",
+        "note": null
+      },
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive/ethiopia-keramo-2025",
+          "title": "Ethiopia Keramo 2025",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Exact coffee name and all three notes match, but the archive labels the offering 2025 while the recorded roast is January 2026.",
+      "research_cautions_at_review": [
+        "The source describes multiple farms or a washing station; no named individual farm is proposed.",
+        "Likely the same seasonal lot across the year boundary; explicit January 2026 roast coverage was not located. Archive variety says 74112 field blend; existing 74112 is retained."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Daye Bensa",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "9d8adce12255e21bc434423ebad419c331026de16d6214e3399b98502786d99a",
+      "after_sha256": "72b5c4969aee4a966d2f957d96a189ea1a290865377fddd957f1a2b8dc72478e"
+    },
+    {
+      "id": "2026-02-01-hs-deborah-aril",
+      "match_assessment": "needs_review",
+      "approval": {
+        "decision": "accept",
+        "note": null
+      },
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive/panama-deborah-aril-2025",
+          "title": "Panama Deborah Aril 2025",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Exact name and notes match H&S’s final Savage release of 2025, but this purchase was roasted February 2026.",
+      "research_cautions_at_review": [
+        "Please confirm the February bag was a continuation of the 2025 Aril offering; no explicit February 2026 batch coverage was located."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Panama",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Boquete",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Jamison Savage",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Finca Deborah",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Gesha"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Carbonic macerated natural, washed finish hybrid",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.roast_level",
+          "before": null,
+          "after": "Hyperlight",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "f68e8dfabe5ff1043b728b5b31b8b1be9bc0f096f03c661e0f761d1b75b34862",
+      "after_sha256": "08ede6b7a3c269b92eb01fc27a5f1cc91355e79d91735a8a60ee9ba059620cf1"
+    },
+    {
+      "id": "2026-02-13-hs-chelbessa",
+      "match_assessment": "needs_review",
+      "approval": {
+        "decision": "accept",
+        "note": null
+      },
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive/ethiopia-chelbessa-2025",
+          "title": "Ethiopia Chelbessa 2025",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Exact name and all three notes match the page labeled 2025; the recorded roast is February 2026.",
+      "research_cautions_at_review": [
+        "The source describes multiple farms or a washing station; no named individual farm is proposed.",
+        "Plausible same seasonal lot, but the offering-year mismatch is not independently resolved. Publication in May 2026 does not establish roast timing."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Ethiopia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Gedeb",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "SNAP Specialty Coffee",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Kurume field blend"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "df8f59ffccc9ff2cc058faeabefaa92d8f879f10b550eecc0b69ec4a64bd25da",
+      "after_sha256": "4b739cb9f4dd43f1f8cda55eacc713db6442c47e1cdbdbfb2c05be7a082d7d86"
+    },
+    {
+      "id": "2024-08-04-hydrangea-letty-bermudez",
+      "match_assessment": "needs_review",
+      "approval": {
+        "decision": "accept",
+        "note": "Agreed, this is a rotating offering"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/letty-bermudez",
+          "title": "Gesha - Letty Bermudez - Finca El Paraiso",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Exact named Letty offering and all three notes match, but this is a recurring undated listing, also matching the 2025 record. No year-specific lot identification was found.",
+      "research_cautions_at_review": [
+        "Harvest/release year is not stated; the same listing/profile matches two records a year apart."
+      ],
+      "user_confirmed": "Agreed, this is a rotating offering",
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Colombia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Cauca",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Samuel Diego Bermudez",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Finca El Paraiso",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Gesha"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Double fermentation thermal shock",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 1930,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "de3e392a0d2d77fc694b669ca814b349fc96565753529fe1142aae57ca7f1165",
+      "after_sha256": "b6e528219d0900b0aa3e18d2d96f7ab4c365a4d3720c72c25850caef6ee621ae"
+    },
+    {
+      "id": "2024-08-04-hydrangea-pepe-jijon-gesha",
+      "match_assessment": "needs_review",
+      "approval": {
+        "decision": "accept",
+        "note": "Yes, this one has recurred a few times, agreed with the proposed fields"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/gesha-wave-washed-finca-soledad",
+          "title": "Gesha - Wave Washed - Finca Soledad",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Pepe Jijon Gesha and all three distinctive notes match the Wave Washed page, but the listing dates to October 2023 and provides no year-specific evidence connecting it to August 2024.",
+      "research_cautions_at_review": [
+        "The page identifies the coffee and notes but does not establish the 2024 season; it may be a recurring offering."
+      ],
+      "user_confirmed": "Yes, this one has recurred a few times, agreed with the proposed fields",
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Ecuador",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Imbabura",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Pepe Jijon",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Finca Soledad",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Gesha"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Wave Washed",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 1515,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "b1cc7576c4ab8811ad553253b15916e578d83689bb69ea7fc68470b3abb4ae26",
+      "after_sha256": "58e5f9b0844ad35b5fdb357bc49cca99b5e4c8c0e8e8711ed8bc9806d1847fc3"
+    },
+    {
+      "id": "2024-08-18-hydrangea-carmen-washed-gesha",
+      "match_assessment": "needs_review",
+      "approval": {
+        "decision": "accept",
+        "note": null
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/gesha-palomar-washed-carmen",
+          "title": "Gesha - Palomar Washed - Carmen",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "The 2024 Carmen Palomar washed page is temporally compatible and matches plum and soft florals, with Peach in place of White peach. Later Carmen Lot 8 pages reuse the same broad profile; the original record does not name Palomar.",
+      "research_cautions_at_review": [
+        "Record says White peach; the 2024 source says Peach. Palomar lot identity is not recorded locally.",
+        "The later Carmen Lot 8 page has similar notes but was created in October 2025, so it cannot directly document the 2024 purchase."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Panama",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Volcan, Chiriqui",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Carmen Estate",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Carmen Estate",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Geisha"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 1500,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "02339af2a0fa63a9a985af0e87cef076e1838309829517d5c9842eab5f6c306c",
+      "after_sha256": "a68f2c6b9ad5039a719cf6f6a1be43fd02f1ec4f905f5cc45dd1b05f09554f77"
+    },
+    {
+      "id": "2024-11-17-hydrangea-el-paraiso-peach",
+      "match_assessment": "needs_review",
+      "approval": {
+        "decision": "accept",
+        "note": "Agreed with these fields -- this is also a recurring offering"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/el-paraiso-peach",
+          "title": "Pink Bourbon - Peach - Finca El Paraiso",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Exact named El Paraiso Peach offering and all three distinctive notes match, but the recurring listing dates to 2023 and does not establish the 2024 release or harvest.",
+      "research_cautions_at_review": [
+        "A reused page with no harvest/release year may describe a later batch with the same name and notes."
+      ],
+      "user_confirmed": "Agreed with these fields -- this is also a recurring offering",
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Colombia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Cauca",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Samuel Diego Bermudez",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Finca El Paraiso",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Pink Bourbon"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Thermal Shock + Two Stage Fermentation",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 1960,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "b1fff192ed125f69a4804c092272b6c5c5ebfc00598fab8665702a1eff379696",
+      "after_sha256": "cc22b0f42e743f1b1f4351a05a9c7449dac7acde0e6186bdbc82b3908f0b452e"
+    },
+    {
+      "id": "2025-04-13-hydrangea-chichang-honey-catimor",
+      "match_assessment": "needs_review",
+      "approval": {
+        "decision": "accept",
+        "note": "Agreed with your find in the older search!"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/catimor-honey-chichang",
+          "title": "Catimor - Honey - Chichang (older cached page)",
+          "accessed": "2026-09-13",
+          "content_version": "Older primary-source text returned by web search; live page now differs"
+        }
+      ],
+      "matching_evidence": "A search-engine cached version of the roaster page exactly matches the older Chichang Honey name and Apricot/Papaya/Fuji Apple notes. The live URL has been repurposed for a different Gaosanlin lot, so the old cached metadata is a review candidate only.",
+      "research_cautions_at_review": [
+        "Proposed metadata comes from the older roaster-page content returned by web search (reported crawl approximately 11 months before retrieval), not from the current live product.",
+        "The current page has Valencia Orange/Dried Apricot/Black Tea notes, producer Mīyánhǎntǎ, Gaosanlin Coffee Farm, and elevation 1400–1600 m; these replacement details must not be applied to the 2025 record."
+      ],
+      "user_confirmed": "Agreed with your find in the older search!",
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "China",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Chichang, Mengliang, Yunnan",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Gong Yi Jia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Catimor"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Honey",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 1800,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "13cb2aad36ed9ff16377f1b62b9a1afd8e348c6274c08db6abe527117fae4d21",
+      "after_sha256": "377c57a5115c416b71a370c1045b3cf9439eaf79338aceb9c13cf7a42b344c9c"
+    },
+    {
+      "id": "2025-10-05-hydrangea-el-paraiso-lychee",
+      "match_assessment": "needs_review",
+      "approval": {
+        "decision": "accept",
+        "note": "Agreed; like some of the other Diego Bermudez offerings this one is recurring"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/el-paraiso-lychee",
+          "title": "Castillo - Lychee - Finca El Paraiso",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Exact named Lychee offering and all three distinctive notes match, but the live listing dates back to 2023 and does not identify the 2025 harvest or release.",
+      "research_cautions_at_review": [
+        "A reused page with no harvest/release year may describe a later batch with the same name and notes."
+      ],
+      "user_confirmed": "Agreed; like some of the other Diego Bermudez offerings this one is recurring",
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Colombia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Cauca",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Samuel Diego Bermudez",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Finca El Paraiso",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Castillo"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Double Anaerobic Thermal Shock",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 1960,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "a490452cb929685381f5e8e1e4f0b6b4eafee1fbf52162152faad312e8d51f18",
+      "after_sha256": "14b9700d537317459faae13f985b9321c166bf9afcb901e0bae43169daf5c10d"
+    },
+    {
+      "id": "2025-10-26-hydrangea-la-florida-honey-sidra",
+      "match_assessment": "needs_review",
+      "approval": {
+        "decision": "accept",
+        "note": "Fields look good here; this would have been the earlier 2025 version but likely to have the same sources, etc"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/sidra-white-honey-hacienda-la-florida",
+          "title": "Sidra - White Honey - Hacienda La Florida",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://hydrangea.coffee/products/sub",
+          "title": "Hydrangea Drops — previous drops",
+          "accessed": "2026-09-13",
+          "supports": "Drop 25 links this product; no harvest date is implied."
+        }
+      ],
+      "matching_evidence": "Exact Florida Sidra honey identity and all three notes match, and the subscription history links this as Drop 25. Page was created September 2025 but its current publication timestamp is June 2026, so the historical release needs confirmation.",
+      "research_cautions_at_review": [
+        "Publication metadata is 2026-06-25, later than the 2025-10-26 roast. Creation is 2025-09-06 and subscription Drop 25 supports an earlier release, but neither is a harvest date."
+      ],
+      "user_confirmed": "Fields look good here; this would have been the earlier 2025 version but likely to have the same sources, etc",
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Ecuador",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Loja",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Fabricio and Ramiro Coronel Pilco",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Hacienda La Florida",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Sidra"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "White Honey",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 1550,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "d548b7c2ccf9de43712009fe7089c9a926b9ff801283ecb4616950f4e23e4423",
+      "after_sha256": "1c43697ede3b5f87a52c7157319954832ffe280449fe15eb77c097bd5806751a"
+    },
+    {
+      "id": "2025-11-02-hydrangea-letty-bermudez",
+      "match_assessment": "needs_review",
+      "approval": {
+        "decision": "accept",
+        "note": null
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/letty-bermudez",
+          "title": "Gesha - Letty Bermudez - Finca El Paraiso",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Exact named Letty offering and all three notes match, but this is a recurring undated listing, also matching the 2024 record. No year-specific lot identification was found.",
+      "research_cautions_at_review": [
+        "Harvest/release year is not stated; the same listing/profile matches two records a year apart."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Colombia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Cauca",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Samuel Diego Bermudez",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Finca El Paraiso",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Gesha"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Double fermentation thermal shock",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 1930,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "a69306c2e520b91ae2a3ad8fd7d0854cecaba49f887b3417775f0df40a6352ad",
+      "after_sha256": "c1d9c1da5fc26f59bf44fe88f8ce8ce685e739b13c95426e05c3e9793a199391"
+    },
+    {
+      "id": "2026-01-25-hydrangea-franceschi-gesha-lot-232",
+      "match_assessment": "needs_review",
+      "approval": {
+        "decision": "accept",
+        "note": "This would be the drop 28 version, but fields should be the same"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/gesha-washed-franceschi-lot-232",
+          "title": "Gesha - Washed - Franceschi, Lot 232",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://hydrangea.coffee/products/sub",
+          "title": "Hydrangea Drops — previous drops",
+          "accessed": "2026-09-13",
+          "supports": "Drop 28 links this product; no harvest date is implied."
+        }
+      ],
+      "matching_evidence": "Exact Lot 232 and all three notes match (honeysuckle pluralized on page); Hydrangea lists this as Drop 28. The page was created in 2025 but its current publication timestamp is after the January 2026 roast, so the release history needs confirmation.",
+      "research_cautions_at_review": [
+        "Publication metadata is 2026-04-25, later than the 2026-01-25 roast. Creation metadata is 2025-10-03 and subscription Drop 28 supports an earlier release, but neither metadata field is a harvest date.",
+        "The source describes both owned plots and bought cherries; no specific farm is assigned."
+      ],
+      "user_confirmed": "This would be the drop 28 version, but fields should be the same",
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Panama",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Volcan, Chiriqui",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Carlos Franceschi and Jean Paul Langenstein",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Geisha"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m_range",
+          "before": null,
+          "after": {
+            "min": 1600,
+            "max": 1800
+          },
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "1e21c06a9bc46b2cac222a40717a5ebdc1c10011f4afbf838d9dfffdcaf4e60e",
+      "after_sha256": "0d81f3c51659eb564b729cac8b85815d9e7ea6fad970cffac6b4039bb6714587"
+    },
+    {
+      "id": "2026-07-05-hydrangea-el-burro-lot-17",
+      "match_assessment": "needs_review",
+      "approval": {
+        "decision": "accept",
+        "note": "This one is the frozen vintage lot"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/gesha-washed-el-burro-2025-vintage-frozen",
+          "title": "Gesha - Washed - El Burro Lot 17 (2025 Vintage, from Freezer)",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Exact El Burro Lot 17 and all three notes match several listings. The frozen 2025-vintage page was published a week before the July 2026 roast, making it a strong candidate, but regular and ultralight pages share the same profile.",
+      "research_cautions_at_review": [
+        "Regular, ultralight, and frozen-2025-vintage pages all give the same notes and 1700–1800 m range. The range is a good candidate, but bag/version identity remains unresolved. No roast level is inferred."
+      ],
+      "user_confirmed": "This one is the frozen vintage lot",
+      "fields": [
+        {
+          "path": "coffee_details.elevation_m_range",
+          "before": null,
+          "after": {
+            "min": 1700,
+            "max": 1800
+          },
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "ef5ac96ba5ad1d28633b08e14a3da64ab0a2d2e120798900cbb23cdc8612e4db",
+      "after_sha256": "50e76b6daea696e36345d12a8c78a474a5c6aad1d1153164ff121b6f8743ac3c"
+    },
+    {
+      "id": "2026-02-09-sey-albino-ibias",
+      "match_assessment": "needs_review",
+      "approval": {
+        "decision": "accept",
+        "note": "Agreed to label like this!"
+      },
+      "sources": [
+        {
+          "url": "https://www.seycoffee.com/products/2026-albino-ibias-tres-cedros-peru",
+          "title": "SEY — 2026 Albino Ibias; Tres Cedros - Peru",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.seycoffee.com/products/2026-albino-ibias-tres-cedros-peru.json",
+          "title": "SEY public product metadata — publication timing",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "The 2026 first release matches Albino Ibias and all four recorded tasting notes. The December 2025 harvest and February 5, 2026 publication fit the February 9 roast. Identity is clear, but the provisional variety designation needs manual approval before applying this record’s additions.",
+      "research_cautions_at_review": [
+        "SEY labels the variety SL9* and explicitly treats SL9 as a provisional working name based on similarity to SL09. The asterisk is a footnote, not part of the proposed variety name; retain this uncertainty in provenance."
+      ],
+      "user_confirmed": "Agreed to label like this!",
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Peru",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Inkawasi, Cusco",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Albino Ibias",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Tres Cedros",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "SL9"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 2260,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "2371a4e9e05fe563e8d0c348cf81813b84d780168186a5345e9a967f27a5c25f",
+      "after_sha256": "de031742524a17b4d8232031bed620567688ab1df1348b78575c8553b3af9878"
+    },
+    {
+      "id": "2024-10-09-aviary-008-basha-bekele",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://aviary.coffee/products/008-basha-bekele",
+          "title": "008 - Basha Bekele",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Unique release 008, producer, all six recorded tasting notes, and the exact October 9, 2024 roast date agree.",
+      "research_cautions_at_review": [
+        "The December 2025 freezer update discusses a different roast of remaining green coffee. Proposed details come from the original release description and its explicitly retained October 2024 roast schedule.",
+        "The page documents blending two green-coffee bags after roasting and consequent cup variance. It gives no distinct farm name; the farm field remains blank."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Ethiopia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Sidama",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.subregion",
+          "before": null,
+          "after": "Bombe, Bensa",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Basha Bekele",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "74158"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed, yeast-controlled fermentation",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 2250,
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.roast_level",
+          "before": null,
+          "after": "Quite light",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "c99501d0fe5e9418afcb5b769f6bf43126b6a5f272063815727de45669dc7341",
+      "after_sha256": "04c9e30ddd6cf35ea79e2039e61c2896a2edc81198a1cd1b3063cb7b65392b37"
+    },
+    {
+      "id": "2025-02-25-aviary-010-nancy-mendoza",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://aviary.coffee/products/010-nancy-mendoza",
+          "title": "010 – Nancy Mendoza",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Release 010 and all recorded tasting notes match; February 25, 2025 falls within the stated original roasting week of February 24.",
+      "research_cautions_at_review": [
+        "The page says the initial roast was extremely light and that the December freezer roast was adjusted. The proposed broad wording is the original roast-profile description; it does not substitute the later roast."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "coffee_details.roast_level",
+          "before": null,
+          "after": "Light to very light",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "58623250938dfe5574db322026f420008fe8e09a75127ca4feb9ba9379cb3681",
+      "after_sha256": "43c80e856d911d48ccd781fbee1fe459b930dbef8b05360c53ca2ceb942d5c21"
+    },
+    {
+      "id": "2025-03-20-aviary-011-lino-rodriguez",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://aviary.coffee/products/011-lino-rodriguez",
+          "title": "011 - Lino Rodriguez",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Release 011, Gesha, farm, process, elevation and all recorded tasting notes agree; this is the March 2025 offering.",
+      "research_cautions_at_review": [
+        "The archive lists the original roasting week as March 24, while the record says March 20. This four-day discrepancy is retained for checking; no date change is proposed.",
+        "The December freezer rerelease explicitly aimed to reproduce the original roast style."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "coffee_details.roast_level",
+          "before": null,
+          "after": "Light",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "6828ec655cd1109ad2561ab00b0b37470ecf581f20882e6126e9e0c7c93a4dec",
+      "after_sha256": "38c32b69f8c0a80cd0cea27ae918af75d8181282c13eb7cbe70f4321638442ed"
+    },
+    {
+      "id": "2025-05-02-aviary-014-maria-nieves",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://aviary.coffee/products/014-maria-nieves",
+          "title": "014 - Maria Nieves",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Release 014, Maria Nieves, 2025 season and the raspberry/tangerine/jasmine notes agree exactly.",
+      "research_cautions_at_review": [
+        "The archive lists May 5, 2025; the record lists May 2. The three-day discrepancy is retained without changing the date.",
+        "The page also discusses a December 2025 freezer rerelease. This match uses release 014 and its original 2025 description, not the different Maria Nieves releases 002 or 025."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Peru",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Cajamarca",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.subregion",
+          "before": null,
+          "after": "Barro Negro",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Maria Nieves Tantalean Fernandez",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "El Chinchin",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Gesha"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 1850,
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.roast_level",
+          "before": null,
+          "after": "Light",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "b0e4e384dcd868fad60e2126da265b1bc8688ba8ff14b4c125b638b39d7986b8",
+      "after_sha256": "b9cd4705caa459e289c4a9e85405a6e0726fd335d289b86c3e40e2d728d9df50"
+    },
+    {
+      "id": "2025-07-14-aviary-016-kerehaklu",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://aviary.coffee/products/016-kerehaklu",
+          "title": "016 - Kerehaklu",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Release 016, Selection 9, Kerehaklu, 1165 m, recorded tasting notes and the original week of July 14, 2025 agree.",
+      "research_cautions_at_review": [
+        "The page describes an adjusted December freezer roast; the proposed wording comes from the retained original roast-profile section.",
+        "Doddagandi Lower is a block within the estate, so it is not added as a geographic subregion. Pranoy is identified alongside Ajoy, but the existing producer field is not overwritten."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "coffee_details.roast_level",
+          "before": null,
+          "after": "Quite light",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "f4da2cccbfb860743d44bc31d7f3aaa29f56c577cd56d58832d5691c836a2d96",
+      "after_sha256": "f4c7fd18ac544c4d067c7c32a81bb18a1a6ade5dba7a68230f727f409b835123"
+    },
+    {
+      "id": "2025-11-19-aviary-020-yusuf-al-aamal",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://aviary.coffee/products/020-yusuf-al-aalam",
+          "title": "020 - Yusuf Al Aamal",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Release 020, full producer name, origin, Jaadi, honey process, 2300 m and exact November 19, 2025 roast date agree. The narrative matches the recorded raisin/fig/date/white-raspberry/violet/mulberry/red-apple notes.",
+      "research_cautions_at_review": [
+        "The page's separate tasting-note block differs from its introduction; the existing tasting notes are preserved.",
+        "The page identifies Al-Aamal as the growing locality and Sharqi Haraz as the producer's origin. No distinct farm name is supplied.",
+        "The December freezer update describes slightly increased acidity; Light is the retained general roast label."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.subregion",
+          "before": null,
+          "after": "Al-Aamal",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.roast_level",
+          "before": null,
+          "after": "Light",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "6a551e5471ee4539bf4468206f6d04f0e744a8d77ed8b603ad34f1e64c4eae89",
+      "after_sha256": "9b9c14bc25307acc27327dcdf5b4925c794f65d46950a8e0476ccd2e6e65ca24"
+    },
+    {
+      "id": "2025-01-19-hs-basha-bekele",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/products/ethiopia-basha-bekele",
+          "title": "Ethiopia Basha Bekele",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Coffee name and all three recorded tasting notes match the roaster page; the offering year is compatible with the recorded roast date. Last batch roasted Jan 20 2025.",
+      "research_cautions_at_review": [
+        "The source describes multiple farms or a washing station; no named individual farm is proposed."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Ethiopia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Sidamo",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Basha Bekele",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Landraces"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Natural",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 2000,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "ed80e89be14c47bb3454912a965fd133be73c916dac973ab5524a7367b6afd4a",
+      "after_sha256": "78b1278e4356ae8cb368a732603e278ac882a3429ab023c6dc7e81d277a51d9b"
+    },
+    {
+      "id": "2025-01-19-hs-la-divisa",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive/colombia-la-divisa-2025",
+          "title": "Colombia La Divisa 2025",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Coffee name and all three recorded tasting notes match the roaster page; the offering year is compatible with the recorded roast date.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Colombia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Quindio",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Diofanor Ruiz",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "La Divisa",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Tabi"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "5529448c23a4019651d223c3ce88f940060a8d051598986f484338ddda31a1cd",
+      "after_sha256": "83df0e24add62680cf6f68b00621a6090b42ca3c63eb548cde22f630310634fc"
+    },
+    {
+      "id": "2025-02-08-hs-nyungwe-site",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive/rwanda-nyungwe-site-2025",
+          "title": "Rwanda Nyungwe Site 2025",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Coffee name and all three recorded tasting notes match the roaster page; the offering year is compatible with the recorded roast date. Last batch roasted Mar 6 2025.",
+      "research_cautions_at_review": [
+        "The source describes multiple farms or a washing station; no named individual farm is proposed."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Rwanda",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Nyamasheke",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Rwanda Trading Company / Nyungwe Washing Station",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Red Bourbon"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "62e06c7fbc5bc75a48041db634ec8c29c8be4e40ed8c0c64b5e055410c77cf3a",
+      "after_sha256": "6f3a2717adda1d96b8e2694360b8f0216b0ce72c9816d4b6927979f80b62f5b3"
+    },
+    {
+      "id": "2025-02-09-hs-granito-de-oro",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive/colombia-granito-de-oro-2025",
+          "title": "Colombia Granito de Oro 2025",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Coffee name and all three recorded tasting notes match the roaster page; the offering year is compatible with the recorded roast date.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Colombia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Antioquia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Fabio Nelson",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Granito de Oro",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Caturro Chiroso"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Extended washed",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "a037b4255990eb87a9ffefb6ac0966c456d44ac9558236a91273a2fb3f2f57ef",
+      "after_sha256": "18b11ad6dba0f1bbea21b85fce2d106a5d46d2f1a658c1dbdb8938ae270d30c1"
+    },
+    {
+      "id": "2025-04-30-hs-dulce-misterio",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive/colombia-dulce-misterio",
+          "title": "Colombia Dulce Misterio 2025",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Coffee name and all three recorded tasting notes match the roaster page; the offering year is compatible with the recorded roast date. Last batch roasted May 28, 2025.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Colombia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Caldas",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Mauricio Duque",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Dulce Misterio",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Pink Bourbon"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "1fdf32e8a0ac3f328d89b91da69120ecc0a50a5d255af9639b752fd6a3394d2f",
+      "after_sha256": "e2030757987be76a5796e3dab82d551976442d01e38d86435c97a77532efa347"
+    },
+    {
+      "id": "2025-04-30-hs-la-reserva",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive/ecuador-la-reserva-sidra-2025",
+          "title": "Ecuador La Reserva Sidra 2025",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Coffee name and all three recorded tasting notes match the roaster page; the offering year is compatible with the recorded roast date. Last batch roasted April 30th 2025.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Ecuador",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Zamora Chinchipe",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Richard Granda and Marlon Quevedo",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "La Reserva",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Sidra"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "94cc2854b859365e26418cbc1916bb6364495429a855c19a9e6abad7481de69d",
+      "after_sha256": "deb932c77a27bef0a372fde8dc741d35f5109b1d4eb6aaf0c1ace44a42cd8bc9"
+    },
+    {
+      "id": "2025-06-05-hs-la-esperanza",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive/colombia-la-esperanza-brayan-2025",
+          "title": "Colombia La Esperanza Brayan 2025",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "The Brayan Joven 2025 offering matches all three notes. H&S also sold a different La Esperanza from Carlos Ramón Díaz; its notes do not match.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Colombia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Huila",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Brayan Joven",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "La Esperanza",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Pink Bourbon"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "6024fdb2ee0541127d87c62539e8deb11f9de1cbcd9018277d3444129c2d70b2",
+      "after_sha256": "35cf9df0a4781c64723566ddd2b85f9c07f10c1376b963e71dd158c4e74d41a7"
+    },
+    {
+      "id": "2025-06-05-hs-la-papaya",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive/ecuador-la-papaya-typica-mejorado-2025",
+          "title": "Ecuador La Papaya Typica Mejorado 2025",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "The 2025 Typica Mejorado release matches apricot, marshmallow and lily; the page spells the final note “lilly”.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Ecuador",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Saraguro",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Juan Peña",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "La Papaya",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Typica Mejorado"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "a9b4b5da7bad838cf69b6427b39e9caa3bd6769b4199af911a60f23446885678",
+      "after_sha256": "b4159831f3637f51c41bb796ab7b9ecf2c229e43cf9b4c6c507c6bab107c1d0f"
+    },
+    {
+      "id": "2025-08-27-hs-iridescence",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive/panama-savage-iridescence-2025",
+          "title": "Panama Savage Iridescence 2025",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Coffee name and all three recorded tasting notes match the roaster page; the offering year is compatible with the recorded roast date. Last batch roasted September 21, 2025.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Jamison Savage",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Finca Deborah",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Carbonic macerated washed",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "09f2dab7d327bc81b53aaada26032c387e8c715be3b9e8a1762ce2e2423b2be6",
+      "after_sha256": "e86c04447a872701687f30cf4a7d489e129b010249e823f4264e08f5e89d713a"
+    },
+    {
+      "id": "2025-12-08-hs-deborah-aril",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive/panama-deborah-aril-2025",
+          "title": "Panama Deborah Aril 2025",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Coffee name and all three recorded tasting notes match the roaster page; the offering year is compatible with the recorded roast date.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Panama",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Boquete",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Jamison Savage",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Finca Deborah",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Gesha"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Carbonic macerated natural, washed finish hybrid",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.roast_level",
+          "before": null,
+          "after": "Hyperlight",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "db7861c75f03947d8153bc1b6c1e37fe0c576ebc05fc4a4f687bb6d3392e8d2a",
+      "after_sha256": "6db3abe75c209e8fc4c1a0509f92903a2366c8605a5d9ee26eb5fe56c19d0406"
+    },
+    {
+      "id": "2025-12-08-hs-el-sendero",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive/colombia-el-sendero-2025",
+          "title": "Colombia El Sendero 2025",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Coffee name and all three recorded tasting notes match the roaster page; the offering year is compatible with the recorded roast date.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Colombia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Cauca",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Andrés Martinez",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "El Sendero",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Gesha"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Double ferment washed",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "b4a52037bd4ee287ea5d98c89c66ad4ef67fb173a62ccb17615fabef53f60935",
+      "after_sha256": "dab68e8103ed036ce303742fcff41453f62b38edf3a03e0a50def3162d6a0902"
+    },
+    {
+      "id": "2026-01-18-hs-chelchele",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive/ethiopia-chelchele-2025",
+          "title": "Ethiopia Chelchele 2025",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Exact notes and compatible January 2026 timing: the page is labeled 2025 but explicitly says its last batch was roasted January 25, 2026.",
+      "research_cautions_at_review": [
+        "The source describes multiple farms or a washing station; no named individual farm is proposed.",
+        "The archive says Kurume field blend; the existing Kurume value is retained. The added producer is the company named in the roaster’s producer field."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Traycon",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "a6172b7eb4e35321cde62262ebc2c2637b26e6c2d3d2ced932c434abd85362e1",
+      "after_sha256": "d8fd064d261c8213a9e070347fb340cfab9aaea57a5735d407cc785f3352532b"
+    },
+    {
+      "id": "2026-02-08-hs-paola-trujillo",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive/colombia-paola-trujillo-2026",
+          "title": "Colombia Paola Trujillo 2026",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "The 2026 page matches all three tasting notes and reports a final roast on February 25, 2026, after the recorded February 8 roast.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Colombia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Cauca",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Paola Trujillo",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Patio Bonito",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Wush Wush"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "48cd5d96a6001ff5c0845b2f7118308594c64da3de367805c011c6a12fd0d4a6",
+      "after_sha256": "cab973967f2a2f6c72e97806c28c605281702c93456c6474c25a9f0a5a10278a"
+    },
+    {
+      "id": "2026-02-13-hs-faver-ninco",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/products/colombia-faver-ninco",
+          "title": "Colombia Faver Ninco",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive",
+          "title": "H&S Coffee Archive — 2026 Faver Ninco listing",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Product page matches the producer/name and all three notes. H&S archive index separately lists this as a 2026 offering.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Colombia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Huila",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Faver Ninco",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Finca Costa Rica",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Wush Wush"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "09116379c1effc742fb6b80909986f01153577a2f0037cca29838f39b84c64ae",
+      "after_sha256": "6248c08d956d6a85fd64e9890ecce5eb3450169cecdb20918e8babd4b853b095"
+    },
+    {
+      "id": "2026-03-01-hs-al-ofairi",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive/2026-yemen-al-ofairi",
+          "title": "2026 Yemen Al-Ofairi",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Coffee name and all three recorded tasting notes match the roaster page; the offering year is compatible with the recorded roast date.",
+      "research_cautions_at_review": [
+        "The source describes multiple farms or a washing station; no named individual farm is proposed."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Yemen",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Bani Ofair, Maghrib Ans",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Amal Al-Ofairi",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Kent"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "natural",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "3c244d871c0f856f5cde0a261502594a95b70cc77dbddfa96266b6c42fb5c10a",
+      "after_sha256": "91bd78105e363083763c1c9096d8025be918da4d39bba8e1541435a662e1d191"
+    },
+    {
+      "id": "2026-03-06-hs-gitega-861",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive/2026-rwanda-gitega-861",
+          "title": "2026 Rwanda Gitega 861",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Coffee name and all three recorded tasting notes match the roaster page; the offering year is compatible with the recorded roast date.",
+      "research_cautions_at_review": [
+        "The source describes multiple farms or a washing station; no named individual farm is proposed."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Rwanda",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Nyamagabe",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Gitega Washing Station",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Red Bourbon"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "1c75a6566b374c0ced80c629afd2be03d00d9d8dce8f1ca3647a786ade9179cf",
+      "after_sha256": "d1ca90d441c77f3c8338e154a0e02b47c8d3bfccf43f8d709c6920d588bb54de"
+    },
+    {
+      "id": "2026-03-09-hs-roger-x-eli",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive/2026-peru-roger-x-eli",
+          "title": "2026 Peru Roger x Eli",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Coffee name and all three recorded tasting notes match the roaster page; the offering year is compatible with the recorded roast date.",
+      "research_cautions_at_review": [
+        "The source describes multiple farms or a washing station; no named individual farm is proposed.",
+        "The overview explicitly names both producers; the information table lists only Roger Chilcon. Both names are retained in the proposal."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Peru",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Cajamarca",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Roger Chilcon and Eli Espinoza",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Gesha"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Anaerobic washed",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "aa9ff6cdd9a5a4e5b3f1a8fb5a6fdce99e1b6f8815212d32aa1a1b80c78b8700",
+      "after_sha256": "9270742271788cc5663b8fdb0bf5c0be7033012c72decfff89c640398105a42f"
+    },
+    {
+      "id": "2026-04-06-hs-la-victoria",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive/2026-colombia-la-victoria",
+          "title": "2026 Colombia La Victoria",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Coffee name and all three recorded tasting notes match the roaster page; the offering year is compatible with the recorded roast date.",
+      "research_cautions_at_review": [
+        "The source describes multiple farms or a washing station; no named individual farm is proposed."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Colombia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Huila",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Santa Maria washing station",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Caturra field blend"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "ee1914d4d2b1d5ce85eaa5c6904139e10ab2ac27353b4a93275a62c80ece1c80",
+      "after_sha256": "3e09e4c182158ba624e043cd277680fc93b6a1b2ecdddeee366667693413e864"
+    },
+    {
+      "id": "2026-04-06-hs-yulisa-carhuallocllo",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive/2026-peru-yulisa-carhuallocllo",
+          "title": "2026 Peru Yulisa Carhuallocllo",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Coffee name and all three recorded tasting notes match the roaster page; the offering year is compatible with the recorded roast date.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Peru",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Corazon de Chirinos",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Yulisa Carhuallocllo",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "La Miel",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Gesha"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Extended ferment washed",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "cda6c8434c18ec240341b1e7e9140b1d2ff53a78afd0df35faf91167eb6678d5",
+      "after_sha256": "1a0efac9a08a32f66b1e55499ff80f6b766ec7f26437ff286b5f66c4942e1645"
+    },
+    {
+      "id": "2024-08-18-hydrangea-carmen-natural-gesha",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/gesha-palomar-natural-carmen",
+          "title": "Gesha - Natural - Carmen, Lot Palomar",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Carmen natural Gesha and all three notes match the Palomar listing, published 2024-08-12, six days before roast.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Panama",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Volcan, Chiriqui",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Carmen Estate",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Carmen Estate",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Gesha"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Natural",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 1500,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "074dc14ec22bf531fadfa94a17156f0ed509bf1d1d0ba15ecc5e0258eca8a19d",
+      "after_sha256": "a8891a2beba53396a94ac0b4d501235907a1b9c17b38c8b8fb7d177594a800fd"
+    },
+    {
+      "id": "2024-09-20-hydrangea-negrita-honey-gesha",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/yellow-gesha-triple-staggered-nitrogen-flush-white-honey-finca-la-negrita",
+          "title": "Yellow Gesha - Triple Staggered Nitrogen Flush White Honey - Finca La Negrita",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://hydrangea.coffee/products/sub",
+          "title": "Hydrangea Drops — previous drops",
+          "accessed": "2026-09-13",
+          "supports": "Drop 12 links this product; no harvest date is implied."
+        }
+      ],
+      "matching_evidence": "La Negrita honey Gesha and all three distinctive notes match; publication 2024-09-15 is five days before roast, and subscription history identifies Drop 12.",
+      "research_cautions_at_review": [
+        "The product title says Yellow Gesha; the structured Variety field says Gesha. Proposed variety retains the explicit structured value without inferring a more specific cultivar."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Colombia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Tolima",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Mauricio Shattah",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Finca La Negrita",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Gesha"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Triple Nitrogen Flushed Anaerobic White Honey",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m_range",
+          "before": null,
+          "after": {
+            "min": 1900,
+            "max": 2100
+          },
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "478d24a9ac5ecd17f2e1766116f726f8e23fac3732c2dd36bbf74f5ea992326c",
+      "after_sha256": "ec6a3f7fa70f8454bdb6f5f4ed612387a716e16dbbe9881615fbb559c6430a94"
+    },
+    {
+      "id": "2024-10-20-hydrangea-la-florida-mejorado-washed",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/typica-mejorado-anaerobic-washed-hacienda-la-florida-copy",
+          "title": "Typica Mejorado - Anaerobic Washed - Hacienda La Florida",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://hydrangea.coffee/products/sub",
+          "title": "Hydrangea Drops — previous drops",
+          "accessed": "2026-09-13",
+          "supports": "Drop 13 links this product; no harvest date is implied."
+        }
+      ],
+      "matching_evidence": "Coffee, cultivar, washed family and all three notes match after normalizing whitecurrant/White Currant. Hydrangea lists this page as Drop 13; its September 2024 creation and October 2024 publication are compatible with this offering.",
+      "research_cautions_at_review": [
+        "The publication timestamp is 2024-10-21, one day after the recorded roast. Creation is 2024-09-29 and Drop 13 corroborates the offering; web publication is not the roast date."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Ecuador",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Loja",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Fabricio and Ramiro Coronel Pilco",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Hacienda La Florida",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Typica Mejorado"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Anaerobic Washed",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 1550,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "f2f4e872cd81c089de07c9f3973263a95a405bc6495ba2444cb37b380af6a128",
+      "after_sha256": "c99603a85a61cf8568c97e8c027aeae5567572738c77f07519f406633dfb1774"
+    },
+    {
+      "id": "2024-11-24-hydrangea-yunlan-estate-natural",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/gesha-natural-yunlan-estate-1",
+          "title": "Gesha - Natural - Yunlan Estate",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://hydrangea.coffee/products/sub",
+          "title": "Hydrangea Drops — previous drops",
+          "accessed": "2026-09-13",
+          "supports": "Drop 14 links this product; no harvest date is implied."
+        }
+      ],
+      "matching_evidence": "Yunlan natural and all three distinctive notes match the Gesha product published 2024-11-17, one week before roast. Hydrangea also links it as Drop 14.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "China",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Yunnan",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Hongjun Zhang",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Yunlan Estate",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Gesha"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Natural",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m_range",
+          "before": null,
+          "after": {
+            "min": 1600,
+            "max": 1800
+          },
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "a90c3766fdb486024c91e0d41414c5f681cb799f65797ec9cfa2c13706840afd",
+      "after_sha256": "e02033788d54f34feb0d1e9c84a43b82f4d801350f8551e3807cf96640fb5ac6"
+    },
+    {
+      "id": "2024-12-21-hydrangea-jose-luis-sl-28",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/sl28-natural-hacienda-santa-gertrudis",
+          "title": "SL28 - Natural - Hacienda Santa Gertrudis",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://hydrangea.coffee/products/sub",
+          "title": "Hydrangea Drops — previous drops",
+          "accessed": "2026-09-13",
+          "supports": "Drop 15 links this product; no harvest date is implied."
+        }
+      ],
+      "matching_evidence": "José Luis and SL28 identity plus all three notes match. Source identifies Hacienda Santa Gertrudis; published 2024-12-15 and appears as Drop 15, matching the December roast.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Ecuador",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Loja",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "José Luis Eguiguren",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Hacienda Santa Gertrudis",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "SL28"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Natural",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m_range",
+          "before": null,
+          "after": {
+            "min": 1620,
+            "max": 1720
+          },
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "b8a935117576efe10e2b63e2bb0147b88273260eb8dd057e0e34fec56e92ea8c",
+      "after_sha256": "39b962d19988b70a43f292ad740579a0c665481f569f7d8b1d9a05b7bc189e37"
+    },
+    {
+      "id": "2025-01-25-hydrangea-lpet-java-lactic",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/java-lactic-la-palma-y-el-tucan",
+          "title": "Java - Lactic - La Palma y El Tucan",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://hydrangea.coffee/products/sub",
+          "title": "Hydrangea Drops — previous drops",
+          "accessed": "2026-09-13",
+          "supports": "Drop 16 links this product; no harvest date is implied."
+        }
+      ],
+      "matching_evidence": "Exact Java/lactic identity and all three notes match. Page was published 2025-01-19, six days before the roast, and appears as Drop 16.",
+      "research_cautions_at_review": [
+        "The title associates this lot with La Palma y El Tucan, but does not establish the grower's farm name; farm remains blank."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Colombia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Zipacon, Cundinamarca",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Faustino Reyes",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Java"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Lactic",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 1800,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "08f134cfdb65fe941f51b1770a8affb01ff5ef8fcb2301f5c8bca5b63f39909b",
+      "after_sha256": "63ce475170a32fbf734544c7ec7667ce1515d2250c123e2fb9eace98fff58666"
+    },
+    {
+      "id": "2025-02-23-hydrangea-finca-gascon-gesha",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/gesha-koji-lactic-finca-gascon",
+          "title": "Gesha - Koji + Lactic - Finca Gascon",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://hydrangea.coffee/products/sub",
+          "title": "Hydrangea Drops — previous drops",
+          "accessed": "2026-09-13",
+          "supports": "Drop 17 links this product; no harvest date is implied."
+        }
+      ],
+      "matching_evidence": "Finca Gascon Gesha and the three notes match (Ito en is expanded to Ito en Green Tea). The Koji + Lactic page was published 2025-02-17, six days before roast, and appears as Drop 17.",
+      "research_cautions_at_review": [
+        "The structured process says Koji + Lactic; the narrative calls it a koji hybrid washed method. Proposed process retains the explicit structured field."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Guatemala",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Antigua",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Felipe Contreras",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Finca Gascon",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Gesha"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Koji + Lactic",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 1900,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "2fd0b7ea1f7bbbba2bec31153711da6a8b8a09b8d7839e1f62643f253af98cee",
+      "after_sha256": "675796d185d89f7e780133a88071157702b19d0b8185167b3e54bf0fca50db0a"
+    },
+    {
+      "id": "2025-03-23-hydrangea-la-papaya-mejorado",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/typica-mejorado-yeast-washed-hacienda-la-papaya-reserve",
+          "title": "Typica Mejorado - Yeast Washed - Hacienda La Papaya ‑ Reserve",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://hydrangea.coffee/products/sub",
+          "title": "Hydrangea Drops — previous drops",
+          "accessed": "2026-09-13",
+          "supports": "Drop 18 links this product; no harvest date is implied."
+        }
+      ],
+      "matching_evidence": "All three notes match specifically the La Papaya Reserve Yeast Washed Mejorado, distinguishing it from other La Papaya Mejorado processes. Page published 2025-03-20, three days before roast, and appears as Drop 18.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Ecuador",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Saraguro, Loja",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Juan Peña",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Hacienda La Papaya",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Typica Mejorado"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Yeast Washed",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m_range",
+          "before": null,
+          "after": {
+            "min": 1900,
+            "max": 2100
+          },
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "184a69c12cbad3dd4acb4027f1f4c41802c4bebf46499063553b55956d0f48be",
+      "after_sha256": "fd0ee3253d2c11e87685c266d648571bc831e6d5db601912f9d04bd05b3b07cf"
+    },
+    {
+      "id": "2025-04-13-hydrangea-chichang-washed-catimor",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/catimor-washed-chichang",
+          "title": "Catimor - Washed - Chichang",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "All three notes and Chichang washed identity match the product published 2025-04-06. A separate 2026 Chichang washed listing exists; the 2025 handle and its exact notes are used.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "China",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Chichang, Mengliang, Yunnan",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Gong Yi Jia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Catimor"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 1800,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "cd4019eb9b25067801be9b5037368b59209f28eef4a058038acfe34fa59c0245",
+      "after_sha256": "139a07ce0e18f4e5bdc02ac9ef3a0b8b81edaad09ab68629f4b8839ded620490"
+    },
+    {
+      "id": "2025-04-13-hydrangea-yunlan-natural-sl34",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/sl34-natural-yunlan-estate",
+          "title": "SL34 - Natural - Yunlan Estate",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Exact Yunlan natural SL34 identity and all three notes match. Product was published 2025-04-06, one week before the recorded roast.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "China",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Yunnan",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Hongjun Zhang",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Yunlan Estate",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "SL34"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Natural",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m_range",
+          "before": null,
+          "after": {
+            "min": 1600,
+            "max": 1800
+          },
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "f6b7ec01e7d254925f8d1a7e0c60a92db621eb67932a4b0c3bfacfcd3ddee232",
+      "after_sha256": "e911f158ce0ca01699fd4c6a60c98449a4d206837e396e808bde19e4767cdb04"
+    },
+    {
+      "id": "2025-04-13-hydrangea-zhiqiu-dehong-catimor",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/catimor-anaerobic-yeast-washed-dehong",
+          "title": "Catimor - Anaerobic Yeast Washed \"Zhiqiu\" - Dehong, Yi Nian Yi Su Collective",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://hydrangea.coffee/collections/brian-quan-x-hydrangea-coffee",
+          "title": "Brian Quan x Hydrangea Coffee",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Exact Zhiqiu/Dehong/Catimor identity and all three notes match the page published January 2025. It is also part of the roaster's Brian Quan China collection, consistent with the other April 2025 records.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "China",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Dehong, Yunnan",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Luo Yuan Chen",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Catimor"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Anaerobic Yeast Washed",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m_range",
+          "before": null,
+          "after": {
+            "min": 1500,
+            "max": 1600
+          },
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "21de16010e45cb9e707bced8917f00f9c6cfc509bb9438c73aa5fccb75e202b4",
+      "after_sha256": "b90965f04cb6d30ced041a616d14e9e4fe0a7a7a0d3271e9173881987e8883fc"
+    },
+    {
+      "id": "2025-04-20-hydrangea-jose-luis-mejorado",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/mejorado-washed-hacienda-santa-gertrudis",
+          "title": "Typica Mejorado - Washed - Hacienda Santa Gertrudis",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://hydrangea.coffee/products/sub",
+          "title": "Hydrangea Drops — previous drops",
+          "accessed": "2026-09-13",
+          "supports": "Drop 19 links this product; no harvest date is implied."
+        }
+      ],
+      "matching_evidence": "José Luis and Mejorado identity and all three notes match. The older URL is explicitly linked as Drop 19, between the matching 2025 La Papaya and Jardines drops, corroborating its reuse for this offering.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Ecuador",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Loja",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "José Luis Eguiguren",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Hacienda Santa Gertrudis",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Typica Mejorado"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m_range",
+          "before": null,
+          "after": {
+            "min": 1600,
+            "max": 1700
+          },
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "7846eecf80e103b1d6a78f5ddf9062191d1c8212b9cff99cf714e293df70a61a",
+      "after_sha256": "b758a64c97d84e8b8f07f4d523da8a19cb340dc0cd649d03a71a7c644868f285"
+    },
+    {
+      "id": "2025-05-25-hydrangea-jardines-del-eden",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/yellow-sudan-rume-washed-jardines-del-eden",
+          "title": "Yellow Sudan Rume - Washed - Jardines Del Edén",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://hydrangea.coffee/products/sub",
+          "title": "Hydrangea Drops — previous drops",
+          "accessed": "2026-09-13",
+          "supports": "Drop 20 links this product; no harvest date is implied."
+        }
+      ],
+      "matching_evidence": "Jardines del Eden, producer, process and the grapefruit/uchuva profile match; source spells verbena as Verbana. Product was published 2025-05-19 and appears as Drop 20, consistent with the May 25 roast.",
+      "research_cautions_at_review": [
+        "The product title and Drop 20 say Yellow Sudan Rume, while the body uses the broader Sudan Rume. The existing Yellow Sudan Rume value is preserved."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 1800,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "780d1e7538134001eefdecbb06abe6e77d57bc429a41089bc56c359ec2304a2a",
+      "after_sha256": "ef14ba89265a97dbed6268f028ecf9b8c6568751088f022fadccba0c38a40e67"
+    },
+    {
+      "id": "2025-06-21-hydrangea-lpet-lactic-bourbon",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/yellow-bourbon-lactic-finca-las-nubes",
+          "title": "Yellow Bourbon - Lactic - La Palma y El Tucan",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://hydrangea.coffee/products/sub",
+          "title": "Hydrangea Drops — previous drops",
+          "accessed": "2026-09-13",
+          "supports": "Drop 21 links this product; no harvest date is implied."
+        }
+      ],
+      "matching_evidence": "Lactic Bourbon identity and all three distinctive notes match; source specifies Yellow Bourbon. Page was published 2025-06-20, one day before the roast, and appears as Drop 21.",
+      "research_cautions_at_review": [
+        "The URL contains Finca Las Nubes, but the displayed product content does not identify that as the farm; farm remains blank."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Colombia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Zipacon, Cundinamarca",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Faustino Reyes",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Yellow Bourbon"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Lactic",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 1800,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "6a67fa8594bd28ada87e4ca56c8d45372d42ddbcac63faf0c1cab986d36561e2",
+      "after_sha256": "7bc513bf5890d660ae07b339866e01ed109a370f279b5c472a01db80036c7a45"
+    },
+    {
+      "id": "2025-07-20-hydrangea-pepe-jijon-anaerobic-sidra",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/sidra-anaerobic-washed-finca-soledad",
+          "title": "Sidra - Anaerobic Washed - Finca Soledad",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://hydrangea.coffee/products/sub",
+          "title": "Hydrangea Drops — previous drops",
+          "accessed": "2026-09-13",
+          "supports": "Drop 22 links this product; no harvest date is implied."
+        }
+      ],
+      "matching_evidence": "Exact producer/Sidra identity and all three unusual notes match. Page was published in June 2025 and appears as Drop 22, consistent with the July roast.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Ecuador",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Imbabura",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Pepe Jijon",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Finca Soledad",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Sidra"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Anaerobic washed",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 1515,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "84d017a7193f20814c46a1534339fdb19314a11309cd38b00a703e0b33b3bf14",
+      "after_sha256": "35971965a6f53ae4bcc39cbce8bfd28b08c586a0db12e3c628f9441749433ec9"
+    },
+    {
+      "id": "2025-08-24-hydrangea-hachi-haiku",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/landrace-advanced-fermentation-haiku-%E4%BF%B3%E5%8F%A5-hachi-project",
+          "title": "Landrace - Advanced Fermentation \"Haiku (俳句)\" - Hachi Project",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://hydrangea.coffee/products/sub",
+          "title": "Hydrangea Drops — previous drops",
+          "accessed": "2026-09-13",
+          "supports": "Drop 23 links this product; no harvest date is implied."
+        }
+      ],
+      "matching_evidence": "Exact distinctive Haiku name, all three notes and existing origin/cultivar match. Product was published 2025-08-18, six days before the recorded roast, and appears as Drop 23.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Allan Hartman and Diego Bermudez",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Rocky Mountain Farms",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Symbiotic Fermentation",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m_range",
+          "before": null,
+          "after": {
+            "min": 1400,
+            "max": 1600
+          },
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.subregion",
+          "before": null,
+          "after": "Renacimiento",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "3bda9fd7a14498b5fb87cadb09b830165bf39a044af6b7ac808feaff269a4b0c",
+      "after_sha256": "27e119adb2f96522331c69daa7570221ce33b56c8442876ca3d80c7e79999845"
+    },
+    {
+      "id": "2025-09-21-hydrangea-cgle-las-margaritas-gesha",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/gesha-washed-cafe-granja-la-esperanza-las-magaritas",
+          "title": "Gesha - Washed - Cafe Granja La Esperanza, Las Margaritas",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://hydrangea.coffee/products/sub",
+          "title": "Hydrangea Drops — previous drops",
+          "accessed": "2026-09-13",
+          "supports": "Drop 24 links this product; no harvest date is implied."
+        }
+      ],
+      "matching_evidence": "Exact Las Margaritas Gesha identity and all three notes match; page published 2025-09-19, two days before roast, and appears as Drop 24.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Colombia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Valle del Cauca",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Rigoberto and Luis Eduardo Herrera",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Finca Las Margaritas",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Gesha"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m_range",
+          "before": null,
+          "after": {
+            "min": 1570,
+            "max": 1850
+          },
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.subregion",
+          "before": null,
+          "after": "Caicedonia",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "ece8c8d9edda4d383fa009600a3afa2e1defa8c4659cbd21e7f199875e470d8b",
+      "after_sha256": "b2e46bddde536f3bdf9cd06c7cfcce1a072c0f1fc2a25d5f26d099ae9fd7fb0a"
+    },
+    {
+      "id": "2025-09-28-hydrangea-mirador-orange-bourbon",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/orange-bourbon-mc-washed-finca-el-mirador",
+          "title": "Orange Bourbon - CM Washed - Finca El Mirador",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "Exact El Mirador Orange Bourbon and all three distinctive notes match. Page was published August 2025, compatible with the September roast.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Colombia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Huila",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Elkin Ferney Guzman Vargas",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Finca El Mirador",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Orange Bourbon"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Carbonic Maceration Washed",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m_range",
+          "before": null,
+          "after": {
+            "min": 1550,
+            "max": 1750
+          },
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "568071430fb17f024c32e729673c95e7e57cc9b4abdab588b181aba3daff4ac6",
+      "after_sha256": "8a6524ceb565e7ddf39a9226376c39f5277352ad78f5368e03420e110c388a88"
+    },
+    {
+      "id": "2025-11-24-hydrangea-lerida-washed",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/gesha-washed-finca-lerida",
+          "title": "Gesha - Washed - Finca Lerida",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://hydrangea.coffee/products/sub",
+          "title": "Hydrangea Drops — previous drops",
+          "accessed": "2026-09-13",
+          "supports": "Drop 26 links this product; no harvest date is implied."
+        }
+      ],
+      "matching_evidence": "Lerida Washed and all three notes match. Hydrangea explicitly links this older URL as Drop 26, between the matching 2025 Florida and Pepe drops, corroborating the offering despite the older URL.",
+      "research_cautions_at_review": [
+        "The old URL dates to 2023; Drop 26 and the exact note profile corroborate a later offering, but no harvest date is asserted."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Panama",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Chiriqui",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Maria Antonella Amoruso",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Finca Lerida",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Gesha"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Fully Washed",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m_range",
+          "before": null,
+          "after": {
+            "min": 1600,
+            "max": 2000
+          },
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "f1cf483dc6098d8b69dcd445fabcce9fd4c598a97014fee4bd5fedc03666834e",
+      "after_sha256": "e03a3df994379f26dd584763fc70a50e76bc9113ef39b0bd8ac4cdd27015de11"
+    },
+    {
+      "id": "2025-12-21-hydrangea-pepe-wave-sidra",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/sidra-dry-fermented-wave-honey-finca-soledad",
+          "title": "Sidra - Dry Fermented Wave Honey - Finca Soledad",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://hydrangea.coffee/products/sub",
+          "title": "Hydrangea Drops — previous drops",
+          "accessed": "2026-09-13",
+          "supports": "Drop 27 links this product; no harvest date is implied."
+        }
+      ],
+      "matching_evidence": "Pepe/Sidra and all three notes match specifically the Dry Fermented Wave Honey listing. Hydrangea identifies it as Drop 27, and its 2025 publication is compatible with the December record.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Ecuador",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Imbabura",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Pepe Jijon",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Finca Soledad",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Sidra"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Dry Fermented Wave Honey",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 1515,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "2dbf4e992517be1206776225aa3ad362897ea7ea61b8d299be653f6dbbfd6cfc",
+      "after_sha256": "599333a3ac78c0a03a8e7d4b32f698068c8470f330247e75981d42ca8d447ec2"
+    },
+    {
+      "id": "2026-02-22-hydrangea-hartmann-sl28-lot-50",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/sl28-washed-finca-hartmann-lot-50",
+          "title": "SL28 - Washed - Finca Hartmann, Lot 50",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://hydrangea.coffee/products/sub",
+          "title": "Hydrangea Drops — previous drops",
+          "accessed": "2026-09-13",
+          "supports": "Drop 29 links this product; no harvest date is implied."
+        }
+      ],
+      "matching_evidence": "Exact Hartmann Lot 50 and all three distinctive notes match. Product was created and published 2026-02-19, immediately before the recorded roast; subscription history identifies Drop 29.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Panama",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Santa Clara, Chiriqui",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Hartmann Family",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Finca Hartmann",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "SL28"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m_range",
+          "before": null,
+          "after": {
+            "min": 1400,
+            "max": 2000
+          },
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "d610f264f0c037d2e92b4503304bab58b15538a69f90fcf155501978d2b08b41",
+      "after_sha256": "727b7b513ac6ed97e0203b4b09dc22590c167e6ab3060ac72e482ca35458773f"
+    },
+    {
+      "id": "2026-03-22-hydrangea-el-socorro-gesha",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/gesha-washed-el-socorro",
+          "title": "Gesha - Washed - Finca El Socorro",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://hydrangea.coffee/products/sub",
+          "title": "Hydrangea Drops — previous drops",
+          "accessed": "2026-09-13",
+          "supports": "Drop 30 links this product; no harvest date is implied."
+        }
+      ],
+      "matching_evidence": "Exact farm/Gesha identity and all three notes match after normalizing whitespace. Page published 2026-03-20, two days before roast, and appears as Drop 30.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Guatemala",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Palencia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Juan Diego de la Cerda",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Finca El Socorro",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Gesha"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m_range",
+          "before": null,
+          "after": {
+            "min": 1798,
+            "max": 1890
+          },
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "73d1bde2a99dfc13030ff04e784c0b8eabd456bcd15ded446609b42a20c4d9db",
+      "after_sha256": "a7b82ec4a514a0331c7335193af3342f135a57ee3907a2bcb1de8232e9f9c6c9"
+    },
+    {
+      "id": "2026-07-26-hydrangea-luis-anibal-yirgacheffe",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://hydrangea.coffee/products/yigracheffe-natural-villa-betulia-luis-anibal",
+          "title": "Yirgacheffe - Natural - Villa Betulia, Luis Anibal",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://hydrangea.coffee/products/sub",
+          "title": "Hydrangea Drops — previous drops",
+          "accessed": "2026-09-13",
+          "supports": "Drop 34 links this product; no harvest date is implied."
+        }
+      ],
+      "matching_evidence": "Exact producer, farm, cultivar and all three notes match. Product was created/published 2026-07-23, three days before the record, and appears as Drop 34. Only the missing elevation range is proposed.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "coffee_details.elevation_m_range",
+          "before": null,
+          "after": {
+            "min": 1500,
+            "max": 1600
+          },
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "f8488bbfc5fae69022d20c8c396b524c7bcb62d2b29b0aa5aa180a780e48465b",
+      "after_sha256": "a578e1fe6fe27613771182f824dfd98c2c2ab7c7142a01dbaffbacc729f93c22"
+    },
+    {
+      "id": "2024-04-08-sey-ricardo-silva-finca-el-suspiro",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://www.seycoffee.com/products/2024-ricardo-silva-finca-el-suspiro-colombia",
+          "title": "SEY — 2024 Ricardo Silva; Finca El Suspiro - Colombia",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.seycoffee.com/products/2024-ricardo-silva-finca-el-suspiro-colombia.json",
+          "title": "SEY public product metadata — publication timing",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "The 2024 Gesha release matches Ricardo Silva, Finca El Suspiro, and the jasmine/sugar/tangerine profile. December 2023 harvest and March 14, 2024 publication fit the April 8 roast.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Colombia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Algeciras, Huila",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Ricardo Silva",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Finca El Suspiro",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Gesha"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 1950,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "a09792bb393f6448954f9987d8b601e9377cf6f26e6dead0b4acba633a543ac1",
+      "after_sha256": "ec3c92aae544054f61c23ce29c0aa1cca3fe31a5a10e1a16926d96958f2f5430"
+    },
+    {
+      "id": "2024-04-22-sey-servio-botina-el-cedro-copa-de-oro",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://www.seycoffee.com/products/2024-servio-botina-el-cedro-colombia",
+          "title": "SEY — 2024 Servio Botina; El Cedro - Colombia",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.seycoffee.com/products/2024-servio-botina-el-cedro-colombia.json",
+          "title": "SEY public product metadata — publication timing",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "The 2024 Copa de Oro release matches the producer, El Cedro name, and all recorded flavor descriptors. The October 2023 harvest and April 18, 2024 publication precede the recorded April 22 roast.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Colombia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Purutal, San Agustín, Huila",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Servio Botina",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "El Cedro",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Pink Bourbon"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 1870,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "1eda1178b3fdd3474e9a0049be70e08dbf8676d8c5f4fe72b0d26b95b6b559b0",
+      "after_sha256": "2bd88910531954b360057147296f0d6f4abfe44de03897c0233a64713cb842a7"
+    },
+    {
+      "id": "2024-05-28-sey-chelchele",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://www.seycoffee.com/products/2024-chelchele-ethiopia",
+          "title": "SEY — 2024 Chelchele - Ethiopia",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.seycoffee.com/products/2024-chelchele-ethiopia.json",
+          "title": "SEY public product metadata — publication timing",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "The 2024 Chelchele page matches the stored name and stone fruit/green florals/melon profile. December 2023 harvest and May 15, 2024 publication fit the May 28 roast.",
+      "research_cautions_at_review": [
+        "Chelbessa is the washing station receiving these families’ coffee, rather than an individual farm. Region spelling is preserved from SEY."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Ethiopia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Gedeb, Yirgachefe",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.subregion",
+          "before": null,
+          "after": "Chelchele",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Smallholder families in Chelchele",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Ethiopian Landrace"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 2000,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "a18baad4903e01876ddc47d8c331a90faa051feae35974c33839d6035fc3bc49",
+      "after_sha256": "e73705d5bbde6487b9ad44419ac7b0a8bb05bacb3303ea75ab45e3d862366535"
+    },
+    {
+      "id": "2024-08-05-sey-worka",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://www.seycoffee.com/products/2024-worka-ethiopia",
+          "title": "SEY — 2024 Worka - Ethiopia",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.seycoffee.com/products/2024-worka-ethiopia.json",
+          "title": "SEY public product metadata — publication timing",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "The 2024 Worka page matches the recorded name and the three distinctive flavor descriptors, including oxidized oolong. Its December 2023 harvest and July 18, 2024 publication fit the August 5 roast.",
+      "research_cautions_at_review": [
+        "The page does not identify a specific farm or individual producer."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Ethiopia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Gedeb, Gedeo",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Ethiopian Landrace"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m_range",
+          "before": null,
+          "after": {
+            "min": 1900,
+            "max": 2200
+          },
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "68554dd43b40b0b1935d661ccfaeb8edf2e931ff03564438ad6b7d2dd9dec370",
+      "after_sha256": "a74b1ce167eab6d064dc14161fc60fa02f822bfbda426d588e1c71a980983d61"
+    },
+    {
+      "id": "2024-09-09-sey-bq-pepe-sidra",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://www.seycoffee.com/products/jijon-quan",
+          "title": "SEY — The Jijon-Quan coffee!",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.seycoffee.com/products/jijon-quan.json",
+          "title": "SEY public product metadata — publication timing",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "The unique Brian Quan/Pepe collaboration matches the stored BQ Pepe Sidra name and all three tasting notes exactly. Public product metadata dates creation and publication to September 5, 2024, four days before the recorded roast.",
+      "research_cautions_at_review": [
+        "The visible page has no release year; year compatibility is supported by its public product metadata. Region, elevation, and complete producer attribution are not provided on this collaboration page."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Ecuador",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Finca Soledad",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Sidra"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "9ee1e87e7c4488d8d4be2ce74480261a491d25eeebf443e735aad681cbc7b9ea",
+      "after_sha256": "13e44f6323f110555712e050a13cd1cbcadc8fd7892f933b8a73d219e338ad01"
+    },
+    {
+      "id": "2024-09-09-sey-kubi",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://www.seycoffee.com/products/2024-kubi-honey-ethiopia",
+          "title": "SEY — 2024 Kubi, Honey - Ethiopia",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.seycoffee.com/products/2024-kubi-honey-ethiopia.json",
+          "title": "SEY public product metadata — publication timing",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "The 2024 Honey offering matches the recorded tropical fruit, jasmine pearls, and stone fruit descriptors. December 2023 harvest and August 28, 2024 publication fit the September 9 roast.",
+      "research_cautions_at_review": [
+        "The coffee comes from a group of producers in the Kubi area. Washing-station operator Neguesse Debela is not assigned as the sole farm producer."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Ethiopia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Gedeb, Gedeo",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.subregion",
+          "before": null,
+          "after": "Kubi",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Kubi-area producers",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Ethiopian Landrace"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Honey",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 2200,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "c9aecb92e4fb215b29a64dafe2e186b047df0510f79e2700e7470e26c3b2c460",
+      "after_sha256": "eb5418d9f3f2bef032a307f4d967665bcc0dc70e2998fffc0777b9a9d9617cf6"
+    },
+    {
+      "id": "2024-12-30-sey-abel-salinas-arashi",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://www.seycoffee.com/products/2024-abel-salinas-arashi-ecuador",
+          "title": "SEY — 2024 Abel Salinas; Arashi - Ecuador",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.seycoffee.com/products/2024-abel-salinas-arashi-ecuador.json",
+          "title": "SEY public product metadata — publication timing",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "The 2024 Abel Salinas/Arashi release matches the name and floral/peach/lemon profile. Its August 2024 harvest and December 26 publication fit the December 30 roast.",
+      "research_cautions_at_review": [],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Ecuador",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Saraguro, Loja",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Abel Salinas",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.farm",
+          "before": null,
+          "after": "Arashi",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "Mejorado"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "Washed",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 1900,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "4b67403dd7e834ed86e030fe2ae76760e829c72f0ca41153cd03b8d5d66544ab",
+      "after_sha256": "6b3576f196efb766e777607d37f0d1037bdf1bc58e5193949611ec813e6df89f"
+    },
+    {
+      "id": "2025-11-10-sey-tamiru-tadesse-tesema",
+      "match_assessment": "clear_match",
+      "approval": {
+        "decision": "clear_match_accepted_by_backfill_request"
+      },
+      "sources": [
+        {
+          "url": "https://www.seycoffee.com/products/2025-tamiru-tadesse-tesema-alo-village-white-honey-ethiopia",
+          "title": "SEY — 2025 Tamiru Tadesse Tesema; Alo Village, White Honey - Ethiopia",
+          "accessed": "2026-09-13"
+        },
+        {
+          "url": "https://www.seycoffee.com/products/2025-tamiru-tadesse-tesema-alo-village-white-honey-ethiopia.json",
+          "title": "SEY public product metadata — publication timing",
+          "accessed": "2026-09-13"
+        }
+      ],
+      "matching_evidence": "The 2025 White Honey release matches the producer and all three recorded tasting notes exactly. February 2025 harvest and October 30, 2025 publication fit the November 10 roast.",
+      "research_cautions_at_review": [
+        "Alo Village is a place name; the page does not identify a distinct farm name."
+      ],
+      "user_confirmed": null,
+      "fields": [
+        {
+          "path": "origin.country",
+          "before": null,
+          "after": "Ethiopia",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.region",
+          "before": null,
+          "after": "Alo Village, Bensa, Sidama",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "origin.producer",
+          "before": null,
+          "after": "Tamiru Tadesse Tesema",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.varieties",
+          "before": [],
+          "after": [
+            "74158"
+          ],
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.process",
+          "before": null,
+          "after": "White Honey",
+          "operation": "fill_missing"
+        },
+        {
+          "path": "coffee_details.elevation_m",
+          "before": null,
+          "after": 2410,
+          "operation": "fill_missing"
+        }
+      ],
+      "before_sha256": "1b7b3fad8d47e09457c55cde2728ce7d8964aaf248a24baeca2bdc72b49c0090",
+      "after_sha256": "b86e10ceb2af915852759d80f675fa44f127bce0c6a4cfff6f513ea81dd23f87"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "2026-07-05-hs-efren-rodriguez",
+      "reason": "Agree with your interpretation -- looks like the data from the other coffee was accidentally copied onto this page",
+      "decision": "skip",
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive/2026-colombia-efren-rodriguez",
+          "title": "2026 Colombia Efren Rodriguez",
+          "accessed": "2026-09-13"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-07-hs-efrain-carhuallocllo",
+      "reason": "Matched source supplies no new fields.",
+      "decision": "no_additions",
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/products/peru-efrain-carhuallocllo",
+          "title": "Peru Efrain Carhuallocllo",
+          "accessed": "2026-09-13"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-07-hs-ernedis-rodriguez",
+      "reason": "Matched source supplies no new fields.",
+      "decision": "no_additions",
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/blogs/coffee-archive/2026-colombia-ernedis-rodriguez",
+          "title": "2026 Colombia Ernedis Rodriguez",
+          "accessed": "2026-09-13"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-05-hs-juan-pena",
+      "reason": "Matched source supplies no new fields.",
+      "decision": "no_additions",
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/products/ecuador-juan-pena-mejorado",
+          "title": "ecuador-juan-pena-mejorado",
+          "accessed": "2026-09-13"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-04-hs-juan-pena-natural",
+      "reason": "Matched source supplies no new fields.",
+      "decision": "no_additions",
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/products/ecuador-juan-pena-natural-mejorado",
+          "title": "ecuador-juan-pena-natural-mejorado",
+          "accessed": "2026-09-13"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-05-hs-la-fortuna-pink-bourbon",
+      "reason": "Matched source supplies no new fields.",
+      "decision": "no_additions",
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/products/colombia-la-fortuna-pink-bourbon",
+          "title": "colombia-la-fortuna-pink-bourbon",
+          "accessed": "2026-09-13"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-06-hs-la-fortuna-bourbon-aji",
+      "reason": "Matched source supplies no new fields.",
+      "decision": "no_additions",
+      "sources": [
+        {
+          "url": "https://hscoffeeroasters.com/products/colombia-la-fortuna-bourbon-aji",
+          "title": "colombia-la-fortuna-bourbon-aji",
+          "accessed": "2026-09-13"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "coffees_updated": 78,
+    "missing_fields_filled": 430,
+    "existing_fields_corrected": 1,
+    "manual_cases_accepted": 22,
+    "clear_matches_applied": 56,
+    "manual_cases_skipped": 1,
+    "matched_without_additions": 6
+  }
+}

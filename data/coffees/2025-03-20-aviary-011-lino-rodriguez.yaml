@@ -17,7 +17,7 @@ coffee_details:
   varieties:
     - "Gesha"
   process: "Honey"
-  roast_level: null
+  roast_level: Light
   tasting_notes:
     - "Jasmine"
     - "orange blossom"

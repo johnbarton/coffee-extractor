@@ -7,15 +7,16 @@ coffee:
   roast_date: 2025-04-30
 
 origin:
-  country: null
-  region: null
+  country: Colombia
+  region: Caldas
   subregion: null
-  producer: null
-  farm: null
+  producer: Mauricio Duque
+  farm: Dulce Misterio
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Pink Bourbon
+  process: Washed
   roast_level: null
   tasting_notes:
     - "Peach"

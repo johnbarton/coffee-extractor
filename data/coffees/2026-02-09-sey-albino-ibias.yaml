@@ -7,22 +7,23 @@ coffee:
   roast_date: 2026-02-09
 
 origin:
-  country: null
-  region: null
+  country: Peru
+  region: Inkawasi, Cusco
   subregion: null
-  producer: null
-  farm: null
+  producer: Albino Ibias
+  farm: Tres Cedros
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - SL9
+  process: Washed
   roast_level: null
   tasting_notes:
     - "Tropical melon"
     - "jasmine"
     - "honey"
     - "peach"
-  elevation_m: null
+  elevation_m: 2260
   elevation_m_range: null
   weight_g: null
   form: null

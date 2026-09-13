@@ -7,21 +7,22 @@ coffee:
   roast_date: 2024-08-04
 
 origin:
-  country: null
-  region: null
+  country: Colombia
+  region: Cauca
   subregion: null
-  producer: null
-  farm: null
+  producer: Samuel Diego Bermudez
+  farm: Finca El Paraiso
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Gesha
+  process: Double fermentation thermal shock
   roast_level: null
   tasting_notes:
     - "White peach"
     - "jasmine milk tea"
     - "dried rose"
-  elevation_m: null
+  elevation_m: 1930
   elevation_m_range: null
   weight_g: null
   form: null

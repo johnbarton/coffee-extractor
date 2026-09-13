@@ -39,6 +39,8 @@ See [AGENTS.md](AGENTS.md) for detailed extraction and prompting rules.
 
 Each coffee has one editable YAML record. The record preserves the roaster's exact tasting-note wording and stores analytically useful attributes as structured fields.
 
+Archive-based additions have a source and review log under `data/provenance/`. These companion files record the supporting URLs, before/after values, matching evidence, and user-approved exceptions. They are kept separate from personal brewing notes and package photographs.
+
 ### Essential fields
 
 - Coffee name

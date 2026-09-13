@@ -7,21 +7,22 @@ coffee:
   roast_date: 2025-01-25
 
 origin:
-  country: null
-  region: null
+  country: Colombia
+  region: Zipacon, Cundinamarca
   subregion: null
-  producer: null
+  producer: Faustino Reyes
   farm: null
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Java
+  process: Lactic
   roast_level: null
   tasting_notes:
     - "Mango"
     - "sangria"
     - "strawberries"
-  elevation_m: null
+  elevation_m: 1800
   elevation_m_range: null
   weight_g: null
   form: null

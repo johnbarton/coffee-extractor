@@ -9,21 +9,23 @@ coffee:
 origin:
   country: "Panama"
   region: "Chiriqui"
-  subregion: null
-  producer: null
-  farm: null
+  subregion: Renacimiento
+  producer: Allan Hartman and Diego Bermudez
+  farm: Rocky Mountain Farms
 
 coffee_details:
   varieties:
     - "Landrace"
-  process: null
+  process: Symbiotic Fermentation
   roast_level: null
   tasting_notes:
     - "Lime"
     - "coffee cherry"
     - "sakura"
   elevation_m: null
-  elevation_m_range: null
+  elevation_m_range:
+    min: 1400
+    max: 1600
   weight_g: 227
   form: null
 

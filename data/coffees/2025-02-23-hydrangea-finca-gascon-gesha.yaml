@@ -7,21 +7,22 @@ coffee:
   roast_date: 2025-02-23
 
 origin:
-  country: null
-  region: null
+  country: Guatemala
+  region: Antigua
   subregion: null
-  producer: null
-  farm: null
+  producer: Felipe Contreras
+  farm: Finca Gascon
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Gesha
+  process: Koji + Lactic
   roast_level: null
   tasting_notes:
     - "Ito en"
     - "strawberry"
     - "hibiscus"
-  elevation_m: null
+  elevation_m: 1900
   elevation_m_range: null
   weight_g: null
   form: null

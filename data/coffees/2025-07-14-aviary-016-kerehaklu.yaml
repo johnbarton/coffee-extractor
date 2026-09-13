@@ -17,7 +17,7 @@ coffee_details:
   varieties:
     - "Selection 9"
   process: "Cultured Washed"
-  roast_level: null
+  roast_level: Quite light
   tasting_notes:
     - "Tangy"
     - "tamarind"

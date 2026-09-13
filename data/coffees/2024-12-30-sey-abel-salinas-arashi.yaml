@@ -7,21 +7,22 @@ coffee:
   roast_date: 2024-12-30
 
 origin:
-  country: null
-  region: null
+  country: Ecuador
+  region: Saraguro, Loja
   subregion: null
-  producer: null
-  farm: null
+  producer: Abel Salinas
+  farm: Arashi
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Mejorado
+  process: Washed
   roast_level: null
   tasting_notes:
     - "Florals"
     - "peach"
     - "lemon"
-  elevation_m: null
+  elevation_m: 1900
   elevation_m_range: null
   weight_g: null
   form: null

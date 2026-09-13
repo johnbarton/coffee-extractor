@@ -7,16 +7,17 @@ coffee:
   roast_date: 2025-05-01
 
 origin:
-  country: null
-  region: null
-  subregion: null
-  producer: null
-  farm: null
+  country: Colombia
+  region: Huila
+  subregion: La Plata
+  producer: Demetrio Sánchez Pino
+  farm: El Arrayán
 
 coffee_details:
-  varieties: []
-  process: null
-  roast_level: null
+  varieties:
+    - Gesha
+  process: Washed
+  roast_level: Light
   tasting_notes:
     - "Nectarine"
     - "jasmine"
@@ -24,7 +25,9 @@ coffee_details:
     - "orange blossom"
     - "candy sweetness"
   elevation_m: null
-  elevation_m_range: null
+  elevation_m_range:
+    min: 2100
+    max: 2200
   weight_g: 200
   form: null
 

@@ -7,21 +7,22 @@ coffee:
   roast_date: 2024-08-18
 
 origin:
-  country: null
-  region: null
+  country: Panama
+  region: Volcan, Chiriqui
   subregion: null
-  producer: null
-  farm: null
+  producer: Carmen Estate
+  farm: Carmen Estate
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Geisha
+  process: Washed
   roast_level: null
   tasting_notes:
     - "White peach"
     - "soft floral"
     - "plum"
-  elevation_m: null
+  elevation_m: 1500
   elevation_m_range: null
   weight_g: null
   form: null

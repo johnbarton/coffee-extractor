@@ -7,22 +7,25 @@ coffee:
   roast_date: 2025-09-21
 
 origin:
-  country: null
-  region: null
-  subregion: null
-  producer: null
-  farm: null
+  country: Colombia
+  region: Valle del Cauca
+  subregion: Caicedonia
+  producer: Rigoberto and Luis Eduardo Herrera
+  farm: Finca Las Margaritas
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Gesha
+  process: Washed
   roast_level: null
   tasting_notes:
     - "Jasmine"
     - "blackberry"
     - "mandarin"
   elevation_m: null
-  elevation_m_range: null
+  elevation_m_range:
+    min: 1570
+    max: 1850
   weight_g: 227
   form: null
 

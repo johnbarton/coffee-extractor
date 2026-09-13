@@ -7,15 +7,16 @@ coffee:
   roast_date: 2026-02-13
 
 origin:
-  country: null
-  region: null
+  country: Colombia
+  region: Huila
   subregion: null
-  producer: null
-  farm: null
+  producer: Faver Ninco
+  farm: Finca Costa Rica
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Wush Wush
+  process: Washed
   roast_level: null
   tasting_notes:
     - "Watermelon"

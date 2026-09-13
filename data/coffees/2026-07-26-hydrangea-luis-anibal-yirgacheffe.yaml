@@ -24,6 +24,8 @@ coffee_details:
     - Blood orange
   elevation_m:
   elevation_m_range:
+    min: 1500
+    max: 1600
   weight_g:
   form:
 

@@ -7,21 +7,22 @@ coffee:
   roast_date: 2024-10-20
 
 origin:
-  country: null
-  region: null
+  country: Ecuador
+  region: Loja
   subregion: null
-  producer: null
-  farm: null
+  producer: Fabricio and Ramiro Coronel Pilco
+  farm: Hacienda La Florida
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Typica Mejorado
+  process: Anaerobic Washed
   roast_level: null
   tasting_notes:
     - "Pineapple"
     - "whitecurrant"
     - "lilac"
-  elevation_m: null
+  elevation_m: 1550
   elevation_m_range: null
   weight_g: null
   form: null

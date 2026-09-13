@@ -7,15 +7,16 @@ coffee:
   roast_date: 2025-04-30
 
 origin:
-  country: null
-  region: null
+  country: Ecuador
+  region: Zamora Chinchipe
   subregion: null
-  producer: null
-  farm: null
+  producer: Richard Granda and Marlon Quevedo
+  farm: La Reserva
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Sidra
+  process: Washed
   roast_level: null
   tasting_notes:
     - "Plum"

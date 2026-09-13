@@ -7,15 +7,16 @@ coffee:
   roast_date: 2025-01-19
 
 origin:
-  country: null
-  region: null
+  country: Colombia
+  region: Quindio
   subregion: null
-  producer: null
-  farm: null
+  producer: Diofanor Ruiz
+  farm: La Divisa
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Tabi
+  process: Washed
   roast_level: null
   tasting_notes:
     - "Plum"

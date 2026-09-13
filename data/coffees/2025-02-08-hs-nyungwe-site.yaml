@@ -7,15 +7,16 @@ coffee:
   roast_date: 2025-02-08
 
 origin:
-  country: null
-  region: null
+  country: Rwanda
+  region: Nyamasheke
   subregion: null
-  producer: null
+  producer: Rwanda Trading Company / Nyungwe Washing Station
   farm: null
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Red Bourbon
+  process: Washed
   roast_level: null
   tasting_notes:
     - "Strawberry"

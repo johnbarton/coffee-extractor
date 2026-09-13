@@ -7,15 +7,16 @@ coffee:
   roast_date: 2025-02-09
 
 origin:
-  country: null
-  region: null
+  country: Colombia
+  region: Antioquia
   subregion: null
-  producer: null
-  farm: null
+  producer: Fabio Nelson
+  farm: Granito de Oro
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Caturro Chiroso
+  process: Extended washed
   roast_level: null
   tasting_notes:
     - "Pineapple"

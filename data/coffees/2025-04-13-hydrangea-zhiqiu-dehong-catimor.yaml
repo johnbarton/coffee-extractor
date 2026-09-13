@@ -7,22 +7,25 @@ coffee:
   roast_date: 2025-04-13
 
 origin:
-  country: null
-  region: null
+  country: China
+  region: Dehong, Yunnan
   subregion: null
-  producer: null
+  producer: Luo Yuan Chen
   farm: null
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Catimor
+  process: Anaerobic Yeast Washed
   roast_level: null
   tasting_notes:
     - "Osmanthus"
     - "passionfruit"
     - "earl grey tea"
   elevation_m: null
-  elevation_m_range: null
+  elevation_m_range:
+    min: 1500
+    max: 1600
   weight_g: 200
   form: null
 

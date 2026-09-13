@@ -7,21 +7,22 @@ coffee:
   roast_date: 2024-05-28
 
 origin:
-  country: null
-  region: null
-  subregion: null
-  producer: null
+  country: Ethiopia
+  region: Gedeb, Yirgachefe
+  subregion: Chelchele
+  producer: Smallholder families in Chelchele
   farm: null
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Ethiopian Landrace
+  process: Washed
   roast_level: null
   tasting_notes:
     - "Stone fruit"
     - "green florals"
     - "melon"
-  elevation_m: null
+  elevation_m: 2000
   elevation_m_range: null
   weight_g: null
   form: null

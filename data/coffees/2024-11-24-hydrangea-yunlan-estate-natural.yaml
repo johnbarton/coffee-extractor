@@ -7,22 +7,25 @@ coffee:
   roast_date: 2024-11-24
 
 origin:
-  country: null
-  region: null
+  country: China
+  region: Yunnan
   subregion: null
-  producer: null
-  farm: null
+  producer: Hongjun Zhang
+  farm: Yunlan Estate
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Gesha
+  process: Natural
   roast_level: null
   tasting_notes:
     - "Violet"
     - "cranberry"
     - "amaro"
   elevation_m: null
-  elevation_m_range: null
+  elevation_m_range:
+    min: 1600
+    max: 1800
   weight_g: null
   form: null
 

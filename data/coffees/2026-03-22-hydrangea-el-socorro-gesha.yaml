@@ -7,22 +7,25 @@ coffee:
   roast_date: 2026-03-22
 
 origin:
-  country: null
-  region: null
+  country: Guatemala
+  region: Palencia
   subregion: null
-  producer: null
-  farm: null
+  producer: Juan Diego de la Cerda
+  farm: Finca El Socorro
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Gesha
+  process: Washed
   roast_level: null
   tasting_notes:
     - "White peach"
     - "white hyacinth"
     - "meyer lemon"
   elevation_m: null
-  elevation_m_range: null
+  elevation_m_range:
+    min: 1798
+    max: 1890
   weight_g: null
   form: null
 

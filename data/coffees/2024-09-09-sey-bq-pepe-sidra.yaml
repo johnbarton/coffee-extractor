@@ -7,15 +7,16 @@ coffee:
   roast_date: 2024-09-09
 
 origin:
-  country: null
+  country: Ecuador
   region: null
   subregion: null
   producer: null
-  farm: null
+  farm: Finca Soledad
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Sidra
+  process: Washed
   roast_level: null
   tasting_notes:
     - "White tea"

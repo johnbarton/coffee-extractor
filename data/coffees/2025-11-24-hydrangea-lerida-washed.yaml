@@ -7,22 +7,25 @@ coffee:
   roast_date: 2025-11-24
 
 origin:
-  country: null
-  region: null
+  country: Panama
+  region: Chiriqui
   subregion: null
-  producer: null
-  farm: null
+  producer: Maria Antonella Amoruso
+  farm: Finca Lerida
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Gesha
+  process: Fully Washed
   roast_level: null
   tasting_notes:
     - "Grapefruit"
     - "acai"
     - "floral"
   elevation_m: null
-  elevation_m_range: null
+  elevation_m_range:
+    min: 1600
+    max: 2000
   weight_g: 227
   form: null
 

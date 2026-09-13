@@ -7,21 +7,22 @@ coffee:
   roast_date: 2024-04-22
 
 origin:
-  country: null
-  region: null
+  country: Colombia
+  region: Purutal, San Agustín, Huila
   subregion: null
-  producer: null
-  farm: null
+  producer: Servio Botina
+  farm: El Cedro
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Pink Bourbon
+  process: Washed
   roast_level: null
   tasting_notes:
     - "Dark berries"
     - "bright acidity"
     - "complex"
-  elevation_m: null
+  elevation_m: 1870
   elevation_m_range: null
   weight_g: null
   form: null

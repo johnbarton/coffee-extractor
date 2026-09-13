@@ -7,15 +7,16 @@ coffee:
   roast_date: 2026-02-08
 
 origin:
-  country: null
-  region: null
+  country: Colombia
+  region: Cauca
   subregion: null
-  producer: null
-  farm: null
+  producer: Paola Trujillo
+  farm: Patio Bonito
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Wush Wush
+  process: Washed
   roast_level: null
   tasting_notes:
     - "Honeydew"

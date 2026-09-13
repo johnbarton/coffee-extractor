@@ -7,21 +7,22 @@ coffee:
   roast_date: 2025-11-10
 
 origin:
-  country: null
-  region: null
+  country: Ethiopia
+  region: Alo Village, Bensa, Sidama
   subregion: null
-  producer: null
+  producer: Tamiru Tadesse Tesema
   farm: null
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - "74158"
+  process: White Honey
   roast_level: null
   tasting_notes:
     - "Dragon fruit"
     - "lychee"
     - "berries"
-  elevation_m: null
+  elevation_m: 2410
   elevation_m_range: null
   weight_g: 200
   form: null

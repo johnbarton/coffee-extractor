@@ -9,8 +9,9 @@ coffee:
 origin:
   country: "Rwanda"
   region: "Gakenke District"
-  subregion: null
-  producer: null
+  subregion: Muzo Hill
+  producer: 650 smallholders around Muzo Hill; processing overseen by Emmanuel
+    Rusatira and Theoneste Niyomugabo
   farm: "Muzo station"
 
 coffee_details:

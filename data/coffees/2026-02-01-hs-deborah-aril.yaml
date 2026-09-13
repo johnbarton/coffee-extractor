@@ -7,16 +7,17 @@ coffee:
   roast_date: 2026-02-01
 
 origin:
-  country: null
-  region: null
+  country: Panama
+  region: Boquete
   subregion: null
-  producer: null
-  farm: null
+  producer: Jamison Savage
+  farm: Finca Deborah
 
 coffee_details:
-  varieties: []
-  process: null
-  roast_level: null
+  varieties:
+    - Gesha
+  process: Carbonic macerated natural, washed finish hybrid
+  roast_level: Hyperlight
   tasting_notes:
     - "Violet"
     - "white strawberry"

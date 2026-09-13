@@ -7,21 +7,22 @@ coffee:
   roast_date: 2025-04-13
 
 origin:
-  country: null
-  region: null
+  country: China
+  region: Chichang, Mengliang, Yunnan
   subregion: null
-  producer: null
+  producer: Gong Yi Jia
   farm: null
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Catimor
+  process: Honey
   roast_level: null
   tasting_notes:
     - "Apricot"
     - "papaya"
     - "fuji apple"
-  elevation_m: null
+  elevation_m: 1800
   elevation_m_range: null
   weight_g: 200
   form: null

@@ -7,22 +7,25 @@ coffee:
   roast_date: 2026-02-22
 
 origin:
-  country: null
-  region: null
+  country: Panama
+  region: Santa Clara, Chiriqui
   subregion: null
-  producer: null
-  farm: null
+  producer: Hartmann Family
+  farm: Finca Hartmann
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - SL28
+  process: Washed
   roast_level: null
   tasting_notes:
     - "Juniper"
     - "citrus peel"
     - "heirloom tomato"
   elevation_m: null
-  elevation_m_range: null
+  elevation_m_range:
+    min: 1400
+    max: 2000
   weight_g: null
   form: null
 

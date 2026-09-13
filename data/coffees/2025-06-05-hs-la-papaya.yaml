@@ -7,15 +7,16 @@ coffee:
   roast_date: 2025-06-05
 
 origin:
-  country: null
-  region: null
+  country: Ecuador
+  region: Saraguro
   subregion: null
-  producer: null
-  farm: null
+  producer: Juan Peña
+  farm: La Papaya
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Typica Mejorado
+  process: Washed
   roast_level: null
   tasting_notes:
     - "Apricot"

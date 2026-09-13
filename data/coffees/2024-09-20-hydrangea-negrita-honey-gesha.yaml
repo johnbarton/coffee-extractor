@@ -7,22 +7,25 @@ coffee:
   roast_date: 2024-09-20
 
 origin:
-  country: null
-  region: null
+  country: Colombia
+  region: Tolima
   subregion: null
-  producer: null
-  farm: null
+  producer: Mauricio Shattah
+  farm: Finca La Negrita
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Gesha
+  process: Triple Nitrogen Flushed Anaerobic White Honey
   roast_level: null
   tasting_notes:
     - "Pomegranate"
     - "yellow peach"
     - "french 75"
   elevation_m: null
-  elevation_m_range: null
+  elevation_m_range:
+    min: 1900
+    max: 2100
   weight_g: null
   form: null
 

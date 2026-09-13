@@ -7,21 +7,22 @@ coffee:
   roast_date: 2025-07-20
 
 origin:
-  country: null
-  region: null
+  country: Ecuador
+  region: Imbabura
   subregion: null
-  producer: null
-  farm: null
+  producer: Pepe Jijon
+  farm: Finca Soledad
 
 coffee_details:
-  varieties: []
-  process: null
+  varieties:
+    - Sidra
+  process: Anaerobic washed
   roast_level: null
   tasting_notes:
     - "Lime peel"
     - "shine muscat"
     - "chamomile"
-  elevation_m: null
+  elevation_m: 1515
   elevation_m_range: null
   weight_g: 227
   form: null

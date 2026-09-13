@@ -15,9 +15,9 @@ origin:
 
 coffee_details:
   varieties:
-    - "74158"
+    - "74110"
   process: "Washed"
-  roast_level: null
+  roast_level: Light
   tasting_notes:
     - "Vibrant tropical and stonefruit notes of apricot"
     - "peach and pineapple highlighted with jasmine and pink lemonade"
