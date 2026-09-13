@@ -36,9 +36,10 @@ ratings:
   overall:
 
 inventory:
-  status:
+  status: resting
   status_date:
 
+    2026-09-12
 personal_notes:
 
 source_images:
