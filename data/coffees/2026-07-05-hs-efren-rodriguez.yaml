@@ -34,9 +34,10 @@ ratings:
   overall:
 
 inventory:
-  status:
+  status: finished
   status_date:
 
+    2026-09-12
 personal_notes:
 
 source_images:
@@ -45,4 +46,3 @@ source_images:
 record:
   added_date: 2026-08-04
   review_status: reviewed
-
