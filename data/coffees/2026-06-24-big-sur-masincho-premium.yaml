@@ -29,15 +29,17 @@ coffee_details:
   form:
 
 ratings:
-  florality:
-  fruitiness:
-  brightness:
+  florality: 4
+  fruitiness: 3
+  brightness: 4
   overall:
 
+    4
 inventory:
-  status:
+  status: finished
   status_date:
 
+    2026-09-12
 personal_notes:
 
 source_images:
