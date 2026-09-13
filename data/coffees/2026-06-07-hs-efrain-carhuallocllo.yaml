@@ -28,15 +28,17 @@ coffee_details:
   form: Whole bean
 
 ratings:
-  florality:
-  fruitiness:
-  brightness:
+  florality: 4
+  fruitiness: 3
+  brightness: 2
   overall:
 
+    4
 inventory:
-  status:
+  status: finished
   status_date:
 
+    2026-09-12
 personal_notes:
 
 source_images:
@@ -45,4 +47,3 @@ source_images:
 record:
   added_date: 2026-08-04
   review_status: reviewed
-
