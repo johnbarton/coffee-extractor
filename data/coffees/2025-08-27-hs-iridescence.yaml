@@ -28,10 +28,10 @@ coffee_details:
   form: null
 
 ratings:
-  florality: null
-  fruitiness: null
-  brightness: null
-  overall: null
+  florality: 5
+  fruitiness: 3
+  brightness: 3
+  overall: 5
 
 inventory:
   status: frozen
