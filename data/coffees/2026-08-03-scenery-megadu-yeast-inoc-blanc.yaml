@@ -30,11 +30,12 @@ coffee_details:
   form:
 
 ratings:
-  florality:
-  fruitiness:
-  brightness:
+  florality: 4
+  fruitiness: 4
+  brightness: 3
   overall:
 
+    4
 inventory:
   status: active
   status_date: "2026-09-12"
