@@ -57,6 +57,7 @@ Do not request another photograph solely to obtain an optional field.
 ## Structured fields
 
 - Use lists for varieties and tasting notes, even when only one value appears.
+- Standardize equivalent variety labels as `Gesha` (including `Geisha`), `Landrace` (including `Landraces`), and lowercase `field blend` in labels such as `Caturra field blend`. Apply the same convention inside blend components. Preserve more specific or qualified variety names, and keep roaster product names and stable IDs unchanged.
 - Keep geographical levels separate when the package supports doing so.
 - Record elevation as `elevation_m` or `elevation_m_range`; do not collapse a printed range to its midpoint.
 - Store process and roast level using the roaster's terminology.
