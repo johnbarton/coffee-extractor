@@ -4,6 +4,8 @@ A lightweight, photo-first archive of specialty coffees. The goal is to make add
 
 ## Coffee collection website
 
+[Open the coffee collection](https://coffee-collection.coffee-collection.workers.dev).
+
 The mobile website shows open bags and days since roast, frozen coffees with their recorded dates, and the complete collection grouped by roaster, variety, origin, process, or year. Ratings use the display labels Overall, Floral, Fruit, and Bright; the YAML field names stay unchanged.
 
 Public visitors can browse. The owner area at `/owner` uses Cloudflare Access sign-in and can save ratings, change status, and append brewing notes. Each save updates the existing YAML record in GitHub and checks its version to avoid overwriting another device's edit. New notes preserve earlier observations. Public pages update when Cloudflare finishes publishing the saved commit.
