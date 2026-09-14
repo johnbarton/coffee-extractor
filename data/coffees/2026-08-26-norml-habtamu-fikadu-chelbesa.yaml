@@ -1,0 +1,40 @@
+# Source photograph: IMG_0402.jpeg (retained conversation attachment).
+
+id: 2026-08-26-norml-habtamu-fikadu-chelbesa
+coffee:
+  name: Habtamu Fikadu, Chelbesa
+  roaster: norml
+  roaster_location: null
+  roast_date: 2026-08-26
+origin:
+  country: Ethiopia
+  region: Guji
+  subregion: null
+  producer: Habtamu Fikadu
+  farm: null
+coffee_details:
+  varieties:
+    # The second variety is printed as "71458" on the bag; preserved as written.
+    - "74110"
+    - "71458"
+  process: Washed
+  roast_level: null
+  tasting_notes: []
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 200
+  form: null
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+inventory:
+  status: resting
+  status_date: 2026-09-13
+personal_notes: null
+source_images:
+  - images/coffees/2026-08-26-norml-habtamu-fikadu-chelbesa/front.jpeg
+record:
+  added_date: 2026-09-13
+  review_status: reviewed

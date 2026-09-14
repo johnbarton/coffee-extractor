@@ -1,0 +1,38 @@
+# Source photograph: IMG_0400.jpeg (retained conversation attachment).
+
+id: 2026-08-26-norml-janson-lot-26-252
+coffee:
+  name: Janson Lot 26-252
+  roaster: norml
+  roaster_location: null
+  roast_date: 2026-08-26
+origin:
+  country: Panama
+  region: Chiriqui
+  subregion: Volcan
+  producer: null
+  farm: null
+coffee_details:
+  varieties:
+    - Gesha
+  process: Washed
+  roast_level: null
+  tasting_notes: []
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 100
+  form: null
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+inventory:
+  status: resting
+  status_date: 2026-09-13
+personal_notes: null
+source_images:
+  - images/coffees/2026-08-26-norml-janson-lot-26-252/front.jpeg
+record:
+  added_date: 2026-09-13
+  review_status: reviewed

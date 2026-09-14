@@ -1,0 +1,4 @@
+interface:
+  display_name: "Add Coffee from Photos"
+  short_description: "Add coffee purchases from one or more bag photos"
+  default_prompt: "Use $add-coffee to add these coffee-bag photos to the collection."
