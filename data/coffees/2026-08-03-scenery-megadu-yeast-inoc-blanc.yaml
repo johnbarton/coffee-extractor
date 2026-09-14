@@ -35,10 +35,10 @@ ratings:
   brightness: 3
   overall:
 
-    4
+    5
 inventory:
-  status: active
-  status_date: "2026-09-12"
+  status: finished
+  status_date: "2026-09-14"
 
 personal_notes:
 
