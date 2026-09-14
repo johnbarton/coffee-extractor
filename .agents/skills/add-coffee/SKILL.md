@@ -5,13 +5,13 @@ description: "Add coffee purchases to this repository's collection from attached
 
 # Add coffee from photos
 
-Turn the supplied photos into one source-backed YAML record per purchased coffee, retaining the roaster's wording and a readable copy of every relevant photograph. Finish each validated intake with a local Git commit.
+Turn the supplied photos into one source-backed YAML record per purchased coffee, retaining the roaster's wording and a readable copy of every relevant photograph. Finish each validated intake by committing and pushing it to the collection's GitHub branch. The owner has authorized this routine publication of coffee records and their nonprivate bag photos; no separate confirmation is needed.
 
 ## Repository and sources
 
 Resolve this skill directory's real path: the repository root is three directories above it (`.agents/skills/add-coffee`). Read that repository's `AGENTS.md`, `schema/coffee.schema.json`, and the adding/validation guidance in `README.md`. Use the current schema and guidance; do not copy rules from historical exports or sibling workspaces. All paths below are relative to that repository root. Synced project material under `sources/` is read-only.
 
-Before changing records, check local Git status and synchronize with the appropriate remote branch as directed by `AGENTS.md`, preserving unfinished work. Inspect branch tracking rather than assuming the current branch tracks `main`. If sync is blocked or the branch has diverged, continue extraction in a staging directory and report the issue; do not overwrite local or remote work. Saving an intake does not itself authorize pushing or publishing. Follow any existing user authorization for those actions.
+Before changing records, check local Git status and synchronize with the collection's remote branch as directed by `AGENTS.md`, preserving unfinished work. Confirm the remote URL and publication branch from the repository configuration and `docs/cloudflare.md`: currently `origin` is `johnbarton/coffee-extractor` and the collection branch is `main`. A local worktree branch can have a different name or no upstream; use the collection branch as the publication destination. If sync is blocked or history has diverged, continue extraction in a staging directory while preserving both sides, and resolve the divergence before pushing.
 
 ## Read and group the photos
 
@@ -50,7 +50,7 @@ List the saved image paths, relative to the repository root, in `source_images`.
 
 Default new purchases to `inventory.status: resting`. Use the user's stated status when provided. Set `inventory.status_date` to the stated effective date, or today's local date when setting the status now; set `record.added_date` to today's local date. Preserve the original added date when completing a draft. Ratings and personal notes stay blank unless supplied by the user.
 
-## Validate, commit, and report
+## Validate, commit, push, and report
 
 Parse each written YAML record with duplicate-key rejection and validate against `schema/coffee.schema.json` with date-format checking. Use the repository's existing validation commands (`pnpm test` and `pnpm build` per `README.md`); the build checks schema validity, unique IDs, and filename/ID agreement. Run from the repository root. If tooling is unavailable, state exactly what was and was not checked and do not claim validation passed.
 
@@ -58,6 +58,12 @@ Also verify each listed photo exists, opens successfully, and belongs to the int
 
 After validation passes, commit the intake's records and photos together as one logical batch. This includes schema-valid `needs_review` drafts and completed drafts. Inspect the staged and unstaged changes, stage only the exact intake paths, and review the staged diff before committing. Preserve unrelated work, including changes already staged by the user, and keep it out of this commit. Use a descriptive message identifying the coffee or batch; an ordinary request to add coffees includes this local commit without another confirmation step.
 
-Verify the resulting commit contains the intended records and photos, and check that no intended intake changes remain uncommitted. If validation or committing is blocked, retain the work and report the specific unfinished step; do not describe the intake as complete. Pushing and publishing remain separate actions governed by the user's authorization.
+Verify the resulting commit contains the intended records and photos, and check that no intended intake changes remain uncommitted. Fetch the publication branch again and inspect every outgoing commit so the push includes only the authorized work. Bring in any newer remote changes without discarding edits; resolve overlapping changes from their current contents and rerun the affected validation. Use an explicit normal push to the confirmed collection branch (currently `git push origin HEAD:main`), including when working on a differently named local branch. Never force-push or replace remote history. Respect branch protection; if direct pushes are prohibited, follow the repository's pull-request workflow and report the remaining publication step.
 
-Finish with a short summary: number added, each coffee and roaster, roast date (or unknown), inventory/review status, photo count, validation result, commit hash, and links to the new records. Mention repeat purchases, useful missing fields, and outstanding draft questions compactly. For a batch, a small table works well. Distinguish committed records from purchases still waiting for clarification, and local commits from any separately authorized publication.
+After pushing, verify that the remote branch contains the intake commit and that the records and photos are present in that commit. If a push fails or its outcome is uncertain, inspect the remote before retrying. For a newer remote commit, reconcile and retry a normal push once; if it fails again, preserve the local commit and report the cause and remaining work. Authentication or permission failures require resolving that specific blocker, not repeated pushes.
+
+If local Git lacks credentials but an existing authenticated GitHub connection can write to the repository, use that connection to publish the same batch atomically with Git blobs, a tree based on the latest remote tree, a commit, and a non-forced branch update. Verify the uploaded file hashes against the local files. Such commits may have different hashes from local commits; fetch and reconcile equivalent local commits, and report the verified GitHub commit hash.
+
+The configured GitHub/Cloudflare automation may update the website after the push. Let that existing automation run; pushing does not require changing deployment settings or manually deploying. Distinguish a verified GitHub push from a website deployment, and only report the website updated after checking it. If validation, committing, or pushing is blocked, retain the work and report the specific unfinished step; do not describe the intake as complete.
+
+Finish with a short summary: number added, each coffee and roaster, roast date (or unknown), inventory/review status, photo count, validation result, pushed commit hash, destination branch, and GitHub links to the new records. Mention repeat purchases, useful missing fields, and outstanding draft questions compactly. For a batch, a small table works well. Distinguish published records from purchases still waiting for clarification and from local commits whose push is still pending.
