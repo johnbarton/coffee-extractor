@@ -1,0 +1,48 @@
+id: 2026-08-23-hydrangea-el-paraiso-washed-sudan-rume
+
+coffee:
+  name: El Paraiso Washed Sudan Rume
+  roaster: Hydrangea Coffee Roasters
+  roaster_location:
+  # Roast date supplied by the user; not shown in the source photo.
+  roast_date: "2026-08-23"
+
+origin:
+  country: Colombia
+  region: Cauca
+  subregion:
+  producer: Samuel Diego Bermudez
+  farm: Finca El Paraiso
+
+coffee_details:
+  varieties:
+    - Sudan Rume
+  process: Washed
+  roast_level:
+  tasting_notes:
+    - Apricot
+    - Sweet Florals
+    - Pomello
+  elevation_m:
+  elevation_m_range:
+  weight_g:
+  form:
+
+ratings:
+  florality:
+  fruitiness:
+  brightness:
+  overall:
+
+inventory:
+  status: resting
+  status_date: "2026-09-15"
+
+personal_notes:
+
+source_images:
+  - images/coffees/2026-08-23-hydrangea-el-paraiso-washed-sudan-rume/front.jpg
+
+record:
+  added_date: "2026-09-15"
+  review_status: reviewed
