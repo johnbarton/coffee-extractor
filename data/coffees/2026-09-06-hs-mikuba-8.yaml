@@ -1,0 +1,47 @@
+id: 2026-09-06-hs-mikuba-8
+
+coffee:
+  name: Mikuba 8
+  roaster: H&S Coffee Roasters
+  roaster_location: Laramie, Wyoming 82070
+  roast_date: "2026-09-06"
+
+origin:
+  country: Burundi
+  region: Kayanza
+  subregion:
+  producer: Long Miles Coffee Project
+  farm:
+
+coffee_details:
+  varieties:
+    - Red Bourbon
+  process: Washed
+  roast_level: Ultralight
+  tasting_notes:
+    - Red grape
+    - Raspberry
+    - Hibiscus
+  elevation_m:
+  elevation_m_range:
+  weight_g: 125
+  form: Whole bean
+
+ratings:
+  florality:
+  fruitiness:
+  brightness:
+  overall:
+
+inventory:
+  status: resting
+  status_date: "2026-09-17"
+
+personal_notes:
+
+source_images:
+  - images/coffees/2026-09-06-hs-mikuba-8/front.jpg
+
+record:
+  added_date: "2026-09-17"
+  review_status: reviewed

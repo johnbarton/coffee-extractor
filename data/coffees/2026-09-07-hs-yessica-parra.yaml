@@ -1,0 +1,47 @@
+id: 2026-09-07-hs-yessica-parra
+
+coffee:
+  name: Yessica Parra
+  roaster: H&S Coffee Roasters
+  roaster_location: Laramie, Wyoming 82070
+  roast_date: "2026-09-07"
+
+origin:
+  country: Colombia
+  region: Huila
+  subregion:
+  producer: Yessica Parra
+  farm: El Mirador
+
+coffee_details:
+  varieties:
+    - Pink Bourbon
+  process: Washed
+  roast_level: Ultralight
+  tasting_notes:
+    - Blackberry
+    - White peach
+    - Jasmine
+  elevation_m:
+  elevation_m_range:
+  weight_g: 125
+  form: Whole bean
+
+ratings:
+  florality:
+  fruitiness:
+  brightness:
+  overall:
+
+inventory:
+  status: resting
+  status_date: "2026-09-17"
+
+personal_notes:
+
+source_images:
+  - images/coffees/2026-09-07-hs-yessica-parra/front.jpg
+
+record:
+  added_date: "2026-09-17"
+  review_status: reviewed
