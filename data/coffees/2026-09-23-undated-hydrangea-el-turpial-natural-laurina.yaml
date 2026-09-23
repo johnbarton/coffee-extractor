@@ -5,8 +5,8 @@ coffee:
   name: El Turpial Natural Laurina
   roaster: Hydrangea Coffee Roasters
   roaster_location:
-  # User supplied "September 20"; year awaits confirmation. No roast date is visible in the photo.
-  roast_date:
+  # Roast date supplied by the user and confirmed as September 20, 2026; not shown in the photo.
+  roast_date: "2026-09-20"
 
 origin:
   country: Colombia
@@ -46,4 +46,4 @@ source_images:
 
 record:
   added_date: "2026-09-23"
-  review_status: needs_review
+  review_status: reviewed
