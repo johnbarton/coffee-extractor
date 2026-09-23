@@ -28,14 +28,15 @@ coffee_details:
   form:
 
 ratings:
-  florality:
-  fruitiness:
-  brightness:
+  florality: 3
+  fruitiness: 4
+  brightness: 2
   overall:
 
+    4
 inventory:
-  status: resting
-  status_date: "2026-09-12"
+  status: finished
+  status_date: "2026-09-22"
 
 personal_notes:
 
