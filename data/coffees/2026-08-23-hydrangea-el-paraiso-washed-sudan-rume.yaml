@@ -3,8 +3,8 @@ id: 2026-08-23-hydrangea-el-paraiso-washed-sudan-rume
 coffee:
   name: El Paraiso Washed Sudan Rume
   roaster: Hydrangea Coffee Roasters
-  roaster_location:
-  # Roast date supplied by the user; not shown in the source photo.
+  roaster_location: # Roast date supplied by the user; not shown in the source photo.
+
   roast_date: "2026-08-23"
 
 origin:
@@ -35,8 +35,8 @@ ratings:
   overall:
 
 inventory:
-  status: resting
-  status_date: "2026-09-15"
+  status: active
+  status_date: "2026-09-22"
 
 personal_notes:
 
