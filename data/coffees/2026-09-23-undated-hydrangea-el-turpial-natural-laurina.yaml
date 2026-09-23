@@ -1,0 +1,49 @@
+# The ID date is the addition date, not the roast date; retain this stable ID when completed.
+id: 2026-09-23-undated-hydrangea-el-turpial-natural-laurina
+
+coffee:
+  name: El Turpial Natural Laurina
+  roaster: Hydrangea Coffee Roasters
+  roaster_location:
+  # User supplied "September 20"; year awaits confirmation. No roast date is visible in the photo.
+  roast_date:
+
+origin:
+  country: Colombia
+  region: Nariño
+  subregion:
+  producer: Emerson Felipe Narváez
+  farm: Finca El Turpial
+
+coffee_details:
+  varieties:
+    - Laurina
+  process: Natural
+  roast_level:
+  tasting_notes:
+    - Blue Raspberry Candy
+    - Passion Fruit
+    - Tart Cherry
+  elevation_m:
+  elevation_m_range:
+  weight_g:
+  form:
+
+ratings:
+  florality:
+  fruitiness:
+  brightness:
+  overall:
+
+inventory:
+  status: resting
+  status_date: "2026-09-23"
+
+personal_notes:
+
+source_images:
+  - images/coffees/2026-09-23-undated-hydrangea-el-turpial-natural-laurina/front.jpg
+
+record:
+  added_date: "2026-09-23"
+  review_status: needs_review
