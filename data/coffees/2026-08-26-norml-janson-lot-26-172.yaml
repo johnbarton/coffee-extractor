@@ -28,8 +28,8 @@ ratings:
   brightness: null
   overall: null
 inventory:
-  status: resting
-  status_date: 2026-09-13
+  status: active
+  status_date: 2026-10-01
 personal_notes: null
 source_images:
   - images/coffees/2026-08-26-norml-janson-lot-26-172/front.jpeg
