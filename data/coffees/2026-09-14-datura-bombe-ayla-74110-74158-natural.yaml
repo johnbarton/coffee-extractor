@@ -1,0 +1,51 @@
+id: 2026-09-14-datura-bombe-ayla-74110-74158-natural
+
+coffee:
+  name: "Bombe Ayla 74110 - 74158 Natural"
+  roaster: Datura
+  roaster_location:
+  # Roast date supplied by the user; not shown in the photo.
+  roast_date: "2026-09-14"
+
+origin:
+  country: Ethiopia
+  region: Sidama
+  subregion: Shantawene
+  producer:
+  farm: Ayla Washing Station
+
+coffee_details:
+  # The label prints the variety identifiers as "74110-74158".
+  varieties:
+    - "74110"
+    - "74158"
+  process: Natural
+  roast_level:
+  tasting_notes:
+    - Pink guava
+    - Blueberry
+    - Mango
+    - Apricot
+  elevation_m: 2000
+  elevation_m_range:
+  weight_g:
+  form:
+
+ratings:
+  florality:
+  fruitiness:
+  brightness:
+  overall:
+
+inventory:
+  status: resting
+  status_date: "2026-10-01"
+
+personal_notes:
+
+source_images:
+  - images/coffees/2026-09-14-datura-bombe-ayla-74110-74158-natural/front.jpg
+
+record:
+  added_date: "2026-10-01"
+  review_status: reviewed

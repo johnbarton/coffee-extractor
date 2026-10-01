@@ -1,0 +1,50 @@
+id: 2026-08-01-xliii-ratnagiri-sln9-rt-yc
+
+coffee:
+  name: "Ratnagiri SLN9 RT-YC"
+  roaster: XLIII Coffee
+  roaster_location:
+  # Label date 01/08/2026 interpreted as day/month/year, as confirmed by the user.
+  roast_date: "2026-08-01"
+
+origin:
+  # Country is not printed on the supplied label.
+  country:
+  region: Karnataka
+  subregion: Athigiri
+  producer:
+  farm: Ratnagiri Estate
+
+coffee_details:
+  varieties:
+    - "SLN9"
+  process: Culture Naturals
+  roast_level: Extremely Light
+  # The label introduces these notes with "Reminiscent of".
+  tasting_notes:
+    - Jasmine
+    - White Mooncake
+    - Grapefruit Flower
+  elevation_m:
+  elevation_m_range:
+  weight_g: 100
+  form:
+
+ratings:
+  florality:
+  fruitiness:
+  brightness:
+  overall:
+
+inventory:
+  status: resting
+  status_date: "2026-10-01"
+
+personal_notes:
+
+source_images:
+  - images/coffees/2026-08-01-xliii-ratnagiri-sln9-rt-yc/front.jpg
+
+record:
+  added_date: "2026-10-01"
+  review_status: reviewed

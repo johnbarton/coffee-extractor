@@ -1,0 +1,50 @@
+id: 2026-07-08-xliii-finca-rosenheim-gesha-african-0875
+
+coffee:
+  name: "Finca Rosenheim Gesha African #0875"
+  roaster: XLIII Coffee
+  roaster_location:
+  # Label date 08/07/2026 interpreted as day/month/year, as confirmed by the user.
+  roast_date: "2026-07-08"
+
+origin:
+  country: Peru
+  region:
+  # Locality text retained as printed; the label does not specify an administrative region.
+  subregion: Carretera Yezu, Villa Rica
+  producer:
+  farm: Finca Rosenheim
+
+coffee_details:
+  varieties:
+    - "Gesha"
+  process: Washed
+  roast_level: Extremely Light
+  # The label introduces these notes with "Reminiscent of".
+  tasting_notes:
+    - Purple Floral
+    - Citrus
+    - Tealike
+  elevation_m:
+  elevation_m_range:
+  weight_g: 100
+  form:
+
+ratings:
+  florality:
+  fruitiness:
+  brightness:
+  overall:
+
+inventory:
+  status: resting
+  status_date: "2026-10-01"
+
+personal_notes:
+
+source_images:
+  - images/coffees/2026-07-08-xliii-finca-rosenheim-gesha-african-0875/front.jpg
+
+record:
+  added_date: "2026-10-01"
+  review_status: reviewed
