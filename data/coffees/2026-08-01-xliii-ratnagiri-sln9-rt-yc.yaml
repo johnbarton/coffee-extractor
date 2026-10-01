@@ -8,8 +8,8 @@ coffee:
   roast_date: "2026-08-01"
 
 origin:
-  # Country is not printed on the supplied label.
-  country:
+  # Country supplied by the user; not printed on the label.
+  country: India
   region: Karnataka
   subregion: Athigiri
   producer:
