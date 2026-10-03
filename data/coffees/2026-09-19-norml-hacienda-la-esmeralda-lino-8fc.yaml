@@ -1,0 +1,41 @@
+# Source photograph: 2-Photo-2.jpg
+
+id: 2026-09-19-norml-hacienda-la-esmeralda-lino-8fc
+coffee:
+  name: Hacienda La Esmeralda Lino 8FC
+  roaster: norml
+  roaster_location: Berkeley, CA
+  roast_date: 2026-09-19
+origin:
+  country: Panama
+  region: Boquete
+  subregion: Cañas Verdes
+  producer: null
+  farm: Hacienda La Esmeralda
+coffee_details:
+  varieties:
+    - Gesha
+  process: Washed
+  roast_level: Very lightly roasted coffee
+  tasting_notes:
+    - Jasmine
+    - Meyer lemon
+    - White nectarine
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 50
+  form: Whole bean
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+inventory:
+  status: resting
+  status_date: 2026-10-03
+personal_notes: null
+source_images:
+  - images/coffees/2026-09-19-norml-hacienda-la-esmeralda-lino-8fc/front.jpg
+record:
+  added_date: 2026-10-03
+  review_status: reviewed

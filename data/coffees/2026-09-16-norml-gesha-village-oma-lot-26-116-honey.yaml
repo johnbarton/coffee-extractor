@@ -1,0 +1,41 @@
+# Source photograph: 1-Photo-1.jpg
+
+id: 2026-09-16-norml-gesha-village-oma-lot-26-116-honey
+coffee:
+  name: Gesha Village Oma Lot 26/116 Honey
+  roaster: norml
+  roaster_location: Berkeley, CA
+  roast_date: 2026-09-16
+origin:
+  country: Ethiopia
+  region: Bench Maji
+  subregion: null
+  producer: null
+  farm: Gesha Village
+coffee_details:
+  varieties:
+    - Gesha
+  process: Honey
+  roast_level: Very lightly roasted coffee
+  tasting_notes:
+    - Pink jasmine
+    - Apricot
+    - Wildflower honey
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 50
+  form: Whole bean
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+inventory:
+  status: resting
+  status_date: 2026-10-03
+personal_notes: null
+source_images:
+  - images/coffees/2026-09-16-norml-gesha-village-oma-lot-26-116-honey/front.jpg
+record:
+  added_date: 2026-10-03
+  review_status: reviewed
