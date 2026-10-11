@@ -3,8 +3,8 @@ id: 2026-09-14-datura-bombe-ayla-74110-74158-natural
 coffee:
   name: "Bombe Ayla 74110 - 74158 Natural"
   roaster: Datura
-  roaster_location:
-  # Roast date supplied by the user; not shown in the photo.
+  roaster_location: # Roast date supplied by the user; not shown in the photo.
+
   roast_date: "2026-09-14"
 
 origin:
@@ -38,8 +38,8 @@ ratings:
   overall:
 
 inventory:
-  status: resting
-  status_date: "2026-10-01"
+  status: active
+  status_date: "2026-10-10"
 
 personal_notes:
 
