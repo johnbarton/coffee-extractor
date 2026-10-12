@@ -23,10 +23,10 @@ coffee_details:
   weight_g: 100
   form: null
 ratings:
-  florality: null
-  fruitiness: null
-  brightness: null
-  overall: null
+  florality: 4
+  fruitiness: 2
+  brightness: 3
+  overall: 3
 inventory:
   status: active
   status_date: 2026-10-01
