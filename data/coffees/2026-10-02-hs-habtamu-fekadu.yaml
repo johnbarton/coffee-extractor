@@ -1,0 +1,42 @@
+# Source photograph: 2-Photo-2.jpg
+
+id: 2026-10-02-hs-habtamu-fekadu
+coffee:
+  name: Habtamu Fekadu
+  roaster: H&S Coffee Roasters
+  roaster_location: Laramie, Wyoming 82070
+  roast_date: 2026-10-02
+origin:
+  country: Ethiopia
+  region: Uraga
+  subregion: null
+  producer: Habtamu Fekadu
+  # Label: "Processed at Goro washing station".
+  farm: Goro washing station
+coffee_details:
+  varieties:
+    - 74112 field blend
+  process: Washed
+  roast_level: Ultralight
+  tasting_notes:
+    - Danjou pear
+    - Bergamot
+    - Gardenia
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 125
+  form: Whole bean
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+inventory:
+  status: resting
+  status_date: 2026-10-17
+personal_notes: null
+source_images:
+  - images/coffees/2026-10-02-hs-habtamu-fekadu/front.jpg
+record:
+  added_date: 2026-10-17
+  review_status: reviewed

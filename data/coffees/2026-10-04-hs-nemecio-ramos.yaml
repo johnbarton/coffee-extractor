@@ -1,0 +1,41 @@
+# Source photograph: 1-Photo-1.jpg
+
+id: 2026-10-04-hs-nemecio-ramos
+coffee:
+  name: Nemecio Ramos
+  roaster: H&S Coffee Roasters
+  roaster_location: Laramie, Wyoming 82070
+  roast_date: 2026-10-04
+origin:
+  country: Colombia
+  region: Huila
+  subregion: null
+  producer: Nemecio Ramos
+  farm: Finca Galaxia
+coffee_details:
+  varieties:
+    - Caturra
+  process: Washed
+  roast_level: Ultralight
+  tasting_notes:
+    - Santa Rosa plum
+    - Ranier cherry
+    - Grapefruit
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 125
+  form: Whole bean
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+inventory:
+  status: resting
+  status_date: 2026-10-17
+personal_notes: null
+source_images:
+  - images/coffees/2026-10-04-hs-nemecio-ramos/front.jpg
+record:
+  added_date: 2026-10-17
+  review_status: reviewed
