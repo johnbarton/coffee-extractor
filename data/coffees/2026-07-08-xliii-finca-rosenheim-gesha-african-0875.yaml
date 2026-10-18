@@ -3,14 +3,14 @@ id: 2026-07-08-xliii-finca-rosenheim-gesha-african-0875
 coffee:
   name: "Finca Rosenheim Gesha African #0875"
   roaster: XLIII Coffee
-  roaster_location:
-  # Label date 08/07/2026 interpreted as day/month/year, as confirmed by the user.
+  roaster_location: # Label date 08/07/2026 interpreted as day/month/year, as confirmed by the user.
+
   roast_date: "2026-07-08"
 
 origin:
   country: Peru
-  region:
-  # Locality text retained as printed; the label does not specify an administrative region.
+  region: # Locality text retained as printed; the label does not specify an administrative region.
+
   subregion: Carretera Yezu, Villa Rica
   producer:
   farm: Finca Rosenheim
@@ -37,8 +37,8 @@ ratings:
   overall:
 
 inventory:
-  status: resting
-  status_date: "2026-10-01"
+  status: active
+  status_date: "2026-10-18"
 
 personal_notes:
 
