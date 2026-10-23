@@ -38,8 +38,8 @@ ratings:
 
     4
 inventory:
-  status: active
-  status_date: "2026-10-18"
+  status: finished
+  status_date: "2026-10-23"
 
 personal_notes:
 
