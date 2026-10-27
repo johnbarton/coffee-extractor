@@ -30,8 +30,8 @@ ratings:
   brightness: 3
   overall: 4
 inventory:
-  status: active
-  status_date: 2026-10-12
+  status: finished
+  status_date: 2026-10-27
 personal_notes: null
 source_images:
   - images/coffees/2026-08-26-norml-habtamu-fikadu-chelbesa/front.jpeg
