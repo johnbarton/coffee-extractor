@@ -1,0 +1,40 @@
+id: 2026-10-25-hydrangea-bonita-springs-natural-wush-wush
+coffee:
+  name: Bonita Springs Natural Wush Wush
+  roaster: Hydrangea Coffee Roasters
+  roaster_location: null
+  # Roast date supplied by the user; not shown in the source photo.
+  roast_date: 2026-10-25
+origin:
+  country: Panama
+  region: Boquete
+  subregion: Alto Lino
+  producer: The Miró Family
+  farm: Bonita Springs
+coffee_details:
+  varieties:
+    - Wush Wush
+  process: Natural
+  roast_level: null
+  tasting_notes:
+    - Candied Orange
+    - Chicha Morada
+    - Pineapple
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+inventory:
+  status: resting
+  status_date: 2026-11-01
+personal_notes: null
+source_images:
+  - images/coffees/2026-10-25-hydrangea-bonita-springs-natural-wush-wush/front.jpg
+record:
+  added_date: 2026-11-01
+  review_status: reviewed
