@@ -26,13 +26,13 @@ coffee_details:
   weight_g: 50
   form: Whole bean
 ratings:
-  florality: null
-  fruitiness: null
-  brightness: null
-  overall: null
+  florality: 4
+  fruitiness: 3
+  brightness: 3
+  overall: 4
 inventory:
-  status: active
-  status_date: 2026-11-03
+  status: finished
+  status_date: 2026-11-06
 personal_notes: null
 source_images:
   - images/coffees/2026-09-16-norml-gesha-village-oma-lot-26-116-honey/front.jpg
