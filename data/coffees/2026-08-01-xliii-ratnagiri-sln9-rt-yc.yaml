@@ -3,8 +3,8 @@ id: 2026-08-01-xliii-ratnagiri-sln9-rt-yc
 coffee:
   name: "Ratnagiri SLN9 RT-YC"
   roaster: XLIII Coffee
-  roaster_location:
-  # Label date 01/08/2026 interpreted as day/month/year, as confirmed by the user.
+  roaster_location: # Label date 01/08/2026 interpreted as day/month/year, as confirmed by the user.
+
   roast_date: "2026-08-01"
 
 origin:
@@ -31,14 +31,15 @@ coffee_details:
   form:
 
 ratings:
-  florality:
-  fruitiness:
-  brightness:
+  florality: 5
+  fruitiness: 2
+  brightness: 3
   overall:
 
+    4
 inventory:
-  status: resting
-  status_date: "2026-10-01"
+  status: active
+  status_date: "2026-11-07"
 
 personal_notes:
 
