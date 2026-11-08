@@ -31,8 +31,8 @@ ratings:
   brightness: 3
   overall: 4
 inventory:
-  status: active
-  status_date: 2026-11-06
+  status: finished
+  status_date: 2026-11-08
 personal_notes: null
 source_images:
   - images/coffees/2026-09-19-norml-hacienda-la-esmeralda-lino-8fc/front.jpg
