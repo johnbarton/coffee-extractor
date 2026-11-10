@@ -1,0 +1,40 @@
+id: 2026-11-05-apollon-s-gold-shantawene
+coffee:
+  name: Shantawene
+  roaster: Apollon's Gold
+  roaster_location: null
+  # Roast date supplied by the user.
+  roast_date: 2026-11-05
+origin:
+  country: Ethiopia
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+coffee_details:
+  varieties:
+    - "74158"
+  process: Washed
+  roast_level: null
+  tasting_notes:
+    - white peach
+    - jasmine
+    - lychee
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+inventory:
+  status: resting
+  status_date: 2026-11-10
+personal_notes: null
+source_images:
+  - images/coffees/2026-11-05-apollon-s-gold-shantawene/front.jpg
+record:
+  added_date: 2026-11-10
+  review_status: reviewed
