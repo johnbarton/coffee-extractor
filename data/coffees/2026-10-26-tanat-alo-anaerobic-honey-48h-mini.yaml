@@ -1,0 +1,42 @@
+id: 2026-10-26-tanat-alo-anaerobic-honey-48h-mini
+coffee:
+  name: Alo [Anaerobic Honey 48h MINI]
+  roaster: TANAT
+  roaster_location: null
+  # Roast date supplied by the user.
+  roast_date: 2026-10-26
+origin:
+  country: Ethiopia
+  region: Bensa
+  subregion: Alo Village
+  producer: Tamiru Tadesse
+  farm: null
+coffee_details:
+  varieties:
+    - "74158"
+  process: Anaérobie Honey - 48h de fermentation
+  roast_level: Torréfié filtre
+  tasting_notes:
+    - Mirabelle
+    - Bergamote
+    - Zeste d’orange
+  elevation_m: null
+  elevation_m_range:
+    min: 2400
+    max: 2550
+  weight_g: 100
+  form: null
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+inventory:
+  status: resting
+  status_date: 2026-11-10
+personal_notes: null
+source_images:
+  - images/coffees/2026-10-26-tanat-alo-anaerobic-honey-48h-mini/front.jpg
+record:
+  added_date: 2026-11-10
+  review_status: reviewed

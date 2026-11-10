@@ -1,0 +1,42 @@
+id: 2026-10-23-tanat-alo-mosto-natural-72h-mini
+coffee:
+  name: Alo [Mosto Natural 72h MINI]
+  roaster: TANAT
+  roaster_location: null
+  # Roast date supplied by the user.
+  roast_date: 2026-10-23
+origin:
+  country: Ethiopia
+  region: Bensa
+  subregion: Alo Village
+  producer: Tamiru Tadesse
+  farm: null
+coffee_details:
+  varieties:
+    - "74158"
+  process: Naturelle - 72h de fermentation Mosto
+  roast_level: Torréfié filtre
+  tasting_notes:
+    - Bonbon citron
+    - Thé à la pêche
+    - Groseille
+  elevation_m: null
+  elevation_m_range:
+    min: 2400
+    max: 2550
+  weight_g: 100
+  form: null
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+inventory:
+  status: resting
+  status_date: 2026-11-10
+personal_notes: null
+source_images:
+  - images/coffees/2026-10-23-tanat-alo-mosto-natural-72h-mini/front.jpg
+record:
+  added_date: 2026-11-10
+  review_status: reviewed

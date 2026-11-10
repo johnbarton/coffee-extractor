@@ -1,0 +1,42 @@
+id: 2026-10-23-tanat-chibor-gn-141
+coffee:
+  name: "Chibor [GN #141]"
+  roaster: TANAT
+  roaster_location: null
+  # Roast date supplied by the user.
+  roast_date: 2026-10-23
+origin:
+  country: Panama
+  region: Chiriqui
+  subregion: Los Pozos
+  producer: Ratibor Hartmann
+  farm: null
+coffee_details:
+  varieties:
+    - Gesha
+  process: Naturelle
+  roast_level: Torréfié filtre
+  tasting_notes:
+    - Framboises séchées
+    - Fleurs Blanches
+    - Pêche
+  elevation_m: null
+  elevation_m_range:
+    min: 1650
+    max: 2000
+  weight_g: 50
+  form: null
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+inventory:
+  status: resting
+  status_date: 2026-11-10
+personal_notes: null
+source_images:
+  - images/coffees/2026-10-23-tanat-chibor-gn-141/front.jpg
+record:
+  added_date: 2026-11-10
+  review_status: reviewed
