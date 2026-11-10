@@ -1,0 +1,41 @@
+id: 2026-10-16-apollon-s-gold-chelchele
+coffee:
+  name: Chelchele
+  roaster: Apollon's Gold
+  roaster_location: null
+  # Roast date supplied by the user.
+  roast_date: 2026-10-16
+origin:
+  country: Ethiopia
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+coffee_details:
+  varieties:
+    - "74110"
+    - "74112"
+  process: Washed
+  roast_level: null
+  tasting_notes:
+    - peach
+    - honeysuckle
+    - lemon
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+inventory:
+  status: resting
+  status_date: 2026-11-10
+personal_notes: null
+source_images:
+  - images/coffees/2026-10-16-apollon-s-gold-chelchele/front.jpg
+record:
+  added_date: 2026-11-10
+  review_status: reviewed
