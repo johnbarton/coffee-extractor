@@ -1,0 +1,39 @@
+id: 2026-10-27-hs-jailer-plazas
+coffee:
+  name: Jailer Plazas
+  roaster: H&S Coffee Roasters
+  roaster_location: Laramie, Wyoming 82070
+  roast_date: 2026-10-27
+origin:
+  country: Colombia
+  region: null
+  subregion: Palestina
+  producer: Jailer Plazas
+  farm: El Silencio
+coffee_details:
+  varieties:
+    - Gesha
+  process: Washed
+  roast_level: Ultralight
+  tasting_notes:
+    - Rose hips
+    - Milk tea
+    - Elderberry
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 250
+  form: Whole bean
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+inventory:
+  status: resting
+  status_date: 2026-11-10
+personal_notes: null
+source_images:
+  - images/coffees/2026-10-27-hs-jailer-plazas/front.jpg
+record:
+  added_date: 2026-11-10
+  review_status: reviewed

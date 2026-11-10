@@ -1,0 +1,39 @@
+id: 2026-11-03-hs-jose-giraldo
+coffee:
+  name: José Giraldo
+  roaster: H&S Coffee Roasters
+  roaster_location: Laramie, Wyoming 82070
+  roast_date: 2026-11-03
+origin:
+  country: Colombia
+  region: Quindio
+  subregion: null
+  producer: José Giraldo
+  farm: Las Marias - Rio Dulce
+coffee_details:
+  varieties:
+    - Green Tip Gesha
+  process: Double Washed
+  roast_level: Ultralight
+  tasting_notes:
+    - White grape
+    - Gardenia
+    - Orange blossom
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 125
+  form: Whole bean
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+inventory:
+  status: resting
+  status_date: 2026-11-10
+personal_notes: null
+source_images:
+  - images/coffees/2026-11-03-hs-jose-giraldo/front.jpg
+record:
+  added_date: 2026-11-10
+  review_status: reviewed

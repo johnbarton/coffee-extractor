@@ -1,0 +1,39 @@
+id: 2026-10-27-hs-ticuna-tabi
+coffee:
+  name: Ticuna Tabi
+  roaster: H&S Coffee Roasters
+  roaster_location: Laramie, Wyoming 82070
+  roast_date: 2026-10-27
+origin:
+  country: Colombia
+  region: null
+  subregion: Suaza
+  producer: José Jadir Losada and Kyle Bellinger
+  farm: null
+coffee_details:
+  varieties:
+    - Tabi
+  process: Washed
+  roast_level: Ultralight
+  tasting_notes:
+    - Yuzu
+    - Marshmallow
+    - Green mango
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 125
+  form: Whole bean
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+inventory:
+  status: resting
+  status_date: 2026-11-10
+personal_notes: null
+source_images:
+  - images/coffees/2026-10-27-hs-ticuna-tabi/front.jpg
+record:
+  added_date: 2026-11-10
+  review_status: reviewed
