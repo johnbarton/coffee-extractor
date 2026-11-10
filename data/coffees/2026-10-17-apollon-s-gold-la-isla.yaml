@@ -1,0 +1,40 @@
+id: 2026-10-17-apollon-s-gold-la-isla
+coffee:
+  name: La Isla
+  roaster: Apollon's Gold
+  roaster_location: null
+  # Roast date supplied by the user.
+  roast_date: 2026-10-17
+origin:
+  country: Costa Rica
+  region: null
+  subregion: null
+  producer: null
+  farm: null
+coffee_details:
+  varieties:
+    - ETH47
+  process: Red Honey
+  roast_level: null
+  tasting_notes:
+    - peach
+    - honeysuckle
+    - clementine
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: null
+  form: null
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+inventory:
+  status: resting
+  status_date: 2026-11-10
+personal_notes: null
+source_images:
+  - images/coffees/2026-10-17-apollon-s-gold-la-isla/front.jpg
+record:
+  added_date: 2026-11-10
+  review_status: reviewed
