@@ -9,7 +9,8 @@ origin:
   country: Ethiopia
   region: null
   subregion: null
-  producer: null
+  # Producer identified on the accompanying information card.
+  producer: Smallholder farmers
   farm: null
 coffee_details:
   varieties:
@@ -18,7 +19,8 @@ coffee_details:
   roast_level: null
   tasting_notes:
     - white peach
-    - jasmine
+    # Information card says "jasmine tea"; the bag says "jasmine".
+    - jasmine tea
     - lychee
   elevation_m: null
   elevation_m_range: null
@@ -35,6 +37,7 @@ inventory:
 personal_notes: null
 source_images:
   - images/coffees/2026-11-05-apollon-s-gold-shantawene/front.jpg
+  - images/coffees/2026-11-05-apollon-s-gold-shantawene/group-info-cards.jpg
 record:
   added_date: 2026-11-10
   review_status: reviewed

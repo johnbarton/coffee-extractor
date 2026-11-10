@@ -9,7 +9,8 @@ origin:
   country: Costa Rica
   region: null
   subregion: null
-  producer: null
+  # Producer identified on the accompanying information card.
+  producer: Carlos Alietta
   farm: null
 coffee_details:
   varieties:
@@ -35,6 +36,7 @@ inventory:
 personal_notes: null
 source_images:
   - images/coffees/2026-10-17-apollon-s-gold-la-isla/front.jpg
+  - images/coffees/2026-10-17-apollon-s-gold-la-isla/group-info-cards.jpg
 record:
   added_date: 2026-11-10
   review_status: reviewed

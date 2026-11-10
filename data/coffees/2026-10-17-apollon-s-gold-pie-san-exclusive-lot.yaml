@@ -9,12 +9,14 @@ origin:
   country: Costa Rica
   region: null
   subregion: null
-  producer: null
+  # Producer identified on the accompanying information card.
+  producer: Luis Monge & Oscar Monge
   farm: null
 coffee_details:
   varieties:
     - Yellow Typica
-  process: Honey
+  # Information card specifies yellow honey; the bag says Honey.
+  process: Yellow Honey
   roast_level: null
   tasting_notes:
     - pineapple
@@ -35,6 +37,7 @@ inventory:
 personal_notes: null
 source_images:
   - images/coffees/2026-10-17-apollon-s-gold-pie-san-exclusive-lot/front.jpg
+  - images/coffees/2026-10-17-apollon-s-gold-pie-san-exclusive-lot/group-info-cards.jpg
 record:
   added_date: 2026-11-10
   review_status: reviewed

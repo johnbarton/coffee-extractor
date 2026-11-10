@@ -9,7 +9,8 @@ origin:
   country: Panama
   region: null
   subregion: null
-  producer: null
+  # Producer identified on the accompanying information card.
+  producer: Ricardo Koyner
   farm: null
 coffee_details:
   varieties:
@@ -36,6 +37,7 @@ inventory:
 personal_notes: null
 source_images:
   - images/coffees/2026-10-16-apollon-s-gold-kotowa-las-brujas/front.jpg
+  - images/coffees/2026-10-16-apollon-s-gold-kotowa-las-brujas/group-info-cards.jpg
 record:
   added_date: 2026-11-10
   review_status: reviewed
