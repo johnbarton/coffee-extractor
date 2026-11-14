@@ -27,13 +27,13 @@ coffee_details:
   weight_g: 125
   form: Whole bean
 ratings:
-  florality: null
-  fruitiness: null
-  brightness: null
-  overall: null
+  florality: 3
+  fruitiness: 2
+  brightness: 3
+  overall: 2
 inventory:
-  status: active
-  status_date: 2026-11-10
+  status: finished
+  status_date: 2026-11-14
 personal_notes: null
 source_images:
   - images/coffees/2026-10-02-hs-habtamu-fekadu/front.jpg
