@@ -1,0 +1,39 @@
+id: 2026-11-03-hs-kathima
+coffee:
+  name: Kathima
+  roaster: H&S Coffee Roasters
+  roaster_location: Laramie, Wyoming 82070
+  roast_date: 2026-11-03
+origin:
+  country: Kenya
+  region: Embu
+  subregion: null
+  producer: Thambana Cooperative Society
+  farm: null
+coffee_details:
+  varieties:
+    - SL-28 field blend
+  process: Washed
+  roast_level: Ultralight
+  tasting_notes:
+    - Mixed-berry jello
+    - Pomegranate
+    - Jasmine
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 125
+  form: Whole bean
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+inventory:
+  status: resting
+  status_date: 2026-11-16
+personal_notes: null
+source_images:
+  - images/coffees/2026-11-03-hs-kathima/front.jpg
+record:
+  added_date: 2026-11-16
+  review_status: reviewed

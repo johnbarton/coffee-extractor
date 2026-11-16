@@ -1,0 +1,39 @@
+id: 2026-11-04-hs-hamasho-borena
+coffee:
+  name: Hamasho Borena
+  roaster: H&S Coffee Roasters
+  roaster_location: Laramie, Wyoming 82070
+  roast_date: 2026-11-04
+origin:
+  country: Ethiopia
+  region: Bensa
+  subregion: null
+  producer: Daye Bensa
+  farm: null
+coffee_details:
+  varieties:
+    - Landrace
+  process: Anaerobic Washed
+  roast_level: Ultralight
+  tasting_notes:
+    - White strawberry
+    - Peach
+    - Bergamot
+  elevation_m: null
+  elevation_m_range: null
+  weight_g: 125
+  form: Whole bean
+ratings:
+  florality: null
+  fruitiness: null
+  brightness: null
+  overall: null
+inventory:
+  status: resting
+  status_date: 2026-11-16
+personal_notes: null
+source_images:
+  - images/coffees/2026-11-04-hs-hamasho-borena/front.jpg
+record:
+  added_date: 2026-11-16
+  review_status: reviewed
