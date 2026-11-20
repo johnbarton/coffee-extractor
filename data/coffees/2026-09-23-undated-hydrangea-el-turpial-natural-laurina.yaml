@@ -37,8 +37,8 @@ ratings:
 
     4
 inventory:
-  status: active
-  status_date: "2026-10-25"
+  status: frozen
+  status_date: "2026-11-20"
 
 personal_notes: Frozen at 42 days. Cold aussz recipe at ~2.2 grind size, ~185 degrees in the UFO.
 
