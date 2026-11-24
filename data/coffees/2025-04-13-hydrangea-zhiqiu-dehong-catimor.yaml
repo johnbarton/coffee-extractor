@@ -30,14 +30,14 @@ coffee_details:
   form: null
 
 ratings:
-  florality: null
-  fruitiness: null
-  brightness: null
-  overall: null
+  florality: 5
+  fruitiness: 3
+  brightness: 2
+  overall: 4
 
 inventory:
-  status: frozen
-  status_date: 2025-05-06
+  status: finished
+  status_date: 2026-11-24
 
 personal_notes: |-
   23 days. 200 degrees, 4.0 grind size, MD recipe. Chinese Letty. I’m getting rose-like florals. Maybe try slightly lower ratio than 15:250.
